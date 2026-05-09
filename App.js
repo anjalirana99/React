@@ -25,4 +25,15 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //  thats how bable understand it is a functional component and transform it to React component which than
 // .render of React converts to real html and render it on dom
 
-root.render(<HeadingComponent />);
+// COMPONENT COMPOSITION-
+const Title = () => <h1 className="title"> This is a React APP</h1>;
+const BodyComponent = () => (
+  <div id="parent">
+    <Title />
+    <h1>Hello This is Componenet Composition.</h1>
+    <p>Using one compopent Title inside other body OR </p>
+    <p>Combining multiple component to make larger UI</p>
+  </div>
+);
+
+root.render(<BodyComponent />);
