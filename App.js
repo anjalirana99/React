@@ -1,21 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-{
-  /* <div id="parent">
-            <div id="child">
-                <h1 id="heading1"></h1>
-            </div>
-     </div> */
-}
 
-const parent = React.createElement(
-  "div",
-  { id: "parent" },
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", { id: "heading1", key: "h1" }, "Hello Heading1"),
-    React.createElement("h1", { id: "heading2", key: "h2" }, "Hello Heading2"),
-  ])
-);
+//JSX Is not a part of React, neither HTML not fully javascript
+// JSX is a java script XML to make easy elements in react or anywhere else
+const JSXHeading = <h1>Hello from JSX</h1>;
+// bable transpiler convert this JSX to React.CreateElement("h1",,"Hello from JSX"), then .render function converts it to real html and render on page
+//JSX should be converst to javascript before running it on browser , browser dont understand JSX
 const root = ReactDOM.createRoot(document.getElementById("root"));
 console.log(parent);
-root.render(parent);
+root.render(JSXHeading);
