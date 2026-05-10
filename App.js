@@ -27,9 +27,17 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // COMPONENT COMPOSITION-
 const Title = () => <h1 className="title"> This is a React APP</h1>;
+const value = 1000;
+const ele = <h2>Hi I'm a normal element</h2>;
 const BodyComponent = () => (
   <div id="parent">
-    <Title />
+    {/* we can write JS inside a JSX using curly braces{} everything inside a {} is a Javascript code in JSX,
+     it executes when component is rendered here 
+     i have called Tile as a function Title() because it is a functional component 
+     we can call oher normal element as {ele} we can also call thi sfunctional component as </> without using inside JS {} */}
+    {Title()}
+    {ele}
+    {value}
     <h1>Hello This is Componenet Composition.</h1>
     <p>Using one compopent Title inside other body OR </p>
     <p>Combining multiple component to make larger UI</p>
