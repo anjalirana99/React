@@ -1,47 +1,31 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-//JSX Is not a part of React, neither HTML not fully javascript
-// JSX is a java script XML to make easy elements in react or anywhere else
-const JSXHeading = <h1>Hello from JSX</h1>;
-//if want to put multiple lines in JSX wrap them around () braces
-// const JSXHeading = (
-//<h1>Hello from JSX</h1>
-//<h2> Welcome</h2>
-// );
-// bable transpiler convert this JSX to React.CreateElement("h1",,"Hello from JSX"), then .render function converts it to real html and render on page
-//JSX should be converst to javascript before running it on browser , browser dont understand JSX
-
-// React Component - 1. Funtional (New Way) 2 .class Component (older way)
-// you cn simply conver tthe above jsx to eact functional component by putting it inside function (most common practice arrow funct)
-// in jsx inside () werything is treat as a single element  and
-//  in arrow if there is only single thing to be return we ignore puting curly brace and retunr ststement
-// like const fn=()={return true } can be write as const fn=()=>true;
-const HeadingComponent = () => <h1>Hello from React Component</h1>;
-const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(JSXHeading);
-
-// to render Functional Componenet inside root wrap them in <> with closeing tag ,
-//  thats how bable understand it is a functional component and transform it to React component which than
-// .render of React converts to real html and render it on dom
-
-// COMPONENT COMPOSITION-
-const Title = () => <h1 className="title"> This is a React APP</h1>;
-const value = 1000;
-const ele = <h2>Hi I'm a normal element</h2>;
-const BodyComponent = () => (
-  <div id="parent">
-    {/* we can write JS inside a JSX using curly braces{} everything inside a {} is a Javascript code in JSX,
-     it executes when component is rendered here 
-     i have called Tile as a function Title() because it is a functional component 
-     we can call oher normal element as {ele} we can also call thi sfunctional component as </> without using inside JS {} */}
-    {Title()}
-    {ele}
-    {value}
-    <h1>Hello This is Componenet Composition.</h1>
-    <p>Using one compopent Title inside other body OR </p>
-    <p>Combining multiple component to make larger UI</p>
+const Logo = () => (
+  <div>
+    <img
+      className="logo"
+      src="https://previews.123rf.com/images/miracel123/miracel1231801/miracel123180100797/94312688-food-delivery-logo.jpg"
+    />
+  </div>
+);
+const Icon = () => (
+  <div>
+    <img
+      className="user-icon"
+      src="https://www.citypng.com/public/uploads/preview/white-user-member-guest-icon-png-image-31634946729lnhivlto5f.png"
+    />
+  </div>
+);
+const Header = () => (
+  <div id="header">
+    <Logo />
+    <div className="search-align">
+      <input type="text" name="searchInput" placeholder="Search..." />
+    </div>
+    <Icon />
   </div>
 );
 
-root.render(<BodyComponent />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Header />);
