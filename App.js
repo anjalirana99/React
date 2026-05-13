@@ -28,15 +28,16 @@ const Header = () => {
 };
 
 const RestrauntCard = (props) => {
+  const { name, rating, cuisine };
   return (
     <div className="restraunt-card">
       <img
         alt="res-img"
         src="https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.jpg?s=612x612&w=0&k=20&c=QbFk2SfDb-7oK5Wo9dKmzFGNoi-h8HVEdOYWZbIjffo="
       />
-      <h3>{props.name}</h3>
-      <h3>{props.rating}</h3>
-      <h3>{props.cuisine}</h3>
+      <h3>{name}</h3>
+      <h3>{rating}</h3>
+      <h3>{cuisine}</h3>
     </div>
   );
 };
