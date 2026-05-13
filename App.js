@@ -27,16 +27,16 @@ const Header = () => {
   );
 };
 
-const RestrauntCard = () => {
+const RestrauntCard = (props) => {
   return (
     <div className="restraunt-card">
       <img
         alt="res-img"
         src="https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.jpg?s=612x612&w=0&k=20&c=QbFk2SfDb-7oK5Wo9dKmzFGNoi-h8HVEdOYWZbIjffo="
       />
-      <h3>Good Food</h3>
-      <h3>4.4 Stars</h3>
-      <h3>North Indian, Chinese</h3>
+      <h3>{props.name}</h3>
+      <h3>{props.rating}</h3>
+      <h3>{props.cuisine}</h3>
     </div>
   );
 };
@@ -52,10 +52,14 @@ const Body = () => {
         />
       </div>
       <div className="restraunt-container">
-        <RestrauntCard />
-        <RestrauntCard />
-        <RestrauntCard />
-        <RestrauntCard />
+        <RestrauntCard
+          name="burger king"
+          rating="4.5"
+          cuisine="Bureger,Fries"
+        />
+        <RestrauntCard name="dominoz" rating="4.2" cuisine="Pizza" />
+        <RestrauntCard name="Mc D" rating="4.1" cuisine="Burger,Fries" />
+        <RestrauntCard name="Hira Sweets" rating="4.0" cuisine="North Indian" />
       </div>
     </div>
   );
