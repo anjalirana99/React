@@ -1,27 +1,76 @@
-#heading1{
-    color:yellow;
+body{
+    margin: 0;
 }
-#heading2{
-    color:green;
-}
-#header {
+.app{
+    min-height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.header{
+    display: flex;
     justify-content: space-between;
-    background-color: #eee;
+    background-color: #e29e9e;
+    padding: 10px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.nav-items > ul{
+    display: flex;
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 24px;
+    color: #fff;
+}
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;
 }
 
-.logo {
-    width: 120px;
-    height: 120px;
-}
+/* can't use simple .cart-container because specificity has more preference than generelc class
+Inline styles > IDs > Classes > Elements
 
-.search-align {
-    padding: 58px;
-}
+And more selectors usually increase specificity. */
 
-.user-icon {
-    width: 60px;
-    height: 60px;
-    padding: 25px;
+.nav-items > ul > li.cart-container{  
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.cart-logo{
+    width: 50px;
+}
+.body{
+    flex:1
+}
+.search-container{
+    padding: 10px;
+}
+.restraunt-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.restraunt-card{
+    height: 300px;
+    width: 200px;
+    padding: 10px;
+    background-color: #fff2f2;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.restraunt-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 0 3px #e29e9e;
+}
+.restraunt-card img{
+   width: 100%; 
+   border-radius: 10px;
+}
+.footer{
+    background-color: #f38888;
+    bottom: 0;
+    position: relative;
 }
