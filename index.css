@@ -53,7 +53,6 @@ And more selectors usually increase specificity. */
     justify-content: space-evenly;
 }
 .restraunt-card{
-    height: 300px;
     width: 200px;
     padding: 10px;
     background-color: #fff2f2;

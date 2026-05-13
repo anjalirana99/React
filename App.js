@@ -27,9 +27,26 @@ const Header = () => {
   );
 };
 
+const RestrauntData = {
+  id: "1061429",
+  name: "Apni Rasoi",
+  cloudinaryImageId:
+    "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/14/55d46e30-9d3f-48dd-b1b1-be2f19f52fcf_1061429.jpg",
+  locality: "Rohini",
+  areaName: "Rohini",
+  costForTwo: "₹300 for two",
+  cuisines: ["North Indian", "Chinese", "Indian"],
+  avgRating: 4.3,
+  veg: true,
+  parentId: "508151",
+  avgRatingString: "4.3",
+};
+
 const RestrauntCard = (props) => {
   // same as destructuring of object because props is just a object
-  const { name, rating, cuisine } = props;
+  const { ResData } = props;
+  const { name, avgRating, cuisines, costForTwo } = props.ResData;
+  // or can write directly like const { name, avgRating, cuisines } = props.ResData;
   return (
     <div className="restraunt-card">
       <img
@@ -37,8 +54,9 @@ const RestrauntCard = (props) => {
         src="https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.jpg?s=612x612&w=0&k=20&c=QbFk2SfDb-7oK5Wo9dKmzFGNoi-h8HVEdOYWZbIjffo="
       />
       <h3>{name}</h3>
-      <h3>{rating}</h3>
-      <h3>{cuisine}</h3>
+      <h4>{avgRating}</h4>
+      <h4>{cuisines.join(", ")}</h4>
+      <h4>{costForTwo}</h4>
     </div>
   );
 };
@@ -54,15 +72,7 @@ const Body = () => {
         />
       </div>
       <div className="restraunt-container">
-        <RestrauntCard
-          name="burger king"
-          rating="4.5"
-          cuisine="Bureger,Fries"
-        />
-        {/* react wrapped this properties inside a object and pass to the component as props */}
-        <RestrauntCard name="dominoz" rating="4.2" cuisine="Pizza" />
-        <RestrauntCard name="Mc D" rating="4.1" cuisine="Burger,Fries" />
-        <RestrauntCard name="Hira Sweets" rating="4.0" cuisine="North Indian" />
+        <RestrauntCard ResData={RestrauntData} />
       </div>
     </div>
   );
@@ -79,6 +89,7 @@ const Footer = () => {
     </div>
   );
 };
+
 const App = () => {
   return (
     <div className="app">
