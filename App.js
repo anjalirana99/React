@@ -28,7 +28,8 @@ const Header = () => {
 };
 
 const RestrauntCard = (props) => {
-  const { name, rating, cuisine };
+  // same as destructuring of object because props is just a object
+  const { name, rating, cuisine } = props;
   return (
     <div className="restraunt-card">
       <img
@@ -58,6 +59,7 @@ const Body = () => {
           rating="4.5"
           cuisine="Bureger,Fries"
         />
+        {/* react wrapped this properties inside a object and pass to the component as props */}
         <RestrauntCard name="dominoz" rating="4.2" cuisine="Pizza" />
         <RestrauntCard name="Mc D" rating="4.1" cuisine="Burger,Fries" />
         <RestrauntCard name="Hira Sweets" rating="4.0" cuisine="North Indian" />
