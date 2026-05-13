@@ -50,7 +50,7 @@ And more selectors usually increase specificity. */
 .restraunt-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
 }
 .restraunt-card{
     width: 200px;
@@ -66,7 +66,9 @@ And more selectors usually increase specificity. */
 }
 .restraunt-card img{
    width: 100%; 
+   height: 50%;
    border-radius: 10px;
+   object-fit: cover;
 }
 .footer{
     background-color: #f38888;
