@@ -1,22 +1,17 @@
+import { FOOD_LOGO_URL } from "../utils/constant";
+import { CART_LOGO_URL } from "../utils/constant";
 const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
-        <img
-          className="logo"
-          src="https://img.magnific.com/free-vector/food-shopping-logo-template-design_460848-10299.jpg"
-          alt="logo"
-        />
+        <img className="logo" src={FOOD_LOGO_URL} alt="logo" />
       </div>
       <div className="nav-items">
         <ul>
           <li>Home</li>
           <li>About us</li>
           <li className="cart-container">
-            <img
-              className="cart-logo"
-              src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG4.png"
-            />
+            <img className="cart-logo" src={CART_LOGO_URL} />
           </li>
         </ul>
       </div>

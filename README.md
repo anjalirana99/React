@@ -89,3 +89,6 @@ IMPORTANT NOTE \_ Key points to remember:
 You can have only one default export per file.
 You can have multiple named exports per file.
 You can import both default and named exports together, or just one of them.
+
+=======STATIC DATA UNDER UTIL FOLDER ==============
+its a good practice that compoennts should not have any hard coded data inside them move hose constant and json static data inside utils folder under different file
