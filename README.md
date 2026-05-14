@@ -66,3 +66,26 @@ React
 
         for all other run should be there
 
+React - cleaning the code
+-> its a good practice to put all frontend code in a src folder
+-> its a good practice to make a seperate file for each component like header footer body - Restraunt card - it helps in modularity and resuability of code
+
+==============export/import are done in 2 ways
+
+1-Default export / import
+export default component
+import component from "path"
+use in code component as <component />
+variable as {var}
+
+2-Named export / import
+export const component/variable
+import {const/component} from "path"
+use in code component as <component />
+variable as {var}
+
+IMPORTANT NOTE \_ Key points to remember:
+
+You can have only one default export per file.
+You can have multiple named exports per file.
+You can import both default and named exports together, or just one of them.

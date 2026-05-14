@@ -1,31 +1,4 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-const Header = () => {
-  return (
-    <div className="header">
-      <div className="logo-container">
-        <img
-          className="logo"
-          src="https://img.magnific.com/free-vector/food-shopping-logo-template-design_460848-10299.jpg"
-          alt="logo"
-        />
-      </div>
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li className="cart-container">
-            <img
-              className="cart-logo"
-              src="https://pngimg.com/uploads/shopping_cart/shopping_cart_PNG4.png"
-            />
-          </li>
-        </ul>
-      </div>
-    </div>
-  );
-};
+import RestrauntCard from "./RestrauntCard";
 
 const RestrauntList = [
   {
@@ -158,29 +131,6 @@ const RestrauntList = [
   },
 ];
 
-const RestrauntCard = (props) => {
-  // same as destructuring of object because props is just a object
-  const { ResData } = props;
-  const { name, avgRating, cuisines, costForTwo, cloudinaryImageId } =
-    props.ResData;
-  // or can write directly like const { name, avgRating, cuisines } = props.ResData;
-  return (
-    <div className="restraunt-card">
-      <img
-        alt="res-img"
-        src={
-          "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/" +
-          cloudinaryImageId
-        }
-      />
-      <h3>{name}</h3>
-      <h4>{avgRating}</h4>
-      <h4>{cuisines.join(", ")}</h4>
-      <h4>{costForTwo}</h4>
-    </div>
-  );
-};
-
 const Body = () => {
   return (
     <div className="body">
@@ -201,26 +151,4 @@ const Body = () => {
   );
 };
 
-const footerStyle = {
-  // inline css JS object
-  fontStyle: "italic",
-};
-const Footer = () => {
-  return (
-    <div className="footer" style={footerStyle}>
-      <h1>My Food Delivery APP</h1>
-    </div>
-  );
-};
-
-const App = () => {
-  return (
-    <div className="app">
-      <Header />
-      <Body />
-      <Footer />
-    </div>
-  );
-};
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+export default Body;
