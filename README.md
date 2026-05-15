@@ -84,6 +84,21 @@ import {const/component} from "path"
 use in code component as <component />
 variable as {var}
 
+3 - \* as Export (Namespace Import)
+
+Used to import everything under one object.
+
+Export:
+export const a = 10;
+export const b = 20;
+
+Import:
+import \* as values from "./file.js";
+
+Usage:
+console.log(values.a); // 10
+console.log(values.b); // 20
+
 IMPORTANT NOTE \_ Key points to remember:
 
 You can have only one default export per file.
@@ -92,3 +107,178 @@ You can import both default and named exports together, or just one of them.
 
 =======STATIC DATA UNDER UTIL FOLDER ==============
 its a good practice that compoennts should not have any hard coded data inside them move hose constant and json static data inside utils folder under different file
+
+In React projects, a utils (utilities) folder is used to store reusable helper functions that are not UI components.
+
+It helps keep your code:
+
+cleaner
+reusable
+organized
+easier to maintain
+
+============================CONCEPT - REACT HOOKS====================
+const means:
+
+the variable reference cannot be reassigned
+
+It does not mean the array contents are immutable.
+so const arr = [1,2]
+doing arr = [2,3] is wrong we are changing the reference of arr here
+but doing arr.push(4) is fine because we are not changing the reference here
+
+WHAT ARE REACT HOOKS ?
+
+- at the end of the day they are just utility JS functions written inside React code
+  they are provide some / features to the Functional component like using -
+  state
+  lifecycle methods
+  context
+  refs
+  side effects
+
+Before hooks, these features mainly required class components.
+
+=============MOST COMMON REACT HOOKS =================
+1.useState - Used for component state. - PRVOIDE US POWERFUL STATE VARIABLES -- KEEP MY UI IN SYNC WITH DATA LAYER
+const [count, setCount] = useState(0);
+count → current value
+setCount → updates value
+
+-> WHENEVER A STATE VARIABLE CHANGES THE REACT RERENDER THE COMPONENT - EVEN IF THE STATE CHANGES BY CHILD COMPOENT OR ANYWHERE IN THE CODE REACT WILL RERENDER THE COMPONENET IN WHICH THE STATE WAS DEFINED.along with its child components (unless optimizations prevent it).
+
+-> Important Clarification-
+1_React only re-renders if the state value actually changes. ---
+setcount(5) setcount(5)--- The second update may not trigger another render because the value is unchanged.
+
+2_Child Components and Re-rendering
+Normally, children also re-render when the parent re-renders:
+But React optimizations like:
+
+React.memo
+useMemo
+useCallback
+
+can prevent unnecessary child renders.
+
+3_Updating a state variable causes React to re-render the component that owns that state. The update can originate from anywhere (child component, event handler, API call, etc.), but the owning component re-renders when the state changes.
+
+2.useEffect --- Used for:
+
+API calls
+timers
+subscriptions
+DOM updates
+
+useEffect(() => {
+console.log("Component mounted");
+}, []);
+
+The empty array means:
+
+run once after first render
+
+3.useContext -- Access shared/global data.
+
+4.useRef -- Stores mutable values or accesses DOM elements.
+
+5.useMemo --- Optimizes expensive calculations.
+
+6. useCallback -----Memoizes functions.
+
+========================Rules of Hooks
+Hooks must:
+
+be called at the top level
+not be inside loops/conditions
+only be used in React components or custom hooks
+
+Correct:
+
+function App() {
+const [count, setCount] = useState(0);
+}
+
+Wrong:
+
+if (true) {
+useState(0); // ❌
+}
+
+| Hook          | Purpose                 |
+| ------------- | ----------------------- |
+| `useState`    | Store data              |
+| `useEffect`   | Run side effects        |
+| `useContext`  | Share data              |
+| `useRef`      | Access DOM/store values |
+| `useMemo`     | Cache calculations      |
+| `useCallback` | Cache functions         |
+
+=============== why webapp using react are fast= SUPER POWER OF REACT====================
+####REACT MAKES DOM OPERATION SUPERFAST AND EFFICIENT -
+along with the help of bundleres (superpowers of parcel) , transpilers(super power of babel) , it became a good for large scale application
+
+HOW REACT WORKS BEHIND THE SCENE ?
+
+RECONCILIATION ALGO - REACT FIBRE (RECONCILIATION ENGINE)-
+
+VIRTUAL DOM - representation of actual DOM
+
+- remember what React.createElement returns an object na ..
+  then we use jsx to write what we pass in React.CreateElement -
+  now bigger jsx is also a nested jsx that is nested react.createElemet
+  that bigger structure is also a jaascript object thats the repesentaion of actual dom ,
+
+========In React, reconciliation is the process React uses to compare:
+
+the previous UI
+and the new UI
+
+to determine:
+
+what actually changed in the DOM.
+
+=====React Fiber is the internal rendering engine of React introduced in React 16.
+
+It completely rewrote React’s reconciliation algorithm to make rendering:
+
+faster
+interruptible
+prioritized
+smoother for large apps
+
+=======NOTE-
+findind diffrence betwenn two html is slow find the difference betwenn 2 object is fast thats what react use virtual dom(object) of actual html\
+
+WHY REACT IS FAST ?
+because it do efficient dom manipulation how ?
+virtual dom , diffing algo , spiting updation in chunks
+
+===================What is config.js? (like constant.js we made for logo url , cdn url )
+
+It is a file where you store:
+
+environment-specific or reusable settings
+
+Example:
+
+export const API_URL = "https://api.example.com";
+export const TIMEOUT = 5000;
+
+========Why is config.js Important?
+
+1. Centralized Configuration - in src folder app , related to api urls , timeout, app seetings, environment values
+
+Instead of repeating values everywhere:
+
+❌ Bad:
+
+fetch("https://api.example.com/users");
+fetch("https://api.example.com/posts");
+
+✅ Good:
+
+import { API_URL } from "./config";
+
+fetch(`${API_URL}/users`);
+fetch(`${API_URL}/posts`);

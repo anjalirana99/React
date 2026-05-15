@@ -46,6 +46,8 @@ And more selectors usually increase specificity. */
 }
 .search-container{
     padding: 10px;
+    display: flex;
+    gap: 10px;
 }
 .restraunt-container{
     display: flex;
