@@ -3,12 +3,16 @@ import { RestrauntList } from "../utils/RestrauntListData";
 import { useState } from "react";
 
 const Body = () => {
+  const originalList = RestrauntList;
+  const [resList, setList] = useState(RestrauntList);
+  let Timeout;
+
   const searchFilter = (e) => {
     let searchtext = e.target.value;
     if (searchtext === "") {
-      setList(RestrauntList); // reset full list
+      setList(originalList); // reset full list
     } else {
-      let searchList = resList.filter((restraunt) => {
+      let searchList = originalList.filter((restraunt) => {
         return restraunt.name
           .toLowerCase()
           .startsWith(searchtext.toLowerCase()); // must use return if {} in arrow function
@@ -17,13 +21,12 @@ const Body = () => {
     }
   };
   const topRateFilter = () => {
-    const newresList = resList.filter(
+    const newresList = originalList.filter(
       (restraunt) => restraunt.avgRating >= 4.5,
     );
     setList(newresList);
   };
-  const [resList, setList] = useState(RestrauntList);
-  let Timeout;
+
   return (
     <div className="body">
       <div className="search-container">
@@ -72,5 +75,6 @@ Filtered list (for UI)
 const originalList = RestrauntList;
 const [resList, setList] = useState(originalList);
 
+to fix this making filter independently on original data we using  originallist , now if apply top rated it will filter from orignal data , if serach it will serach from original data  
 
 */
