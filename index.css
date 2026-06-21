@@ -28,6 +28,10 @@ body{
     padding: 10px;
     margin: 10px;
 }
+.login-btn{
+    margin: auto;
+    height: 25px;
+}
 
 /* can't use simple .cart-container because specificity has more preference than generelc class
 Inline styles > IDs > Classes > Elements
@@ -49,15 +53,24 @@ And more selectors usually increase specificity. */
     display: flex;
     gap: 10px;
 }
-.restraunt-container{
+.restraunt-container , .shimmer-container{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 }
 .restraunt-card{
     width: 200px;
     padding: 10px;
     background-color: #fff2f2;
+    margin: 10px;
+    border-radius: 10px;
+    
+}
+.shimmer-card{
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    background-color: #f0f0f0;
     margin: 10px;
     border-radius: 10px;
     

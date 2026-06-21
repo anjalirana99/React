@@ -1,9 +1,9 @@
 import { IMG_CDN_URL } from "../utils/constant";
 const RestrauntCard = (props) => {
   // same as destructuring of object because props is just a object
-  const { ResData } = props;
+  const {ResData} = props
   const { name, avgRating, cuisines, costForTwo, cloudinaryImageId } =
-    props.ResData;
+    ResData;
   // or can write directly like const { name, avgRating, cuisines } = props.ResData;
   return (
     <div className="restraunt-card">

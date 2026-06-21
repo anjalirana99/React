@@ -1,11 +1,24 @@
 import RestrauntCard from "./RestrauntCard";
 import { RestrauntList } from "../utils/RestrauntListData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
-  const originalList = RestrauntList;
-  const [resList, setList] = useState(RestrauntList);
-  let Timeout;
+  const [originalList, setOriginal] = useState([]);
+  const [resList, setList] = useState([]);
+  
+  useEffect(()=>{
+    fetchData()
+  },[])
+
+  const fetchData =async ()=>{
+    let data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING")
+    let res = await data.json();
+    let finallist = res?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
+    setList(finallist)
+    setOriginal(finallist)
+
+  }
 
   const searchFilter = (e) => {
     let searchtext = e.target.value;
@@ -13,7 +26,7 @@ const Body = () => {
       setList(originalList); // reset full list
     } else {
       let searchList = originalList.filter((restraunt) => {
-        return restraunt.name
+        return restraunt.info.name
           .toLowerCase()
           .startsWith(searchtext.toLowerCase()); // must use return if {} in arrow function
       });
@@ -22,11 +35,13 @@ const Body = () => {
   };
   const topRateFilter = () => {
     const newresList = originalList.filter(
-      (restraunt) => restraunt.avgRating >= 4.5,
+      (restraunt) => restraunt.info.avgRating >= 4.5,
     );
     setList(newresList);
   };
-
+  if(resList.length ===0){
+    return  <Shimmer />
+  }
   return (
     <div className="body">
       <div className="search-container">
@@ -49,7 +64,7 @@ const Body = () => {
       <div className="restraunt-container">
         {/* we must pass the unique key */}
         {resList.map((restraunt) => (
-          <RestrauntCard key={restraunt.id} ResData={restraunt} />
+          <RestrauntCard key={restraunt.info.id} ResData={restraunt.info} />
         ))}
       </div>
     </div>

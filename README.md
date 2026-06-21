@@ -282,3 +282,64 @@ import { API_URL } from "./config";
 
 fetch(`${API_URL}/users`);
 fetch(`${API_URL}/posts`);
+
+
+
+======================CONNECT TO EXTERNAL WORLD - MAKE API CALLS-================
+a-Monolithic architecture  - Where all modeule/services code present in a single codebase 
+
+b-MICROSERVICE architecture - where differnet serivces have different code base 
+these service run on different port of servers and connect to each other by making API call _
+
+c-Single Responsibility Principle (SRP)
+SRP states:
+A software module should have only one reason to change.
+
+d- Seperation of concern 
+Each component focuses on a specific concern.
+
+e - SoC vs SRP
+Separation of Concerns	                              Single Responsibility Principle
+Broad architectural principle	                    Specific design principle
+Separates different concerns in a system	             Ensures a module has one reason to change
+Applies at all levels (layers,modules,services)	      Usually applies to classes, modules, services
+Focuses on reducing coupling	                            Focuses on responsibility boundaries
+
+Think of it this way:
+
+SoC = "Separate different kinds of work."
+SRP = "Each component should have one responsibility."
+
+
+
+how we can make api calls from frontend service to backend service
+
+1. Page load -> API call -> UI render 
+
+2. Page Load -> Render Static Page(SHIMMER UI) -> API CALL -> RERENDER COMPONENT
+
+2nd approach has beeter user experience we can use this approah using useEffect react hook
+
+---- useEffect take 2 arguments on is callback function and other is dependency array 
+callback is called after first render of component 
+
+If the dependency array is empty ([]):
+Runs after the first render (mount).
+Does not run again on re-renders.
+
+If the dependency array contains values:
+Runs after the first render.
+Runs again whenever values changes.
+
+
+
+-- why we use  usestate hooks state variable if we have local variables?
+to keep data and ui in sync 
+whenever a state variable changes React rerenders a component  
+
+
+
+-------------SHIMMER UI _---
+Its a loading placehlder UI that we show while data is fetch from server ----- istead of a loading svg - for better user experience  
+
+
