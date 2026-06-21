@@ -6,6 +6,7 @@ import Shimmer from "./Shimmer";
 const Body = () => {
   const [originalList, setOriginal] = useState([]);
   const [resList, setList] = useState([]);
+  const [searchtext , setSearchText] =useState("")
   
   useEffect(()=>{
     fetchData()
@@ -21,17 +22,13 @@ const Body = () => {
   }
 
   const searchFilter = (e) => {
-    let searchtext = e.target.value;
-    if (searchtext === "") {
-      setList(originalList); // reset full list
-    } else {
       let searchList = originalList.filter((restraunt) => {
         return restraunt.info.name
           .toLowerCase()
-          .startsWith(searchtext.toLowerCase()); // must use return if {} in arrow function
+          .includes(searchtext.toLowerCase()); // must use return if {} in arrow function
       });
       setList(searchList);
-    }
+    
   };
   const topRateFilter = () => {
     const newresList = originalList.filter(
@@ -44,15 +41,20 @@ const Body = () => {
   }
   return (
     <div className="body">
-      <div className="search-container">
-        <input
-          type="text"
-          name="Restraunt"
-          placeholder="Search your food/Restraunt"
-          onKeyUp={(e) => {
-            searchFilter(e);
-          }}
-        />
+      <div className="search-filter-container">
+        <div className="search-container">
+           <input
+              type="text"
+              name="Restraunt"
+              value={searchtext}
+              onChange={(e) => {
+                setSearchText(e.target.value);
+              }}
+            />
+            <button
+            onClick={searchFilter}>Search</button>
+        </div>
+       
         <button
           className="filter-btn"
           onClick={() => {
