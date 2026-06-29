@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FOOD_LOGO_URL } from "../utils/constant";
 import { CART_LOGO_URL } from "../utils/constant";
+import { Link } from "react-router-dom";
 const Header = () => {
   const[btntext, setBtnText] = useState("Login")
   return (
@@ -10,8 +11,9 @@ const Header = () => {
       </div>
       <div className="nav-items">
         <ul>
-          <li>Home</li>
-          <li>About us</li>
+          <li><Link className="link" to="/">Home</Link></li>
+          <li><Link className="link" to="/about">About us</Link></li>
+           <li><Link className="link" to="/contact">Contact us</Link></li>
           <li className="cart-container">
             <img className="cart-logo" src={CART_LOGO_URL} />
           </li>

@@ -6,11 +6,12 @@ body{
     display: flex;
     flex-direction: column;
 }
-.header{
+.header, .menu-header{
     display: flex;
     justify-content: space-between;
     background-color: #e29e9e;
     padding: 10px;
+    color: #fff;
 }
 .logo{
     height: 100px;
@@ -45,7 +46,7 @@ And more selectors usually increase specificity. */
 .cart-logo{
     width: 50px;
 }
-.body{
+.main-container{
     flex:1
 }
 .search-filter-container{
@@ -89,4 +90,13 @@ And more selectors usually increase specificity. */
     background-color: #f38888;
     bottom: 0;
     position: relative;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.menu-card{
+    padding: 10px;
+    background: #f0f0f0;
+    margin: 5px;
 }
