@@ -100,3 +100,8 @@ And more selectors usually increase specificity. */
     background: #f0f0f0;
     margin: 5px;
 }
+.user-profile{
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 5px;
+}
