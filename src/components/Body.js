@@ -2,11 +2,13 @@ import RestrauntCard from "./RestrauntCard";
 import { RestrauntList } from "../utils/RestrauntListData";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [originalList, setOriginal] = useState([]);
   const [resList, setList] = useState([]);
   const [searchtext , setSearchText] =useState("")
+  
   
   useEffect(()=>{
     fetchData()
@@ -36,6 +38,11 @@ const Body = () => {
     );
     setList(newresList);
   };
+
+  const onlineStatus = useOnlineStatus();
+  if(onlineStatus == false){
+    return <h1>OOPS!! You are Offline.</h1>
+  }
   if(resList.length ===0){
     return  <Shimmer />
   }
