@@ -5,7 +5,7 @@ const Contact =()=>{
     return(
         <div className="main-container">
             <h1>Contact US.</h1>
-            <h2>{contactData.bio}</h2>
+            <h2>{contactData?.bio}</h2>
         </div>
         
     )
