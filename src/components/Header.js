@@ -17,6 +17,7 @@ const Header = () => {
           <li><Link className="link" to="/">Home</Link></li>
           <li><Link className="link" to="/about">About us</Link></li>
            <li><Link className="link" to="/contact">Contact us</Link></li>
+           <li><Link className="link" to="/grocery">Grocery</Link></li>
           <li className="cart-container">
             <img className="cart-logo" src={CART_LOGO_URL} />
           </li>
