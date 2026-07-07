@@ -1,12569 +1,3609 @@
 export const MenuData={
-statusCode: 0,
-data: {
-statusMessage: "done successfully",
-cards: [
-{
-card: {
-card: {}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
-tabs: [
-{
-id: "Order Online",
-title: "Order Online"
-}
-]
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-info: {
-id: "450184",
-name: "Ghee and Turmeric",
-city: "Noida",
-slugs: {
-restaurant: "ghee-and-turmeric-raj-nagar-ghaziabad-raj-nagar",
-city: "noida"
-},
-uniqueId: "e51e6528-4859-48c8-8fed-e84c17dc2d76",
-cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/ad1693f9-cf80-497c-93ef-591f53937ce1_450184.JPG",
-locality: "sector 23",
-areaName: "Raj Nagar",
-costForTwo: "25000",
-costForTwoMessage: "₹250 for two",
-cuisines: [
-"Biryani",
-"Tandoor"
-],
-avgRating: 4.3,
-feeDetails: {
-restaurantId: "450184",
-fees: [
-{ }
-]
-},
-parentId: "261287",
-avgRatingString: "4.3",
-totalRatingsString: "1.5K+ ratings",
-sla: {
-restaurantId: "450184",
-deliveryTime: 34,
-minDeliveryTime: 30,
-maxDeliveryTime: 35,
-lastMileTravel: 3.9,
-serviceability: "SERVICEABLE",
-stressFactor: 1,
-rainMode: "RAIN_MODE_NONE",
-longDistance: "LONG_DISTANCE_NOT_LONG_DISTANCE",
-zoneId: 440,
-slaString: "30-35 MINS",
-lastMileTravelString: "3.9 km",
-iconType: "ICON_TYPE_EMPTY"
-},
-availability: {
-nextCloseTime: "2026-06-29 23:00:00",
-visibility: true,
-opened: true,
-restaurantClosedMeta: { }
-},
-aggregatedDiscountInfo: {
-header: "Get items under 69",
-shortDescriptionList: [
-{
-meta: "99 store",
-discountType: "FinalPrice",
-operationType: "RESTAURANT"
-},
-{
-discountType: "FREE_DELIVERY",
-operationType: "RESTAURANT"
-}
-],
-descriptionList: [
-{
-meta: "99 store",
-discountType: "FinalPrice",
-operationType: "RESTAURANT"
-},
-{
-meta: "freedel",
-discountType: "FREE_DELIVERY",
-operationType: "RESTAURANT"
-}
-],
-visible: true
-},
-badges: { },
-slugString: "ghee-and-turmeric-raj-nagar-ghaziabad-raj-nagar",
-multiOutlet: true,
-isOpen: true,
-labels: [
-{
-title: "Timings",
-message: "null"
-},
-{
-title: "Address",
-message: "Unit No. 1st Floor, Plot No.2, Sanjay Nagar, Raj Nagar, Ghaziabad Tahsil, Ghaziabad, Uttar Pradesh, 201002"
-},
-{
-title: "Cuisines",
-message: "Biryani,Tandoor"
-}
-],
-totalRatings: 1500,
-aggregatedDiscountInfoV2: {
-header: "Get items under 69",
-shortDescriptionList: [
-{
-meta: "99 store",
-discountType: "FinalPrice",
-operationType: "RESTAURANT"
-},
-{
-discountType: "FREE_DELIVERY",
-operationType: "RESTAURANT"
-}
-],
-descriptionList: [
-{
-meta: "99 store",
-discountType: "FinalPrice",
-operationType: "RESTAURANT"
-},
-{
-meta: "freedel",
-discountType: "FREE_DELIVERY",
-operationType: "RESTAURANT"
-}
-]
-},
-type: "F",
-nudgeBanners: [
-{
-priority: 3,
-discountInfo: {
-discountType: "FinalPrice",
-value: 119
-},
-unlockedMessage: "Deal of the Day unlocked!",
-minItemCount: 1,
-maxItemCount: 1,
-type: "SILD",
-nudgeTagInfo: {
-title: "Deal of the Day",
-fontName: "FONT_NAME_CONDENSED_BOLD"
-},
-logoCtx: { },
-movComputationType: "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
-}
-],
-headerBanner: {
-url: "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/450184"
-},
-generalPurposeInfoListV2: [
-{
-cta: {
-info: {
-recordings: { }
-},
-linkCta: { }
-}
-}
-],
-ratingSlab: "RATING_SLAB_5",
-orderabilityCommunication: {
-title: { },
-subTitle: { },
-message: { },
-customIcon: { },
-commsStyling: { }
-},
-hasBestsellerItems: true,
-cartOrderabilityNudgeBanner: {
-parameters: { },
-presentation: { }
-},
-latLong: "28.68703730028122,77.45153809769332",
-backgroundImageOverlayInfo: { },
-featuredSectionInfo: { },
-requestContexts: [
-"enable_ecosaver",
-"99store"
-],
-timingsInfo: {
-status: "Open now",
-message: "Closes 11:00 pm",
-outletTiming: {
-infoList: [
-{
-title: "Monday",
-subtitle: "11.00AM - 11.00PM",
-titleColor: "primary",
-subtitleColor: "primary"
-},
-{
-title: "Tuesday",
-subtitle: "11.00AM - 11.00PM",
-titleColor: "text_high_emphasis",
-subtitleColor: "text_high_emphasis"
-},
-{
-title: "Wednesday",
-subtitle: "11.00AM - 11.00PM",
-titleColor: "text_high_emphasis",
-subtitleColor: "text_high_emphasis"
-},
-{
-title: "Thursday",
-subtitle: "11.00AM - 11.00PM",
-titleColor: "text_high_emphasis",
-subtitleColor: "text_high_emphasis"
-},
-{
-title: "Friday",
-subtitle: "11.00AM - 11.00PM",
-titleColor: "text_high_emphasis",
-subtitleColor: "text_high_emphasis"
-},
-{
-title: "Saturday",
-subtitle: "11.00AM - 11.00PM",
-titleColor: "text_high_emphasis",
-subtitleColor: "text_high_emphasis"
-},
-{
-title: "Sunday",
-subtitle: "11.00AM - 11.00PM",
-titleColor: "text_high_emphasis",
-subtitleColor: "text_high_emphasis"
-}
-],
-title: "Outlet timings"
-},
-styleInfo: {
-titleColor: "positive",
-subtitleColor: "text_color_low_emphasis"
-}
-},
-phone: "9599597744",
-postalCode: "201002"
-},
-analytics: { }
-},
-relevance: {
-type: "RELEVANCE_TYPE_CHECK_ORDERABILITY_AND_SHOW_MENU_OFFER_NUDGE",
-sectionId: "MENU_ITEM_CART_UPDATE_POP_CROUTON"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
-layout: {
-rows: 1,
-columns: 5,
-horizontalScrollEnabled: true,
-itemSpacing: 12,
-lineSpacing: 10,
-widgetPadding: { },
-containerStyle: {
-containerPadding: {
-left: 10,
-right: 10,
-bottom: 16
-}
-}
-},
-id: "offerCollectionWidget_UX4",
-gridElements: {
-infoWithStyle: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
-offers: [
-{
-info: {
-header: "ITEMS AT ₹69",
-offerTag: "DEAL OF DAY",
-offerTagColor: "#E46D47",
-offerIds: [
-"a15d337e-96d2-4c15-9b91-556d61a5d92c"
-],
-expiryTime: "1970-01-01T00:00:00Z",
-description: "ON SELECT ITEMS |",
-offerType: "offers",
-restId: "450184",
-offerLogo: "offers/deal-of-day",
-descriptionTextColor: "#7302060C"
-},
-cta: {
-type: "OFFER_HALF_CARD"
-}
-},
-{
-info: {
-header: "10% OFF UPTO ₹75",
-offerTagColor: "#E46D47",
-logoBottom: "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/2dcd3eef-bcc5-4f48-9900-56e02ebe6564_Visa.png",
-offerIds: [
-"0c89891a-2913-4f63-a3a1-24f0e06be59b"
-],
-expiryTime: "1970-01-01T00:00:00Z",
-couponCode: "USE VISAPLATINUMCC",
-description: "ABOVE ₹600",
-offerType: "offers",
-restId: "450184",
-offerLogo: "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/2dcd3eef-bcc5-4f48-9900-56e02ebe6564_Visa.png",
-descriptionTextColor: "#7302060C",
-primaryDescription: "USE VISAPLATINUMCC"
-},
-cta: {
-type: "OFFER_HALF_CARD"
-}
-},
-{
-info: {
-header: "10% OFF UPTO ₹75",
-offerTagColor: "#E46D47",
-logoBottom: "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/cbbae0d0-62ae-4172-818a-6d554bfad663_Visa.png",
-offerIds: [
-"78d89308-6dc6-478a-a502-e6b5686b0ce9"
-],
-expiryTime: "1970-01-01T00:00:00Z",
-couponCode: "USE VISAPLATINUMDC",
-description: "ABOVE ₹300",
-offerType: "offers",
-restId: "450184",
-offerLogo: "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/cbbae0d0-62ae-4172-818a-6d554bfad663_Visa.png",
-descriptionTextColor: "#7302060C",
-primaryDescription: "USE VISAPLATINUMDC"
-},
-cta: {
-type: "OFFER_HALF_CARD"
-}
-},
-{
-info: {
-header: "FLAT ₹150 OFF",
-offerTagColor: "#E46D47",
-logoBottom: "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/6d66acda-f6fb-4363-820c-1457d26ec2a4_Axis.png",
-offerIds: [
-"c4b55db6-3ab4-4359-8f63-2ce74de95ae8"
-],
-expiryTime: "1970-01-01T00:00:00Z",
-couponCode: "USE AXISREWARDS",
-description: "ABOVE ₹500",
-offerType: "offers",
-restId: "450184",
-offerLogo: "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/6d66acda-f6fb-4363-820c-1457d26ec2a4_Axis.png",
-descriptionTextColor: "#7302060C",
-primaryDescription: "USE AXISREWARDS"
-},
-cta: {
-type: "OFFER_HALF_CARD"
-}
-},
-{
-info: {
-header: "10% OFF UPTO ₹50",
-offerTagColor: "#E46D47",
-logoBottom: "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/339c60c8-d60f-4e00-aa82-96bcaa0a80c5_Visa.png",
-offerIds: [
-"fe38f2e8-100b-45e1-97bd-80500a954ed0"
-],
-expiryTime: "1970-01-01T00:00:00Z",
-couponCode: "USE VISACLASSICDC",
-description: "ABOVE ₹300",
-offerType: "offers",
-restId: "450184",
-offerLogo: "MARKETING_BANNERS/IMAGES/OFFERS/2026/5/31/339c60c8-d60f-4e00-aa82-96bcaa0a80c5_Visa.png",
-descriptionTextColor: "#7302060C",
-primaryDescription: "USE VISACLASSICDC"
-},
-cta: {
-type: "OFFER_HALF_CARD"
-}
-}
-],
-habitMilestoneInfo: {
-callout: { }
-},
-loyaltyDiscoverPresentationInfo: {
-logoCtx: { }
-}
-}
-}
-}
-}
-},
-{
-groupedCard: {
-cardGroupMap: {
-REGULAR: {
-cards: [
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
-badges: { },
-vegOnlyDetails: {
-imageId: "AutoVegOnly_qkjowj",
-title: "Showing only vegetarian options.",
-description: "Tap on the VEG ONLY button to turn off the setting"
-},
-topRatedFilter: {
-attributes: {
-displayText: "Ratings 4.0+"
-}
-},
-kidsCategoryFilter: {
-attributes: {
-displayText: "Kids Favourites",
-tooltip: {
-enabled: true,
-displayText: "Kids Favourites Filter applied. Remove this filter to see the full Menu."
-}
-}
-},
-vegFilter: {
-attributes: {
-displayText: "VEG"
-}
-},
-nonvegFilter: {
-attributes: {
-displayText: "NONVEG"
-}
-}
-},
-relevance: {
-type: "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
-sectionId: "MENU_FILTER_TOGGLE"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
-title: "Recommended",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361455",
-name: "Mix Vegetable & Dal Fry Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Mix Veg, Dal Fry, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/fb0c5ef1-34b7-4cd9-ac79-161c51c5add3_8d1229a0-0f4f-4270-87a2-394248e5389f.jpg",
-inStock: 1,
-isVeg: 1,
-price: 26900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214965",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214966",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "3 ratings",
-ratingCountV2: "3"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584956",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "26900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361457",
-name: "Kadhai Paneer & Dal Fry Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Kadhai Paneer, Dal fry, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/c851f39c-b843-4714-bcf1-3096cb256f53_15d51e84-db3a-45d1-b423-06aa8ba5b772.jpg",
-inStock: 1,
-isVeg: 1,
-price: 27900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214967",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214968",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.7",
-ratingCount: "6 ratings",
-ratingCountV2: "6"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584952",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "27900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361458",
-name: "Kadhai Paneer & Dal Makhani Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Kadhai Paneer, Dal Makhani, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/3/30/169f1e96-ae2a-4d37-adda-b53e4c38532c_59d66258-1ac3-4220-83a4-e5f12a347403.jpeg",
-inStock: 1,
-isVeg: 1,
-price: 30900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214969",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214970",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "2.4",
-ratingCount: "7 ratings",
-ratingCountV2: "7"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#FFF0CD",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_low",
-ratingTextColor: "rating_low",
-ratingCountTextColor: "rating_low",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584953",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "30900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361460",
-name: "Butter chicken & Dal Fry Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Butter Chicken, Dal Fry, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/973b70c2-8cdd-4135-9d19-bd17854a2771_5e17daaa-af60-466c-bc42-ec87759a8564.jpg",
-inStock: 1,
-price: 32900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214971",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214972",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584940",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "32900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361462",
-name: "Butter chicken & Dal Makhani Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Butter Chicken, Dal Makhani, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/fd9b4dbb-cb0e-4396-87ec-89d86ccb944b_55259b07-ecb3-4e6b-9603-7bb8e83d3078.jpeg",
-inStock: 1,
-price: 34900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214973",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214974",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584941",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "34900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361465",
-name: "Desi Ghee Rajma Mini Meal",
-category: "Mini Meals",
-description: "Creamy rajma curry with 2 soft parathas served with salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/be0a52a2-2a21-41b0-8be8-bdde936c6854_acb0849d-e572-48ab-bf33-47b38d8f1081.jpg",
-inStock: 1,
-isVeg: 1,
-price: 21900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214975",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214976",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "123401722",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "21900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361466",
-name: "Amritsari Chole Mini Meal",
-category: "Mini Meals",
-description: "Spicy, tangy chole with 2 Flaky Parathas served with salad.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/d8c7a633-7893-467b-85d0-363a84e79d54_014214cd-b5fc-4e98-8c59-879cd7e41767.jpg",
-inStock: 1,
-isVeg: 1,
-price: 21900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214977",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214978",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584938",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "21900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361469",
-name: "Dal Fry Mini Meal",
-category: "Mini Meals",
-description: "Classic Dal fry paired with 2 Flaky Parathas served with salad.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/7f78642e-a669-40d3-9a05-687ce8f164c7_81e16bee-1456-4d8b-bb28-948caff12c03.jpg",
-inStock: 1,
-isVeg: 1,
-price: 21900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214979",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214980",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584946",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "21900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361471",
-name: "Dal Makhani Mini Meal",
-category: "Mini Meals",
-description: "Rich dal makhani with 2 Flaky Paratha served with salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/03e16a67-1c15-4098-91b7-605a9f2c0c52_7452d561-0617-401f-9f8a-7a28f3d286cd.jpg",
-inStock: 1,
-isVeg: 1,
-price: 25900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214981",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214982",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584947",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "25900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361473",
-name: "Butter Chicken Mini Meal",
-category: "Mini Meals",
-description: "Classic Butter Chicken with 2 Flaky Paratha served with salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/1c2da5d5-9177-4c9c-9ece-1639f484ff83_b630e307-508b-47b2-8f7d-c2971ce99780.jpg",
-inStock: 1,
-price: 23900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214983",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214984",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.9",
-ratingCount: "9 ratings",
-ratingCountV2: "9"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584942",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "23900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361476",
-name: "Homestyle Egg Curry Mini Meal",
-category: "Mini Meals",
-description: "Homestyle Egg curry with 2 Flaky Paratha served with Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/7/7/39db00f9-18ef-4459-9ecd-016a9145c9c8_819c6a3a-2644-435b-873a-5e21ed07fd79.jpg",
-inStock: 1,
-price: 23900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214985",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214986",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584951",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "23900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "160504867",
-name: "Desi Ghee Rajma",
-category: "Main Course",
-description: "Experience the comforting flavors of our Rajma Masala. Tender kidney beans cooked in a luscious gravy, bursting with the aroma of ginger, garlic, and a medley of spices. Best enjoyed with steaming hot jeera rice.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/1/17/540c2595-c6d3-41dc-8023-a52a7d13286a_2834fe1c-42a9-473b-a586-72e6f2ff7cca.jpg",
-inStock: 1,
-isVeg: 1,
-price: 24900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "53924015",
-name: "Size",
-variations: [
-{
-name: "Single [Serves 1-2, [310 ML]",
-default: 1,
-id: "168231417",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Family [Serves 3-4, [550 ML]",
-price: 200,
-id: "168231418",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "53924015",
-variationId: "168231417"
-}
-],
-price: 24900,
-addonCombinations: [
-{
-groupId: "201852182",
-addonId: "123135958"
-},
-{
-groupId: "201852182",
-addonId: "143131497"
-},
-{
-groupId: "201852182",
-addonId: "113738302"
-},
-{
-groupId: "264148777",
-addonId: "143131500"
-},
-{
-groupId: "264148777",
-addonId: "143131506"
-},
-{
-groupId: "264148777",
-addonId: "143131484"
-},
-{
-groupId: "201852181",
-addonId: "93519862"
-},
-{
-groupId: "201852181",
-addonId: "93519868"
-},
-{
-groupId: "201852181",
-addonId: "123135963"
-},
-{
-groupId: "201852174",
-addonId: "143131486"
-},
-{
-groupId: "201852174",
-addonId: "123135952"
-},
-{
-groupId: "201852174",
-addonId: "143131490"
-},
-{
-groupId: "201852174",
-addonId: "123135956"
-},
-{
-groupId: "201852174",
-addonId: "143131507"
-}
-],
-finalPrice: {
-units: "249"
-}
-},
-{
-variations: [
-{
-groupId: "53924015",
-variationId: "168231418"
-}
-],
-price: 44900,
-addonCombinations: [
-{
-groupId: "201852182",
-addonId: "123135958"
-},
-{
-groupId: "201852182",
-addonId: "143131497"
-},
-{
-groupId: "201852182",
-addonId: "113738302"
-},
-{
-groupId: "264148777",
-addonId: "143131500"
-},
-{
-groupId: "264148777",
-addonId: "143131506"
-},
-{
-groupId: "264148777",
-addonId: "143131484"
-},
-{
-groupId: "201852181",
-addonId: "93519862"
-},
-{
-groupId: "201852181",
-addonId: "93519868"
-},
-{
-groupId: "201852181",
-addonId: "123135963"
-},
-{
-groupId: "201852174",
-addonId: "143131486"
-},
-{
-groupId: "201852174",
-addonId: "123135952"
-},
-{
-groupId: "201852174",
-addonId: "143131490"
-},
-{
-groupId: "201852174",
-addonId: "123135956"
-},
-{
-groupId: "201852174",
-addonId: "143131507"
-}
-],
-finalPrice: {
-units: "449"
-}
-}
-]
-},
-addons: [
-{
-groupId: "201852174",
-groupName: "Add extra Breads/Rice",
-choices: [
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 2,
-maxFreeAddons: -1
-},
-{
-groupId: "201852181",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "201852182",
-groupName: "Perfect sip for your Meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 2,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 24900,
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.8",
-ratingCount: "10 ratings",
-ratingCountV2: "10"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "96187257",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513184",
-name: "Dal Makhani",
-category: "Main Course",
-description: "A classic prepared overnight with Black Lentils cooked in Desi Ghee, Butter, and Cream.",
-imageId: "jr9eekdhalkocg9qrmym",
-inStock: 1,
-isVeg: 1,
-price: 22900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "27805794",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "87987472",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 210,
-id: "87987473",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "27805794",
-variationId: "87987472"
-}
-],
-price: 22900,
-addonCombinations: [
-{
-groupId: "170293555",
-addonId: "113738302"
-},
-{
-groupId: "170293555",
-addonId: "143138920"
-},
-{
-groupId: "170293555",
-addonId: "143138917"
-},
-{
-groupId: "170293555",
-addonId: "123135958"
-},
-{
-groupId: "170293553",
-addonId: "93519862"
-},
-{
-groupId: "170293553",
-addonId: "93519868"
-},
-{
-groupId: "170293553",
-addonId: "123135963"
-},
-{
-groupId: "90882114",
-addonId: "123135956"
-},
-{
-groupId: "90882114",
-addonId: "123135952"
-},
-{
-groupId: "90882114",
-addonId: "143138919"
-}
-],
-finalPrice: {
-units: "229"
-}
-},
-{
-variations: [
-{
-groupId: "27805794",
-variationId: "87987473"
-}
-],
-price: 43900,
-addonCombinations: [
-{
-groupId: "170293555",
-addonId: "113738302"
-},
-{
-groupId: "170293555",
-addonId: "143138920"
-},
-{
-groupId: "170293555",
-addonId: "143138917"
-},
-{
-groupId: "170293555",
-addonId: "123135958"
-},
-{
-groupId: "170293553",
-addonId: "93519862"
-},
-{
-groupId: "170293553",
-addonId: "93519868"
-},
-{
-groupId: "170293553",
-addonId: "123135963"
-},
-{
-groupId: "90882114",
-addonId: "123135956"
-},
-{
-groupId: "90882114",
-addonId: "123135952"
-},
-{
-groupId: "90882114",
-addonId: "143138919"
-}
-],
-finalPrice: {
-units: "439"
-}
-}
-]
-},
-addons: [
-{
-groupId: "90882114",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293553",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293555",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 22900,
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.5",
-ratingCount: "137 ratings",
-ratingCountV2: "137"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050560",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "22900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513186",
-name: "Paneer Butter Masala",
-category: "Main Course",
-description: "Rich, creamy and mildly spicy dish with caramelized onions for unique flavors has a velvety feel to it. This G&T special gravy is slow-cooked in Desi ghee.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/3420f767-0d2d-4b57-98f8-945c5ee0ed7e_d3e74b68-04d9-445d-9d76-a4f9425c96bf.jpg",
-inStock: 1,
-isVeg: 1,
-price: 26900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "27805801",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "87987486",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 160,
-id: "87987487",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "27805801",
-variationId: "87987486"
-}
-],
-price: 26900,
-addonCombinations: [
-{
-groupId: "138215712",
-addonId: "123135956"
-},
-{
-groupId: "138215712",
-addonId: "123135952"
-},
-{
-groupId: "138215712",
-addonId: "143138919"
-},
-{
-groupId: "170293638",
-addonId: "93519862"
-},
-{
-groupId: "170293638",
-addonId: "123135963"
-},
-{
-groupId: "170293638",
-addonId: "93519868"
-},
-{
-groupId: "170293641",
-addonId: "123135958"
-},
-{
-groupId: "170293641",
-addonId: "143138917"
-},
-{
-groupId: "170293641",
-addonId: "143138920"
-},
-{
-groupId: "170293641",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "269"
-}
-},
-{
-variations: [
-{
-groupId: "27805801",
-variationId: "87987487"
-}
-],
-price: 42900,
-addonCombinations: [
-{
-groupId: "138215712",
-addonId: "123135956"
-},
-{
-groupId: "138215712",
-addonId: "123135952"
-},
-{
-groupId: "138215712",
-addonId: "143138919"
-},
-{
-groupId: "170293638",
-addonId: "93519862"
-},
-{
-groupId: "170293638",
-addonId: "123135963"
-},
-{
-groupId: "170293638",
-addonId: "93519868"
-},
-{
-groupId: "170293641",
-addonId: "123135958"
-},
-{
-groupId: "170293641",
-addonId: "143138917"
-},
-{
-groupId: "170293641",
-addonId: "143138920"
-},
-{
-groupId: "170293641",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "429"
-}
-}
-]
-},
-addons: [
-{
-groupId: "138215712",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293638",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293641",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 26900,
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "2.8",
-ratingCount: "25 ratings",
-ratingCountV2: "25"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#FFF0CD",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_low",
-ratingTextColor: "rating_low",
-ratingCountTextColor: "rating_low",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-}
-],
-parentId: "40050584",
-menuFilterIds: [
-"EATRIGHT",
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "26900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361494",
-name: "Egg Curry",
-category: "Main Course",
-description: "Two Boiled eggs simmered in a rich, spiced tomato-onion gravy for a comforting and flavorful curry experience",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/11693a6f-652e-42c9-bb12-f5a9aabeff21_33667e29-76e8-472b-a496-392749fd7af2.jpg",
-inStock: 1,
-price: 24900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215009",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215010",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215011",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.8",
-ratingCount: "3 ratings",
-ratingCountV2: "3"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584950",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "165771278",
-name: "Baked Whole Wheat Paratha Namak Ajwain (2 pc)",
-category: "Breads",
-description: "[2pc] Namak Ajwain Flaky whole-wheat Baked paratha served with Achar",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/2/28/f430d9ee-3d39-44f6-8607-cbfc4a2fb884_a300879e-d9b3-47be-87c3-6fbdb2c0f997.jpg",
-inStock: 1,
-isVeg: 1,
-price: 19900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.8",
-ratingCount: "4 ratings",
-ratingCountV2: "4"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "99845836",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "19900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "165771279",
-name: "Baked Whole Wheat Paratha Aloo pyaaz (2 pc)",
-category: "Breads",
-description: "[2pc] Aloo Pyaaz Flaky whole-wheat Baked paratha served with Achar",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/2/28/2457d12c-7770-4073-a8bf-c4ef2e33fd23_db9fe403-184a-43b7-825d-6cb2052f1800.jpg",
-inStock: 1,
-isVeg: 1,
-price: 19900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-showImage: true,
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.2",
-ratingCount: "15 ratings",
-ratingCountV2: "15"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "99845835",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "19900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-type: "CATEGORY_TYPE_RECOMMENDED",
-subtitleSuffix: { },
-categoryId: "-1"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Value Thalis",
-categories: [
-{
-title: "Thali for One",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361455",
-name: "Mix Vegetable & Dal Fry Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Mix Veg, Dal Fry, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/fb0c5ef1-34b7-4cd9-ac79-161c51c5add3_8d1229a0-0f4f-4270-87a2-394248e5389f.jpg",
-inStock: 1,
-isVeg: 1,
-price: 26900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214965",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214966",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "3 ratings",
-ratingCountV2: "3"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584956",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "26900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361457",
-name: "Kadhai Paneer & Dal Fry Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Kadhai Paneer, Dal fry, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/c851f39c-b843-4714-bcf1-3096cb256f53_15d51e84-db3a-45d1-b423-06aa8ba5b772.jpg",
-inStock: 1,
-isVeg: 1,
-price: 27900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214967",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214968",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.7",
-ratingCount: "6 ratings",
-ratingCountV2: "6"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584952",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "27900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361458",
-name: "Kadhai Paneer & Dal Makhani Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Kadhai Paneer, Dal Makhani, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/3/30/169f1e96-ae2a-4d37-adda-b53e4c38532c_59d66258-1ac3-4220-83a4-e5f12a347403.jpeg",
-inStock: 1,
-isVeg: 1,
-price: 30900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214969",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214970",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "2.4",
-ratingCount: "7 ratings",
-ratingCountV2: "7"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#FFF0CD",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_low",
-ratingTextColor: "rating_low",
-ratingCountTextColor: "rating_low",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584953",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "30900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361460",
-name: "Butter chicken & Dal Fry Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Butter Chicken, Dal Fry, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/973b70c2-8cdd-4135-9d19-bd17854a2771_5e17daaa-af60-466c-bc42-ec87759a8564.jpg",
-inStock: 1,
-price: 32900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214971",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214972",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584940",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "32900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361462",
-name: "Butter chicken & Dal Makhani Thali for one",
-category: "Value Thalis",
-description: "[Serves 1] Authentic Thali with Butter Chicken, Dal Makhani, 2 Flaky Paratha, Gulab Jamun and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/fd9b4dbb-cb0e-4396-87ec-89d86ccb944b_55259b07-ecb3-4e6b-9603-7bb8e83d3078.jpeg",
-inStock: 1,
-price: 34900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214973",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214974",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584941",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "34900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249148"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/fb0c5ef1-34b7-4cd9-ac79-161c51c5add3_8d1229a0-0f4f-4270-87a2-394248e5389f.jpg",
-categoryId: "70249134"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Mini Meals",
-categories: [
-{
-title: "Veg Mini Meals",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361465",
-name: "Desi Ghee Rajma Mini Meal",
-category: "Mini Meals",
-description: "Creamy rajma curry with 2 soft parathas served with salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/be0a52a2-2a21-41b0-8be8-bdde936c6854_acb0849d-e572-48ab-bf33-47b38d8f1081.jpg",
-inStock: 1,
-isVeg: 1,
-price: 21900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214975",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214976",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "123401722",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "21900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361466",
-name: "Amritsari Chole Mini Meal",
-category: "Mini Meals",
-description: "Spicy, tangy chole with 2 Flaky Parathas served with salad.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/d8c7a633-7893-467b-85d0-363a84e79d54_014214cd-b5fc-4e98-8c59-879cd7e41767.jpg",
-inStock: 1,
-isVeg: 1,
-price: 21900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214977",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214978",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584938",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "21900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361469",
-name: "Dal Fry Mini Meal",
-category: "Mini Meals",
-description: "Classic Dal fry paired with 2 Flaky Parathas served with salad.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/7f78642e-a669-40d3-9a05-687ce8f164c7_81e16bee-1456-4d8b-bb28-948caff12c03.jpg",
-inStock: 1,
-isVeg: 1,
-price: 21900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214979",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214980",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584946",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "21900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361471",
-name: "Dal Makhani Mini Meal",
-category: "Mini Meals",
-description: "Rich dal makhani with 2 Flaky Paratha served with salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/03e16a67-1c15-4098-91b7-605a9f2c0c52_7452d561-0617-401f-9f8a-7a28f3d286cd.jpg",
-inStock: 1,
-isVeg: 1,
-price: 25900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214981",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214982",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584947",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "25900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249149"
-},
-{
-title: "Non Veg Mini Meals",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361473",
-name: "Butter Chicken Mini Meal",
-category: "Mini Meals",
-description: "Classic Butter Chicken with 2 Flaky Paratha served with salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/1c2da5d5-9177-4c9c-9ece-1639f484ff83_b630e307-508b-47b2-8f7d-c2971ce99780.jpg",
-inStock: 1,
-price: 23900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214983",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214984",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.9",
-ratingCount: "9 ratings",
-ratingCountV2: "9"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584942",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "23900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361476",
-name: "Homestyle Egg Curry Mini Meal",
-category: "Mini Meals",
-description: "Homestyle Egg curry with 2 Flaky Paratha served with Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/7/7/39db00f9-18ef-4459-9ecd-016a9145c9c8_819c6a3a-2644-435b-873a-5e21ed07fd79.jpg",
-inStock: 1,
-price: 23900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214985",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214986",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584951",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "23900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249150"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/be0a52a2-2a21-41b0-8be8-bdde936c6854_acb0849d-e572-48ab-bf33-47b38d8f1081.jpg",
-categoryId: "70249135"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Rice Bowls",
-categories: [
-{
-title: "Rice Bowls",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "142066700",
-name: "Dal Tadka Rice Bowl",
-category: "Rice Bowls",
-description: "Your perfect healthy comforting Dal tadka served with Signature rice",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/300bedf4-e196-4563-bd4f-4736e4ff05f9_5800d061-2b11-43ed-a723-766d124aa48d.jpg",
-inStock: 1,
-isVeg: 1,
-price: 21900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214987",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214988",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.5",
-ratingCount: "59 ratings",
-ratingCountV2: "59"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "83844271",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "21900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "142066698",
-name: "Chole Rice Bowl",
-category: "Rice Bowls",
-description: "A quintessential home dish that is made with love and whole spices served with Signature rice",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/f13891ba-0bb0-4468-a830-4a7c54bbc192_6588bc11-b038-4b76-8042-21402b5228fe.jpg",
-inStock: 1,
-isVeg: 1,
-price: 21900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214989",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214990",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.2",
-ratingCount: "28 ratings",
-ratingCountV2: "28"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "83844269",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "21900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361483",
-name: "Desi Ghee Rajma Rice Bowl",
-category: "Rice Bowls",
-description: "Experience the comforting flavors of our Rajma Masala served with Signature Rice",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/e64055c5-fdb9-4d34-bd67-f63022bd777c_47ecd931-08f9-418f-a9c3-4a0be6aed3b0.jpg",
-inStock: 1,
-isVeg: 1,
-price: 22900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214991",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214992",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.7",
-ratingCount: "45 ratings",
-ratingCountV2: "45"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "96187258",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "22900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "142066702",
-name: "Dal Makhani Rice Bowl",
-category: "Rice Bowls",
-description: "A classic prepared overnight with Black Lentils cooked in Desi Ghee, Butter, and Cream served with Signature rice",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/f23e43c3-5e9c-4093-94f8-14d3b6457a90_9209b39b-9ea3-4c3c-bacc-cb0eda782379.jpg",
-inStock: 1,
-isVeg: 1,
-price: 27900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214993",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214994",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.8",
-ratingCount: "11 ratings",
-ratingCountV2: "11"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "83844270",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "27900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361485",
-name: "Mix Vegetable Khichdi",
-category: "Rice Bowls",
-description: "Moong dal, spices, and fresh veggies cooked to wholesome perfection, served with raita.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/96f945e6-ff96-43b9-864b-c8e02120cc31_1c244520-136e-4a51-9968-287fe2720840.jpg",
-inStock: 1,
-isVeg: 1,
-price: 19900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.4",
-ratingCount: "7 ratings",
-ratingCountV2: "7"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584957",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "19900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "142066704",
-name: "Paneer Makhani Rice Bowl",
-category: "Rice Bowls",
-description: "A delicious buttery tomato cashew gravy with Paneer cubes served with Signature rice",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/9e91ad50-1459-4ec9-b75b-da4d9950fafe_2bf2ed27-3234-42ff-8d5d-11cd953e579b.jpg",
-inStock: 1,
-isVeg: 1,
-price: 28900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214995",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214996",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "2.2",
-ratingCount: "5 ratings",
-ratingCountV2: "5"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#FFF0CD",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_low",
-ratingTextColor: "rating_low",
-ratingCountTextColor: "rating_low",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "83844272",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "28900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361486",
-name: "Homestyle Egg Curry Rice bowl",
-category: "Rice Bowls",
-description: "Homestyle Egg Curry served with Signature Rice",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/26b4b44b-5f0f-4aa3-809e-3d35a49dc489_2336eb97-e7e2-400a-9096-c2400056371f.jpg",
-inStock: 1,
-price: 19900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.8",
-ratingCount: "9 ratings",
-ratingCountV2: "9"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "105412442",
-menuFilterIds: [
-"bestseller",
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "19900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "142066705",
-name: "Butter Chicken Rice Bowl",
-category: "Rice Bowls",
-description: "Boneless | Chicken Tikka cooked in a smooth buttery & creamy fravy served with Signature rice",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/ee415efa-9dd9-43df-8cde-b2ab68e2e298_aa7a7733-a185-46a7-b33d-78f594e6be46.jpg",
-inStock: 1,
-price: 34900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214997",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264214998",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.9",
-ratingCount: "5 ratings",
-ratingCountV2: "5"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "83844268",
-menuFilterIds: [
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "34900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249151"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2026/4/7/300bedf4-e196-4563-bd4f-4736e4ff05f9_5800d061-2b11-43ed-a723-766d124aa48d.jpg",
-categoryId: "70249136"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Premium Thalis",
-categories: [
-{
-title: "Thali for 1-2",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "115986651",
-name: "Premium Kadhai Paneer Veg Thali",
-category: "Premium Thalis",
-description: "Authentic Thali with Kadhai Paneer, Dal Makhani, Mix veg, Chole, 2 Flaky Parathas, Rice, Chutney, Dessert, and Salad",
-imageId: "91581cc952847ae99dd939f192a775a1",
-inStock: 1,
-isVeg: 1,
-price: 38900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264214999",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.0",
-ratingCount: "177 ratings",
-ratingCountV2: "177"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "60464962",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "38900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "115986650",
-name: "Premium Veg Explorer Thali",
-category: "Premium Thalis",
-description: "Authentic Thali with Malai Kofta, Mix Veg, Dal Makhani, Chole, 2 Flaky Parathas, Rice, Chutney, Dessert, and Salad",
-imageId: "814162dd7504e2cb702cfc9c692d069c",
-inStock: 1,
-isVeg: 1,
-price: 39900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215000",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.4",
-ratingCount: "250 ratings",
-ratingCountV2: "250"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "60464964",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "39900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361488",
-name: "Premium Butter Chicken Non Veg Thali",
-category: "Premium Thalis",
-description: "Authentic Thali with Butter Chicken, Chole, Dal Makhani, 2 Flaky Parathas, Rice, Raita, Chutney, Dessert, and Salad",
-imageId: "a0d3beb6d384daf96b25188e9fc6123e",
-inStock: 1,
-price: 42900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215001",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584959",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "42900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "115986652",
-name: "Premium Non Veg Explorer Thali",
-category: "Premium Thalis",
-description: "Authentic Thali with Butter Chicken, Chicken Tikka Masala, Dal Makhani, Chole, 2 Flaky Parathas, Rice,Chutney, Dessert and Salad",
-imageId: "b9843f7be335be44ef629d6ca0e91dfe",
-inStock: 1,
-price: 44900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215002",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.5",
-ratingCount: "55 ratings",
-ratingCountV2: "55"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "60464963",
-menuFilterIds: [
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "44900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249152"
-}
-],
-image: "91581cc952847ae99dd939f192a775a1",
-categoryId: "70249137"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Main Course",
-categories: [
-{
-title: "Veg Main Course",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "160504867",
-name: "Desi Ghee Rajma",
-category: "Main Course",
-description: "Experience the comforting flavors of our Rajma Masala. Tender kidney beans cooked in a luscious gravy, bursting with the aroma of ginger, garlic, and a medley of spices. Best enjoyed with steaming hot jeera rice.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/1/17/540c2595-c6d3-41dc-8023-a52a7d13286a_2834fe1c-42a9-473b-a586-72e6f2ff7cca.jpg",
-inStock: 1,
-isVeg: 1,
-price: 24900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "53924015",
-name: "Size",
-variations: [
-{
-name: "Single [Serves 1-2, [310 ML]",
-default: 1,
-id: "168231417",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Family [Serves 3-4, [550 ML]",
-price: 200,
-id: "168231418",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "53924015",
-variationId: "168231417"
-}
-],
-price: 24900,
-addonCombinations: [
-{
-groupId: "201852182",
-addonId: "123135958"
-},
-{
-groupId: "201852182",
-addonId: "143131497"
-},
-{
-groupId: "201852182",
-addonId: "113738302"
-},
-{
-groupId: "264148777",
-addonId: "143131500"
-},
-{
-groupId: "264148777",
-addonId: "143131506"
-},
-{
-groupId: "264148777",
-addonId: "143131484"
-},
-{
-groupId: "201852181",
-addonId: "93519862"
-},
-{
-groupId: "201852181",
-addonId: "93519868"
-},
-{
-groupId: "201852181",
-addonId: "123135963"
-},
-{
-groupId: "201852174",
-addonId: "143131486"
-},
-{
-groupId: "201852174",
-addonId: "123135952"
-},
-{
-groupId: "201852174",
-addonId: "143131490"
-},
-{
-groupId: "201852174",
-addonId: "123135956"
-},
-{
-groupId: "201852174",
-addonId: "143131507"
-}
-],
-finalPrice: {
-units: "249"
-}
-},
-{
-variations: [
-{
-groupId: "53924015",
-variationId: "168231418"
-}
-],
-price: 44900,
-addonCombinations: [
-{
-groupId: "201852182",
-addonId: "123135958"
-},
-{
-groupId: "201852182",
-addonId: "143131497"
-},
-{
-groupId: "201852182",
-addonId: "113738302"
-},
-{
-groupId: "264148777",
-addonId: "143131500"
-},
-{
-groupId: "264148777",
-addonId: "143131506"
-},
-{
-groupId: "264148777",
-addonId: "143131484"
-},
-{
-groupId: "201852181",
-addonId: "93519862"
-},
-{
-groupId: "201852181",
-addonId: "93519868"
-},
-{
-groupId: "201852181",
-addonId: "123135963"
-},
-{
-groupId: "201852174",
-addonId: "143131486"
-},
-{
-groupId: "201852174",
-addonId: "123135952"
-},
-{
-groupId: "201852174",
-addonId: "143131490"
-},
-{
-groupId: "201852174",
-addonId: "123135956"
-},
-{
-groupId: "201852174",
-addonId: "143131507"
-}
-],
-finalPrice: {
-units: "449"
-}
-}
-]
-},
-addons: [
-{
-groupId: "201852174",
-groupName: "Add extra Breads/Rice",
-choices: [
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 2,
-maxFreeAddons: -1
-},
-{
-groupId: "201852181",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "201852182",
-groupName: "Perfect sip for your Meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 2,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 24900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.8",
-ratingCount: "10 ratings",
-ratingCountV2: "10"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "96187257",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "91047960",
-name: "Chole",
-category: "Main Course",
-description: "A quintessential home dish that is made with love and whole spices.",
-imageId: "uchgqjuracabgxxb0blo",
-inStock: 1,
-isVeg: 1,
-price: 19900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "27805792",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "87987468",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 120,
-id: "87987469",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "27805792",
-variationId: "87987468"
-}
-],
-price: 19900,
-addonCombinations: [
-{
-groupId: "90882112",
-addonId: "123135956"
-},
-{
-groupId: "90882112",
-addonId: "123135952"
-},
-{
-groupId: "90882112",
-addonId: "143138919"
-},
-{
-groupId: "170293856",
-addonId: "93519868"
-},
-{
-groupId: "170293856",
-addonId: "123135963"
-},
-{
-groupId: "170293856",
-addonId: "93519862"
-},
-{
-groupId: "170293860",
-addonId: "123135958"
-},
-{
-groupId: "170293860",
-addonId: "143138920"
-},
-{
-groupId: "170293860",
-addonId: "143138917"
-},
-{
-groupId: "170293860",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "199"
-}
-},
-{
-variations: [
-{
-groupId: "27805792",
-variationId: "87987469"
-}
-],
-price: 31900,
-addonCombinations: [
-{
-groupId: "90882112",
-addonId: "123135956"
-},
-{
-groupId: "90882112",
-addonId: "123135952"
-},
-{
-groupId: "90882112",
-addonId: "143138919"
-},
-{
-groupId: "170293856",
-addonId: "93519868"
-},
-{
-groupId: "170293856",
-addonId: "123135963"
-},
-{
-groupId: "170293856",
-addonId: "93519862"
-},
-{
-groupId: "170293860",
-addonId: "123135958"
-},
-{
-groupId: "170293860",
-addonId: "143138920"
-},
-{
-groupId: "170293860",
-addonId: "143138917"
-},
-{
-groupId: "170293860",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "319"
-}
-}
-]
-},
-addons: [
-{
-groupId: "90882112",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293856",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293860",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 19900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "30 ratings",
-ratingCountV2: "30"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "48716071",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "19900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513185",
-name: "Dal Tadka",
-category: "Main Course",
-description: "Soul Satisfying, delicious dal made from a unique combination of Toor, Moong, and Masoor dal. It gets a unique aromatic flavor by cooking in Desi Ghee. Your perfect healthy comforting Dal tadka",
-imageId: "sg1flledfos3hwhfrrmh",
-inStock: 1,
-isVeg: 1,
-price: 19900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "27805796",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "87987476",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 120,
-id: "87987477",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "27805796",
-variationId: "87987476"
-}
-],
-price: 19900,
-addonCombinations: [
-{
-groupId: "90882116",
-addonId: "123135956"
-},
-{
-groupId: "90882116",
-addonId: "123135952"
-},
-{
-groupId: "90882116",
-addonId: "143138919"
-},
-{
-groupId: "170293697",
-addonId: "93519868"
-},
-{
-groupId: "170293697",
-addonId: "123135963"
-},
-{
-groupId: "170293697",
-addonId: "93519862"
-},
-{
-groupId: "170293700",
-addonId: "123135958"
-},
-{
-groupId: "170293700",
-addonId: "143138920"
-},
-{
-groupId: "170293700",
-addonId: "143138917"
-},
-{
-groupId: "170293700",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "199"
-}
-},
-{
-variations: [
-{
-groupId: "27805796",
-variationId: "87987477"
-}
-],
-price: 31900,
-addonCombinations: [
-{
-groupId: "90882116",
-addonId: "123135956"
-},
-{
-groupId: "90882116",
-addonId: "123135952"
-},
-{
-groupId: "90882116",
-addonId: "143138919"
-},
-{
-groupId: "170293697",
-addonId: "93519868"
-},
-{
-groupId: "170293697",
-addonId: "123135963"
-},
-{
-groupId: "170293697",
-addonId: "93519862"
-},
-{
-groupId: "170293700",
-addonId: "123135958"
-},
-{
-groupId: "170293700",
-addonId: "143138920"
-},
-{
-groupId: "170293700",
-addonId: "143138917"
-},
-{
-groupId: "170293700",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "319"
-}
-}
-]
-},
-addons: [
-{
-groupId: "90882116",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293697",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293700",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 19900,
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "32 ratings",
-ratingCountV2: "32"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050561",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "19900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513193",
-name: "Mix Veg",
-category: "Main Course",
-description: "Colorful medley of vegetables cooked in a mildly spiced, creamy curry bursting with flavor and aroma.",
-imageId: "ozeps2dzhz429oynf3lm",
-inStock: 1,
-isVeg: 1,
-price: 19900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "35933801",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "111611570",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 290,
-id: "111611571",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "35933801",
-variationId: "111611570"
-}
-],
-price: 19900,
-addonCombinations: [
-{
-groupId: "170293819",
-addonId: "93519862"
-},
-{
-groupId: "170293819",
-addonId: "93519868"
-},
-{
-groupId: "170293819",
-addonId: "123135963"
-},
-{
-groupId: "138215713",
-addonId: "123135956"
-},
-{
-groupId: "138215713",
-addonId: "123135952"
-},
-{
-groupId: "138215713",
-addonId: "143138919"
-},
-{
-groupId: "170293820",
-addonId: "123135958"
-},
-{
-groupId: "170293820",
-addonId: "143138917"
-},
-{
-groupId: "170293820",
-addonId: "143138920"
-},
-{
-groupId: "170293820",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "199"
-}
-},
-{
-variations: [
-{
-groupId: "35933801",
-variationId: "111611571"
-}
-],
-price: 48900,
-addonCombinations: [
-{
-groupId: "170293819",
-addonId: "93519862"
-},
-{
-groupId: "170293819",
-addonId: "93519868"
-},
-{
-groupId: "170293819",
-addonId: "123135963"
-},
-{
-groupId: "138215713",
-addonId: "123135956"
-},
-{
-groupId: "138215713",
-addonId: "123135952"
-},
-{
-groupId: "138215713",
-addonId: "143138919"
-},
-{
-groupId: "170293820",
-addonId: "123135958"
-},
-{
-groupId: "170293820",
-addonId: "143138917"
-},
-{
-groupId: "170293820",
-addonId: "143138920"
-},
-{
-groupId: "170293820",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "489"
-}
-}
-]
-},
-addons: [
-{
-groupId: "138215713",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293819",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293820",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 19900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.4",
-ratingCount: "16 ratings",
-ratingCountV2: "16"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050580",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "19900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513184",
-name: "Dal Makhani",
-category: "Main Course",
-description: "A classic prepared overnight with Black Lentils cooked in Desi Ghee, Butter, and Cream.",
-imageId: "jr9eekdhalkocg9qrmym",
-inStock: 1,
-isVeg: 1,
-price: 22900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "27805794",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "87987472",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 210,
-id: "87987473",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "27805794",
-variationId: "87987472"
-}
-],
-price: 22900,
-addonCombinations: [
-{
-groupId: "170293555",
-addonId: "113738302"
-},
-{
-groupId: "170293555",
-addonId: "143138920"
-},
-{
-groupId: "170293555",
-addonId: "143138917"
-},
-{
-groupId: "170293555",
-addonId: "123135958"
-},
-{
-groupId: "170293553",
-addonId: "93519862"
-},
-{
-groupId: "170293553",
-addonId: "93519868"
-},
-{
-groupId: "170293553",
-addonId: "123135963"
-},
-{
-groupId: "90882114",
-addonId: "123135956"
-},
-{
-groupId: "90882114",
-addonId: "123135952"
-},
-{
-groupId: "90882114",
-addonId: "143138919"
-}
-],
-finalPrice: {
-units: "229"
-}
-},
-{
-variations: [
-{
-groupId: "27805794",
-variationId: "87987473"
-}
-],
-price: 43900,
-addonCombinations: [
-{
-groupId: "170293555",
-addonId: "113738302"
-},
-{
-groupId: "170293555",
-addonId: "143138920"
-},
-{
-groupId: "170293555",
-addonId: "143138917"
-},
-{
-groupId: "170293555",
-addonId: "123135958"
-},
-{
-groupId: "170293553",
-addonId: "93519862"
-},
-{
-groupId: "170293553",
-addonId: "93519868"
-},
-{
-groupId: "170293553",
-addonId: "123135963"
-},
-{
-groupId: "90882114",
-addonId: "123135956"
-},
-{
-groupId: "90882114",
-addonId: "123135952"
-},
-{
-groupId: "90882114",
-addonId: "143138919"
-}
-],
-finalPrice: {
-units: "439"
-}
-}
-]
-},
-addons: [
-{
-groupId: "90882114",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293553",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293555",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 22900,
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.5",
-ratingCount: "137 ratings",
-ratingCountV2: "137"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050560",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "22900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361490",
-name: "Dum Aloo",
-category: "Main Course",
-description: "Tender tandoori potatoes simmered in rich curd gravy.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/5d00737d-3fab-4fce-bf96-48d95160dbc4_f722f2d8-cbad-453e-b24e-258fa11c3f69.jpg",
-inStock: 1,
-isVeg: 1,
-price: 22900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215003",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215004",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215005",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.2",
-ratingCount: "7 ratings",
-ratingCountV2: "7"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584949",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "22900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513191",
-name: "Paneer Makhani",
-category: "Main Course",
-description: "[Low spice] Delicious buttery tomato cashew gravy cooked using whole spices and Desi ghee with Paneer cubes also known as Shahi Paneer",
-imageId: "onb7sqyzgpjarihykugu",
-inStock: 1,
-isVeg: 1,
-price: 24900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "90882126",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293664",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293666",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.4",
-ratingCount: "48 ratings",
-ratingCountV2: "48"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-}
-],
-parentId: "40050587",
-menuFilterIds: [
-"EATRIGHT",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513188",
-name: "Kadhai Paneer",
-category: "Main Course",
-description: "A mouthwatering combination of paneer & capsicum blended with freshly ground spices.",
-imageId: "dkdnnukmwjdozbtnqzoc",
-inStock: 1,
-isVeg: 1,
-price: 24900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "27805798",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "87987480",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 150,
-id: "87987481",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "27805798",
-variationId: "87987480"
-}
-],
-price: 24900,
-addonCombinations: [
-{
-groupId: "170293530",
-addonId: "143138920"
-},
-{
-groupId: "170293530",
-addonId: "123135958"
-},
-{
-groupId: "170293530",
-addonId: "113738302"
-},
-{
-groupId: "170293530",
-addonId: "143138917"
-},
-{
-groupId: "90882118",
-addonId: "123135952"
-},
-{
-groupId: "90882118",
-addonId: "123135956"
-},
-{
-groupId: "90882118",
-addonId: "143138919"
-},
-{
-groupId: "170293528",
-addonId: "93519862"
-},
-{
-groupId: "170293528",
-addonId: "123135963"
-},
-{
-groupId: "170293528",
-addonId: "93519868"
-}
-],
-finalPrice: {
-units: "249"
-}
-},
-{
-variations: [
-{
-groupId: "27805798",
-variationId: "87987481"
-}
-],
-price: 39900,
-addonCombinations: [
-{
-groupId: "170293530",
-addonId: "143138920"
-},
-{
-groupId: "170293530",
-addonId: "123135958"
-},
-{
-groupId: "170293530",
-addonId: "113738302"
-},
-{
-groupId: "170293530",
-addonId: "143138917"
-},
-{
-groupId: "90882118",
-addonId: "123135952"
-},
-{
-groupId: "90882118",
-addonId: "123135956"
-},
-{
-groupId: "90882118",
-addonId: "143138919"
-},
-{
-groupId: "170293528",
-addonId: "93519862"
-},
-{
-groupId: "170293528",
-addonId: "123135963"
-},
-{
-groupId: "170293528",
-addonId: "93519868"
-}
-],
-finalPrice: {
-units: "399"
-}
-}
-]
-},
-addons: [
-{
-groupId: "90882118",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293528",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293530",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 24900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.5",
-ratingCount: "52 ratings",
-ratingCountV2: "52"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050571",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513190",
-name: "Paneer Lababdar",
-category: "Main Course",
-description: "Soft and succulent paneer dunked in creamy, mildly tangy, and faintly sweet gravy.",
-imageId: "dckpbfhya1rlh4matqbm",
-inStock: 1,
-isVeg: 1,
-price: 24900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "90882124",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293709",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293711",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.6",
-ratingCount: "40 ratings",
-ratingCountV2: "40"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050586",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361492",
-name: "Tawa Chaap",
-category: "Main Course",
-description: "Succulent Tawa chaap sizzled in masala gravy.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/100c313d-7035-4c4e-82c1-cf8dd8c83765_170ec91e-e3ea-48b9-915e-f8d54cf1f4ab.jpg",
-inStock: 1,
-isVeg: 1,
-price: 24900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215006",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215007",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 2,
-maxFreeAddons: -1
-},
-{
-groupId: "264215008",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584964",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513186",
-name: "Paneer Butter Masala",
-category: "Main Course",
-description: "Rich, creamy and mildly spicy dish with caramelized onions for unique flavors has a velvety feel to it. This G&T special gravy is slow-cooked in Desi ghee.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/3420f767-0d2d-4b57-98f8-945c5ee0ed7e_d3e74b68-04d9-445d-9d76-a4f9425c96bf.jpg",
-inStock: 1,
-isVeg: 1,
-price: 26900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "27805801",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "87987486",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 160,
-id: "87987487",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "27805801",
-variationId: "87987486"
-}
-],
-price: 26900,
-addonCombinations: [
-{
-groupId: "138215712",
-addonId: "123135956"
-},
-{
-groupId: "138215712",
-addonId: "123135952"
-},
-{
-groupId: "138215712",
-addonId: "143138919"
-},
-{
-groupId: "170293638",
-addonId: "93519862"
-},
-{
-groupId: "170293638",
-addonId: "123135963"
-},
-{
-groupId: "170293638",
-addonId: "93519868"
-},
-{
-groupId: "170293641",
-addonId: "123135958"
-},
-{
-groupId: "170293641",
-addonId: "143138917"
-},
-{
-groupId: "170293641",
-addonId: "143138920"
-},
-{
-groupId: "170293641",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "269"
-}
-},
-{
-variations: [
-{
-groupId: "27805801",
-variationId: "87987487"
-}
-],
-price: 42900,
-addonCombinations: [
-{
-groupId: "138215712",
-addonId: "123135956"
-},
-{
-groupId: "138215712",
-addonId: "123135952"
-},
-{
-groupId: "138215712",
-addonId: "143138919"
-},
-{
-groupId: "170293638",
-addonId: "93519862"
-},
-{
-groupId: "170293638",
-addonId: "123135963"
-},
-{
-groupId: "170293638",
-addonId: "93519868"
-},
-{
-groupId: "170293641",
-addonId: "123135958"
-},
-{
-groupId: "170293641",
-addonId: "143138917"
-},
-{
-groupId: "170293641",
-addonId: "143138920"
-},
-{
-groupId: "170293641",
-addonId: "113738302"
-}
-],
-finalPrice: {
-units: "429"
-}
-}
-]
-},
-addons: [
-{
-groupId: "138215712",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293638",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293641",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 26900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "2.8",
-ratingCount: "25 ratings",
-ratingCountV2: "25"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#FFF0CD",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_low",
-ratingTextColor: "rating_low",
-ratingCountTextColor: "rating_low",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-}
-],
-parentId: "40050584",
-menuFilterIds: [
-"EATRIGHT",
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "26900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513187",
-name: "Malai Kofta",
-category: "Main Course",
-description: "Irresistibly delicious melt in the mouth kofta's cooked in ghee filled with Kesar, Kaju, Khoya in a luscious, rich, and creamy gravy. You can't stop!",
-imageId: "vtmadbs7btvq1gxdanjh",
-inStock: 1,
-isVeg: 1,
-price: 33900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "90882120",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293848",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "170293850",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.2",
-ratingCount: "70 ratings",
-ratingCountV2: "70"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050576",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "33900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "18627253"
-},
-{
-title: "Non Veg Main Course",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361494",
-name: "Egg Curry",
-category: "Main Course",
-description: "Two Boiled eggs simmered in a rich, spiced tomato-onion gravy for a comforting and flavorful curry experience",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/11693a6f-652e-42c9-bb12-f5a9aabeff21_33667e29-76e8-472b-a496-392749fd7af2.jpg",
-inStock: 1,
-price: 24900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215009",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215010",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215011",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.8",
-ratingCount: "3 ratings",
-ratingCountV2: "3"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584950",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513195",
-name: "Kadhai Chicken",
-category: "Main Course",
-description: "Boneless | A lively red masaledaar boneless chicken dish with the crispiness of capsicum, onion, tomato",
-imageId: "hhsdif7uv1vtzvazpruu",
-inStock: 1,
-price: 30900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "69722995",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "208213043",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 250,
-id: "208213045",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "69722995",
-variationId: "208213043"
-}
-],
-price: 30900,
-addonCombinations: [
-{
-groupId: "264215012",
-addonId: "123135956"
-},
-{
-groupId: "264215012",
-addonId: "123135952"
-},
-{
-groupId: "264215012",
-addonId: "143138919"
-},
-{
-groupId: "264215014",
-addonId: "123135958"
-},
-{
-groupId: "264215014",
-addonId: "143138917"
-},
-{
-groupId: "264215014",
-addonId: "143138920"
-},
-{
-groupId: "264215014",
-addonId: "113738302"
-},
-{
-groupId: "264215013",
-addonId: "123135963"
-},
-{
-groupId: "264215013",
-addonId: "93519862"
-},
-{
-groupId: "264215013",
-addonId: "93519868"
-}
-],
-finalPrice: {
-units: "309"
-}
-},
-{
-variations: [
-{
-groupId: "69722995",
-variationId: "208213045"
-}
-],
-price: 55900,
-addonCombinations: [
-{
-groupId: "264215012",
-addonId: "123135956"
-},
-{
-groupId: "264215012",
-addonId: "123135952"
-},
-{
-groupId: "264215012",
-addonId: "143138919"
-},
-{
-groupId: "264215014",
-addonId: "123135958"
-},
-{
-groupId: "264215014",
-addonId: "143138917"
-},
-{
-groupId: "264215014",
-addonId: "143138920"
-},
-{
-groupId: "264215014",
-addonId: "113738302"
-},
-{
-groupId: "264215013",
-addonId: "123135963"
-},
-{
-groupId: "264215013",
-addonId: "93519862"
-},
-{
-groupId: "264215013",
-addonId: "93519868"
-}
-],
-finalPrice: {
-units: "559"
-}
-}
-]
-},
-addons: [
-{
-groupId: "264215012",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215013",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215014",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-defaultPrice: 30900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.3",
-ratingCount: "20 ratings",
-ratingCountV2: "20"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050570",
-menuFilterIds: [
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "30900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513196",
-name: "Chicken Tikka Masala",
-category: "Main Course",
-description: "Boneless | Enticing flavors packed in boneless chicken tikka submerged in creamy gravy",
-imageId: "pbpok4sxjh6g7la6zf7u",
-inStock: 1,
-price: 30900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215015",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215016",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215017",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.2",
-ratingCount: "23 ratings",
-ratingCountV2: "23"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-}
-],
-parentId: "40050557",
-menuFilterIds: [
-"EATRIGHT",
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "30900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513197",
-name: "Chicken Butter Masala",
-category: "Main Course",
-description: "Boneless | A rich, creamy and mildly spicy boneless chicken dish with caramelized onions for unique flavors has a velvety feel to it. This G&T special gravy is slow-cooked in Desi ghee",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/dac32db3-67cd-4923-8292-888a0ab825b0_e0be21b7-81d3-4ef2-8f54-2275a74d547c.jpg",
-inStock: 1,
-price: 30900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "69723002",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "208213063",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 250,
-id: "208213064",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "69723002",
-variationId: "208213063"
-}
-],
-price: 30900,
-addonCombinations: [
-{
-groupId: "264215018",
-addonId: "123135956"
-},
-{
-groupId: "264215018",
-addonId: "123135952"
-},
-{
-groupId: "264215018",
-addonId: "143138919"
-},
-{
-groupId: "264215020",
-addonId: "143138917"
-},
-{
-groupId: "264215020",
-addonId: "123135958"
-},
-{
-groupId: "264215020",
-addonId: "113738302"
-},
-{
-groupId: "264215020",
-addonId: "143138920"
-},
-{
-groupId: "264215019",
-addonId: "93519862"
-},
-{
-groupId: "264215019",
-addonId: "123135963"
-},
-{
-groupId: "264215019",
-addonId: "93519868"
-}
-],
-finalPrice: {
-units: "309"
-}
-},
-{
-variations: [
-{
-groupId: "69723002",
-variationId: "208213064"
-}
-],
-price: 55900,
-addonCombinations: [
-{
-groupId: "264215018",
-addonId: "123135956"
-},
-{
-groupId: "264215018",
-addonId: "123135952"
-},
-{
-groupId: "264215018",
-addonId: "143138919"
-},
-{
-groupId: "264215020",
-addonId: "143138917"
-},
-{
-groupId: "264215020",
-addonId: "123135958"
-},
-{
-groupId: "264215020",
-addonId: "113738302"
-},
-{
-groupId: "264215020",
-addonId: "143138920"
-},
-{
-groupId: "264215019",
-addonId: "93519862"
-},
-{
-groupId: "264215019",
-addonId: "123135963"
-},
-{
-groupId: "264215019",
-addonId: "93519868"
-}
-],
-finalPrice: {
-units: "559"
-}
-}
-]
-},
-addons: [
-{
-groupId: "264215018",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215019",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215020",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-defaultPrice: 30900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.8",
-ratingCount: "23 ratings",
-ratingCountV2: "23"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-}
-],
-parentId: "40050555",
-menuFilterIds: [
-"EATRIGHT",
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "30900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513194",
-name: "Butter Chicken",
-category: "Main Course",
-description: "Boneless | Chicken Tikka cooked in a smooth buttery, mildly spicy & creamy tomato-based gravy",
-imageId: "hz1tu8q2zfxqrsnaapdz",
-inStock: 1,
-price: 33900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "69723007",
-name: "Size",
-variations: [
-{
-name: "Half [Serves 1-2, [310 ML]",
-default: 1,
-id: "208213077",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Full [Serves 3-4, [550 ML]",
-price: 270,
-id: "208213078",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "69723007",
-variationId: "208213077"
-}
-],
-price: 33900,
-addonCombinations: [
-{
-groupId: "264215022",
-addonId: "93519862"
-},
-{
-groupId: "264215022",
-addonId: "93519868"
-},
-{
-groupId: "264215022",
-addonId: "123135963"
-},
-{
-groupId: "264215023",
-addonId: "143138920"
-},
-{
-groupId: "264215023",
-addonId: "123135958"
-},
-{
-groupId: "264215023",
-addonId: "113738302"
-},
-{
-groupId: "264215023",
-addonId: "143138917"
-},
-{
-groupId: "264215021",
-addonId: "123135956"
-},
-{
-groupId: "264215021",
-addonId: "123135952"
-},
-{
-groupId: "264215021",
-addonId: "143138919"
-}
-],
-finalPrice: {
-units: "339"
-}
-},
-{
-variations: [
-{
-groupId: "69723007",
-variationId: "208213078"
-}
-],
-price: 60900,
-addonCombinations: [
-{
-groupId: "264215022",
-addonId: "93519862"
-},
-{
-groupId: "264215022",
-addonId: "93519868"
-},
-{
-groupId: "264215022",
-addonId: "123135963"
-},
-{
-groupId: "264215023",
-addonId: "143138920"
-},
-{
-groupId: "264215023",
-addonId: "123135958"
-},
-{
-groupId: "264215023",
-addonId: "113738302"
-},
-{
-groupId: "264215023",
-addonId: "143138917"
-},
-{
-groupId: "264215021",
-addonId: "123135956"
-},
-{
-groupId: "264215021",
-addonId: "123135952"
-},
-{
-groupId: "264215021",
-addonId: "143138919"
-}
-],
-finalPrice: {
-units: "609"
-}
-}
-]
-},
-addons: [
-{
-groupId: "264215021",
-groupName: "Add Extra Bread/Rice",
-choices: [
-{
-id: "123135956",
-name: "Garlic Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135952",
-name: "Missi Paratha [1pc]",
-price: 7200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138919",
-name: "Signature Rice",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215022",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-},
-{
-groupId: "264215023",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-defaultPrice: 33900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.8",
-ratingCount: "89 ratings",
-ratingCountV2: "89"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050553",
-menuFilterIds: [
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "33900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249138"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2025/1/17/540c2595-c6d3-41dc-8023-a52a7d13286a_2834fe1c-42a9-473b-a586-72e6f2ff7cca.jpg",
-categoryId: "29370951"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Starters",
-categories: [
-{
-title: "Veg Starters",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513174",
-name: "Hara Bhara Kebab",
-category: "Starters",
-description: "[6Pc] The super soft & melt-in-mouth kebabs, made with spinach, green peas, and potatoes are a perfect starter to snack on",
-imageId: "xf4jndl4iu79vl0vnq5c",
-inStock: 1,
-isVeg: 1,
-price: 26900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215024",
-groupName: "PaidAddons",
-choices: [
-{
-id: "143138915",
-name: "Extra Garlic Chutney",
-price: 2000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138916",
-name: "Extra Pudina Chutney",
-price: 2000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138918",
-name: "Extra Onion",
-price: 1000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "19 ratings",
-ratingCountV2: "19"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050567",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "26900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361497",
-name: "Tandoori Aloo",
-category: "Starters",
-description: "[10pc] Potatoes cooked in bold tandoori masala flavours.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/0aa769cb-f2e6-4761-8579-2f8b8236ba0b_26cae057-12ad-406e-9943-d4c294445865.jpg",
-inStock: 1,
-isVeg: 1,
-price: 26900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215027",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264215028",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584962",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "26900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513175",
-name: "Paneer Tikka",
-category: "Starters",
-description: "[6Pc] Spicy and chatpata flavors nuzzled up with soft paneer tikka for a glorifying experience",
-imageId: "ubildq2arbippz7hzswo",
-inStock: 1,
-isVeg: 1,
-price: 28900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.9",
-ratingCount: "12 ratings",
-ratingCountV2: "12"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-}
-],
-parentId: "40050588",
-menuFilterIds: [
-"EATRIGHT",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "28900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "154034923",
-name: "Veg Starter Platter",
-category: "Starters",
-description: "Platter consisting of Hara Bhara Kebab(4pc), Tandoori Aloo(4pc), Paneer Tikka (4pc), Tandoori Soya Chaap (4pc) served with Pudina chutney and Onion",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/12/23/730cfe69-8ee6-4cae-b309-bb054c9d9f1a_b6ee1edf-11fe-4134-af5c-6dcd0ec0b985.jpg",
-inStock: 1,
-isVeg: 1,
-price: 35900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.0",
-ratingCount: "1 rating",
-ratingCountV2: "1"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-}
-],
-parentId: "115752342",
-menuFilterIds: [
-"EATRIGHT",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "35900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "53213861"
-},
-{
-title: "Non Veg Starters",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513180",
-name: "Tangri Kebab",
-category: "Starters",
-description: "[2Pc] Roasted Chicken drumsticks marinated with spices and grilled to perfection",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/f3f1f961-c4db-43ba-afc0-5b58add7190c_dc80cf08-14bf-48d8-8e81-b4b011e0c5c3.jpg",
-inStock: 1,
-price: 24900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "7 ratings",
-ratingCountV2: "7"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-}
-],
-parentId: "40050596",
-menuFilterIds: [
-"EATRIGHT",
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513179",
-name: "Chicken Tikka",
-category: "Starters",
-description: "[10Pc] Boneless | Soft, juicy kebabs, mildly creamy that will simply melt in your mouth. Tender pieces of boneless chicken are marinated in a unique blend of whole spices to give you authentic flavours",
-imageId: "r9txm4jx2hvffpzopij7",
-inStock: 1,
-price: 34900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.9",
-ratingCount: "19 ratings",
-ratingCountV2: "19"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-},
-{
-imageId: "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
-}
-],
-parentId: "40050556",
-menuFilterIds: [
-"EATRIGHT",
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "34900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513181",
-name: "Kali Mirch Chicken Tikka",
-category: "Starters",
-description: "[10Pc] Boneless | A perfect starter made with boneless chicken marinated with black pepper",
-imageId: "fkt3k9wnv0dwn761ldip",
-inStock: 1,
-price: 34900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "13 ratings",
-ratingCountV2: "13"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-imageBadges: [
-{
-imageId: "merch_bau/High%20Protein%201_1.png"
-},
-{
-imageId: "Health%20Hub/Sub%20categories/Item%20badges/Low%20cal%201_1.png"
-}
-],
-parentId: "40050572",
-menuFilterIds: [
-"EATRIGHT",
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "34900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249140"
-}
-],
-image: "xf4jndl4iu79vl0vnq5c",
-categoryId: "53213860"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Biryani",
-categories: [
-{
-title: "Biryani",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "148709664",
-name: "Veg Biryani",
-category: "Biryani",
-description: "Fresh assorted vegetables seasoned with authentic traditional spices layered with finest rice and Dum cooked. Served with Raita and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2024/5/23/22ba33de-2d10-45e4-beeb-bbdce04d719a_ba028383-aee2-49eb-915d-b7e1cd658534.jpg",
-inStock: 1,
-isVeg: 1,
-price: 24900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215031",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.4",
-ratingCount: "24 ratings",
-ratingCountV2: "24"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "83194076",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "24900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "157441106",
-name: "Boneless Chicken Biryani",
-category: "Biryani",
-description: "Boneless Fresh chicken pieces marinated in authentic traditional spices layered with finest rice and Dum Cooked. Served with Raita and Salad",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2024/5/23/ff30e1c6-3170-421f-9017-5aa8bf4a2c1e_99bdefcd-e7f6-47b7-a865-4e1bf32d6987.jpg",
-inStock: 1,
-price: 32900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215032",
-groupName: "Perfect sip for your meal",
-choices: [
-{
-id: "123135958",
-name: "Special Mint Masala Chaach",
-price: 17700,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "113738302",
-name: "Masala Soda",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138917",
-name: "Classic Mint Lemonade.",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "143138920",
-name: "Sweet Lassi",
-price: 15600,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 4,
-maxFreeAddons: -1
-},
-{
-groupId: "264215033",
-groupName: "Complete your meal with a sweet note",
-choices: [
-{
-id: "93519862",
-name: "Moong Dal Halwa Desi Ghee",
-price: 15600,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "93519868",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-price: 8200,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "123135963",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-price: 24000,
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 3,
-maxFreeAddons: -1
-}
-],
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.4",
-ratingCount: "37 ratings",
-ratingCountV2: "37"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "94211044",
-menuFilterIds: [
-"NONVEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "32900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249154"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2024/5/23/22ba33de-2d10-45e4-beeb-bbdce04d719a_ba028383-aee2-49eb-915d-b7e1cd658534.jpg",
-categoryId: "70249141"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Breads",
-categories: [
-{
-title: "Paratha",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513198",
-name: "Flaky Paratha [1pc]",
-category: "Breads",
-description: "[1 Pc] Chef's Special: Made from a unique combination of Sprouted Wheat, Barley, and Whole Wheat flour, the paratha is slow-cooked in Desi Ghee, giving ultimate taste and health",
-imageId: "fkznvdrkrgrwuekme5nq",
-inStock: 1,
-isVeg: 1,
-price: 5900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: {
-text: "Bestseller",
-textColor: "#ffffff",
-topBackgroundColor: "#d53d4c",
-bottomBackgroundColor: "#b02331"
-},
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-isBestseller: true,
-ratings: {
-aggregatedRating: {
-rating: "4.5",
-ratingCount: "178 ratings",
-ratingCountV2: "178"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050563",
-menuFilterIds: [
-"bestseller",
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "5900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513200",
-name: "Garlic Paratha [1pc]",
-category: "Breads",
-description: "[1 Pc] Garlic flavored paratha cooked in desi ghee with a mouth-watering aroma of roasted garlic",
-imageId: "rorwp9rqlquai6kcpzzv",
-inStock: 1,
-isVeg: 1,
-price: 6900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "76 ratings",
-ratingCountV2: "76"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050564",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "6900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513199",
-name: "Lacha Paratha [1pc]",
-category: "Breads",
-description: "[1 Pc] A mini multilayered paratha made from a unique combination of sprouted wheat, barley, and whole wheat flour cooked in Desi ghee",
-imageId: "s6ddkpzajqbpndaupcrj",
-inStock: 1,
-isVeg: 1,
-price: 6900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.1",
-ratingCount: "113 ratings",
-ratingCountV2: "113"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050575",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "6900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513201",
-name: "Missi Paratha [1pc]",
-category: "Breads",
-description: "[1 Pc] Chef's Special: Flaky version of Traditional Missi roti served as Paratha which is made from a unique combination of Besan, Barley, Sprouted wheat, and whole wheat flour",
-imageId: "az95utmfdqaup9v0lpsk",
-inStock: 1,
-isVeg: 1,
-price: 6900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.3",
-ratingCount: "50 ratings",
-ratingCountV2: "50"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "75943324",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "6900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "153479363",
-name: "Assorted Paratha Basket [4 pc]",
-category: "Breads",
-description: "[4pc] Box of 1 Flaky paratha, 1 Garlic paratha, 1 Lacha paratha, 1 Missi Paratha",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2024/10/18/111fbd62-2573-42a8-96b5-6a072d14c8e2_a4cd2b9f-bf5c-48df-9cdc-bbcd397f7f24.jpg",
-inStock: 1,
-isVeg: 1,
-price: 25900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "9 ratings",
-ratingCountV2: "9"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "91369469",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "25900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513202",
-name: "Paratha Basket [8 pc]",
-category: "Breads",
-description: "[8 Pc] | Box of 4 flaky paratha and 4 garlic paratha",
-imageId: "im6r6842vxbwmf8ql0nd",
-inStock: 1,
-isVeg: 1,
-price: 50900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "4 ratings",
-ratingCountV2: "4"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050589",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "50900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "63812712"
-},
-{
-title: "Roti",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361503",
-name: "Roomali Roti (1 pc)",
-category: "Breads",
-description: "[1pc] Paper-thin, melt-in-mouth flatbread made to perfection.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/a6703c15-93ed-484f-a708-9ffdd6d862eb_75ea9735-6c00-40cf-9b4e-c1595d1fa06d.jpg",
-inStock: 1,
-isVeg: 1,
-price: 3900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "14 ratings",
-ratingCountV2: "14"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584960",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "3900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "166207798",
-name: "Multigrain Roti (Pack of 3)",
-category: "Breads",
-description: "[3pc] Wholesome, soft roti power packed with blend of whole wheat, ragi and bajra - delicious and nutritious",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/3/6/92917865-1675-496d-b562-e0b9a26c7a02_7dc05784-dbda-4c25-aa50-2f853ad5309f.jpg",
-inStock: 1,
-isVeg: 1,
-price: 4900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.4",
-ratingCount: "24 ratings",
-ratingCountV2: "24"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "101544361",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "4900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249142"
-},
-{
-title: "Baked Whole Wheat Paratha",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "178552627",
-name: "Baked Whole Wheat Paratha Namak Ajwain (1 pc)",
-category: "Breads",
-description: "[1pc] Namak Ajwain Flaky whole-wheat Baked paratha served with Achar",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/5/28/1cbbddc5-c0c7-44a1-8715-d01083220b40_19129448-ee28-4bd2-80d6-645cc3f791e5.jpg",
-inStock: 1,
-isVeg: 1,
-price: 13500,
-finalPrice: 9900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-offerTags: [
-{
-matchText: "SILD"
-}
-],
-itemBadge: { },
-badgesV2: { },
-itemNudgeType: "FinalPrice",
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-cartContext: "quick_prep",
-offerIds: [
-"bf119103-d99a-4c01-b9ec-1b1eb86e0b39"
-],
-isNinetyninestoreItem: true,
-parentId: "108102237",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "13500"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "178552626",
-name: "Baked Whole Wheat Paratha Aloo pyaaz (1 pc)",
-category: "Breads",
-description: "[1pc] Aloo Pyaaz Flaky whole-wheat Baked paratha served with Achar",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/5/28/033429ef-6829-440d-b8b1-d9ed14789c22_273a2ccd-d6c4-4cff-a5a7-ce29e58f8030.jpg",
-inStock: 1,
-isVeg: 1,
-price: 15500,
-finalPrice: 11900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-offerTags: [
-{
-matchText: "SILD"
-}
-],
-itemBadge: { },
-badgesV2: { },
-itemNudgeType: "FinalPrice",
-ratings: {
-aggregatedRating: {
-rating: "4.3",
-ratingCount: "6 ratings",
-ratingCountV2: "6"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-cartContext: "quick_prep",
-offerIds: [
-"3dddcbfa-7648-4020-9a04-80d76de49366"
-],
-isNinetyninestoreItem: true,
-parentId: "108102236",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "15500",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "165771278",
-name: "Baked Whole Wheat Paratha Namak Ajwain (2 pc)",
-category: "Breads",
-description: "[2pc] Namak Ajwain Flaky whole-wheat Baked paratha served with Achar",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/2/28/f430d9ee-3d39-44f6-8607-cbfc4a2fb884_a300879e-d9b3-47be-87c3-6fbdb2c0f997.jpg",
-inStock: 1,
-isVeg: 1,
-price: 19900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.8",
-ratingCount: "4 ratings",
-ratingCountV2: "4"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "99845836",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "19900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "165771279",
-name: "Baked Whole Wheat Paratha Aloo pyaaz (2 pc)",
-category: "Breads",
-description: "[2pc] Aloo Pyaaz Flaky whole-wheat Baked paratha served with Achar",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/2/28/2457d12c-7770-4073-a8bf-c4ef2e33fd23_db9fe403-184a-43b7-825d-6cb2052f1800.jpg",
-inStock: 1,
-isVeg: 1,
-price: 19900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.2",
-ratingCount: "15 ratings",
-ratingCountV2: "15"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "99845835",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "19900"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249143"
-},
-{
-title: "Rice",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361505",
-name: "Signature Rice",
-category: "Breads",
-description: "Beet root and Kasturi methi infused Pulao cooked in Ghee",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/196afe57-3791-4512-9374-cebc4aae69a6_e84511d8-58e4-4f38-bda8-750c74352fb2.jpg",
-inStock: 1,
-isVeg: 1,
-price: 16900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.1",
-ratingCount: "8 ratings",
-ratingCountV2: "8"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "121333784",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "16900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249144"
-}
-],
-image: "fkznvdrkrgrwuekme5nq",
-categoryId: "63812709"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Desserts",
-categories: [
-{
-title: "Desserts",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513209",
-name: "Gulab Jamun Desi Ghee( 2 Pieces)",
-category: "Desserts",
-description: "[2 Pc] Traditional Gulab Jamun made in Desi Ghee",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/3868855d-fa07-472c-9108-df6536dee48c_a1112f39-8a32-4aec-badc-a4f48ced5b30.jpg",
-inStock: 1,
-isVeg: 1,
-price: 7900,
-finalPrice: 6900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-offerTags: [
-{
-matchText: "SILD"
-}
-],
-itemBadge: { },
-badgesV2: { },
-itemNudgeType: "FinalPrice",
-ratings: {
-aggregatedRating: {
-rating: "4.7",
-ratingCount: "13 ratings",
-ratingCountV2: "13"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-cartContext: "quick_prep",
-offerIds: [
-"a15d337e-96d2-4c15-9b91-556d61a5d92c"
-],
-isNinetyninestoreItem: true,
-parentId: "40050566",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "7900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "115986654",
-name: "Moong Dal Halwa Desi Ghee",
-category: "Desserts",
-description: "[150 g] Authentic Moong Dal Halwa made in Desi Ghee",
-imageId: "oovvhm9ybvhviatcjalx",
-inStock: 1,
-isVeg: 1,
-price: 14900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.2",
-ratingCount: "53 ratings",
-ratingCountV2: "53"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050581",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "14900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "115986655",
-name: "Gulab Jamun Desi Ghee( 6 Pieces)",
-category: "Desserts",
-description: "[6 Pc] Traditional Gulab Jamun made in Desi Ghee",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/89a0c838-b04c-451e-954c-49db0e9ae573_ccd9ed1d-b4dc-4620-bdca-fa700a5b5e47.jpg",
-inStock: 1,
-isVeg: 1,
-price: 22900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "42216534",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "22900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "18627259"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/3868855d-fa07-472c-9108-df6536dee48c_a1112f39-8a32-4aec-badc-a4f48ced5b30.jpg",
-categoryId: "29370954"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Drinks",
-categories: [
-{
-title: "Drinks",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361506",
-name: "Classic Mint Lemonade.",
-category: "Drinks",
-description: "[300ml] Refreshing zesty summer cooler with real mint flavour and soda.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/51f17e37-5f54-456f-a70e-37ba5e7e85e5_cb228618-4ffb-442b-9c94-46109bcb715a.jpg",
-inStock: 1,
-isVeg: 1,
-price: 7900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "3.9",
-ratingCount: "3 ratings",
-ratingCountV2: "3"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#D9EFEC",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_medium",
-ratingTextColor: "rating_medium",
-ratingCountTextColor: "rating_medium",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "104584944",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "7900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513212",
-name: "Masala Soda",
-category: "Drinks",
-description: "[300 ml] Classic Indian beverage which will take you to the memories of childhood",
-imageId: "y5sk7hodwnfiefowklty",
-inStock: 1,
-isVeg: 1,
-price: 7900,
-finalPrice: 6900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "264215034",
-groupName: "Ice",
-choices: [
-{
-id: "133775960",
-name: "Regular Ice",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "133775959",
-name: "No Ice",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "133775965",
-name: "Less Ice",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "133775961",
-name: "Extra Ice",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 1,
-maxFreeAddons: -1,
-minAddons: 1
-},
-{
-groupId: "264215035",
-groupName: "Sugar",
-choices: [
-{
-id: "133775962",
-name: "Regular Sugar",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "133775967",
-name: "No Sugar",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 1,
-maxFreeAddons: -1,
-minAddons: 1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-offerTags: [
-{
-matchText: "SILD"
-}
-],
-itemBadge: { },
-badgesV2: { },
-itemNudgeType: "FinalPrice",
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "12 ratings",
-ratingCountV2: "12"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-cartContext: "quick_prep",
-offerIds: [
-"a15d337e-96d2-4c15-9b91-556d61a5d92c"
-],
-isNinetyninestoreItem: true,
-parentId: "40050578",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "7900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361509",
-name: "Mango Shake.",
-category: "Drinks",
-description: "[300ml] A creamy, refreshing blend of ripe mangoes and milk—pure tropical goodness in every sip",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/a8611169-3216-4484-b9e9-81bb21d0985b_59321e45-7ff3-43b3-a53b-a08f63358719.jpg",
-inStock: 1,
-isVeg: 1,
-price: 14900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584955",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "14900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "89529573",
-name: "Special Mint Masala Chaach",
-category: "Drinks",
-description: "[300ml] A refreshing mint-flavoured chaach blended with traditional masala and seasoned with sendha namak, making it a perfect cooling drink during the Navratri vrat season.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/9/20/0be28d2d-a68d-4792-83ba-dd248351b1f3_76d9a25e-f093-451a-a956-7a0c4f468a0b.jpg",
-inStock: 1,
-isVeg: 1,
-price: 16900,
-variants: { },
-variantsV2: { },
-addons: [
-{
-groupId: "283598560",
-groupName: "Ice",
-choices: [
-{
-id: "133775963",
-name: "Regular Ice",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "133775966",
-name: "No Ice",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "133775964",
-name: "Less Ice",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-id: "133775958",
-name: "Extra Ice",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-],
-maxAddons: 1,
-maxFreeAddons: -1,
-minAddons: 1
-}
-],
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "47723958",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "16900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "80513214",
-name: "Mineral Water",
-category: "Drinks",
-description: "[500 ml] | Safe & hygienic bottle of water to quench your thirst",
-imageId: "a4ce5vl16fgim8fjfkks",
-inStock: 1,
-isVeg: 1,
-price: 6000,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "5.0",
-ratingCount: "2 ratings",
-ratingCountV2: "2"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "40050579",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_final_price: "0",
-swiggy_listing_price: "6000"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249145"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/51f17e37-5f54-456f-a70e-37ba5e7e85e5_cb228618-4ffb-442b-9c94-46109bcb715a.jpg",
-categoryId: "58474704"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Rolls",
-categories: [
-{
-title: "Rolls",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361512",
-name: "Aloo Roll",
-category: "Rolls",
-description: "Spicy tandoori aloo wrapped in malabar paratha with chutney.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/c94e57e3-5f45-4ec0-8fb2-ecc0643f4097_0ae04fe9-083d-4170-8914-1e89f3334b10.jpg",
-inStock: 1,
-isVeg: 1,
-price: 20900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584937",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "20900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361513",
-name: "Paneer Tikka Roll.",
-category: "Rolls",
-description: "Soft Paneer Tikka pieces wrapped in a crunchy Malabar Paratha, with Red & Green Chili Mayo, Onions, Capsicum and Tomato.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/6df18fdc-40e7-46a0-a305-f06585c32816_a5783140-efef-4f3d-85ac-09042038b303.jpg",
-inStock: 1,
-isVeg: 1,
-price: 22900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584958",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "22900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-},
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361515",
-name: "Chicken Tikka Roll.",
-category: "Rolls",
-description: "Succulent Chicken Tikka wrapped in a crunchy Malabar Paratha, with Red & Green Chili Mayo, Onions, Capsicum and Tomato.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/b63f5afd-858f-4bf1-ab92-8d09eec8baf2_c98aec0c-fe1f-4f53-b396-81762a8d6e1a.jpg",
-inStock: 1,
-price: 24900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "NONVEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104584943",
-menuFilterIds: [
-"NONVEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "24900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249155"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2025/6/3/c94e57e3-5f45-4ec0-8fb2-ecc0643f4097_0ae04fe9-083d-4170-8914-1e89f3334b10.jpg",
-categoryId: "70249146"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
-title: "Raita & Sides",
-categories: [
-{
-title: "Raita",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "153479364",
-name: "Raita",
-category: "Raita & Sides",
-description: "Creamy yogurt side dish blended with spices and fresh ingredients",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2024/12/20/5e1b0a8e-91ef-4401-8b8c-205c39a4bd88_ce4e82c8-1622-4f31-8c0a-6ff1cbcbd82a.jpg",
-inStock: 1,
-isVeg: 1,
-price: 8900,
-variants: { },
-variantsV2: {
-variantGroups: [
-{
-groupId: "49687214",
-name: "Size",
-variations: [
-{
-name: "Single",
-default: 1,
-id: "155876542",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-},
-{
-name: "Double",
-price: 40,
-id: "155876543",
-inStock: 1,
-isVeg: 1,
-isEnabled: 1
-}
-]
-}
-],
-pricingModels: [
-{
-variations: [
-{
-groupId: "49687214",
-variationId: "155876542"
-}
-],
-price: 8900,
-finalPrice: {
-units: "89"
-}
-},
-{
-variations: [
-{
-groupId: "49687214",
-variationId: "155876543"
-}
-],
-price: 12900,
-finalPrice: {
-units: "129"
-}
-}
-]
-},
-itemAttribute: {
-vegClassifier: "VEG"
-},
-defaultPrice: 8900,
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: {
-rating: "4.6",
-ratingCount: "17 ratings",
-ratingCountV2: "17"
-},
-ratingsPresentationConfig: {
-bgGradient: {
-colours: [
-"#C8F9E5",
-"#00FFFFFF"
-],
-gradientDirection: "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
-},
-ratingIconColor: "rating_very_good",
-ratingTextColor: "rating_very_good",
-ratingCountTextColor: "rating_very_good",
-ratingFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
-ratingCountFontName: "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
-}
-},
-itemPriceStrikeOff: true,
-parentId: "91369477",
-menuFilterIds: [
-"VEG",
-"offer",
-"toprated"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "8900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249156"
-},
-{
-title: "Sides",
-itemCards: [
-{
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.Dish",
-info: {
-id: "187361516",
-name: "Green Salad",
-category: "Raita & Sides",
-description: "Crunchy onions, tomatoes, cucumber with a zesty lemon-chili kick.",
-imageId: "FOOD_CATALOG/IMAGES/CMS/2025/6/4/1c2eb4c8-c608-4963-bd67-2025f73dd39e_d8d74ecd-4d96-470b-9a4e-c0dbb1326238.jpg",
-inStock: 1,
-isVeg: 1,
-price: 9900,
-variants: { },
-variantsV2: { },
-itemAttribute: {
-vegClassifier: "VEG"
-},
-ribbon: { },
-type: "ITEM",
-itemBadge: { },
-badgesV2: { },
-ratings: {
-aggregatedRating: { }
-},
-itemPriceStrikeOff: true,
-parentId: "104637727",
-menuFilterIds: [
-"VEG",
-"offer"
-],
-priceComparisonComms: { },
-instrumentationMetaMap: {
-swiggy_listing_price: "9900",
-swiggy_final_price: "0"
-}
-},
-analytics: { },
-hideRestaurantDetails: true
-}
-}
-],
-subtitleSuffix: { },
-categoryId: "70249157"
-}
-],
-image: "FOOD_CATALOG/IMAGES/CMS/2024/12/20/5e1b0a8e-91ef-4401-8b8c-205c39a4bd88_ce4e82c8-1622-4f31-8c0a-6ff1cbcbd82a.jpg",
-categoryId: "70249147"
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
-type: "FSSAI",
-imageId: "fssai_final_edss9i",
-text: [
-"License No. 12721052001118"
-]
-}
-}
-},
-{
-card: {
-card: {
-type: "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
-name: "Ghee and Turmeric",
-area: "Raj Nagar",
-completeAddress: "Unit No. 1st Floor, Plot No.2, Sanjay Nagar, Raj Nagar, Ghaziabad Tahsil, Ghaziabad, Uttar Pradesh, 201002"
-}
-}
-}
-]
-}
-}
-}
-}
-],
-firstOffsetRequest: true,
-isQCLink: false
-},
-tid: "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODI3MTg2NzQsImlhdCI6MTc4MjcxNTA3NCwic2Vzc2lvbl9kYXRhIjoiMzN2RUl5YUdSTitYbXFBWUFjT21RQmdTdFVEK3VvWW5uM2o3N1FoZGNiNGVmTTF5T1VCb0JHUHplYXYrazZ4WmI5YnJsTng1ekQ2UWJyQTN5YUlGY0ZDSlM0NkZwM05FU3VYVUxoQ1JVcnQ1NmRWbFRTY0NpMkxjcHlVck94R3ZlR29iTzNJWmJaaHZDUFRJL0dBejZWSWhudHU0aFNFUXBDNFVXVlhkelhudVRWR2JERll4MDRLTG9IdUhsakd6amozeG9TSENDamo0ZlR4SThTaHdsdz09Iiwic2lkIjoiczcwOGZkNjU5MWUtOGJiYS00ZjY1LWFhYjQtYTk4N2JkM2RjIiwic3ViIjoiYTBiNGQzY2MtYmU0Mi00MzEzLThhNjItNjUyMTY4ZDI5MWQ3IiwidXNlcl9pZCI6IjAifQ.ZLQd_Honcs4hvb1FAZXOFssH1lrGOrr8W8WPyQuQXQc",
-sid: "s708fd6591e-8bba-4f65-aab4-a987bd3dc",
-deviceId: "ec5a1599-29d2-3be3-55af-ed681706041d",
-csrfToken: "OiKLeKMObbWx-gDWSXzpHgimdsm890iX8sEEZ2Fc"
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+                        "text": "Murliwala pure veg",
+                        "headerStyling": {
+                            "textColor": "text_Highest_Emphasis",
+                            "textVariant": "header_H3_Black"
+                        }
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+                        "tabs": [
+                            {
+                                "id": "Order Online",
+                                "title": "Order Online"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "1370617",
+                            "name": "Murliwala pure veg",
+                            "city": "Noida",
+                            "slugs": {
+                                "restaurant": "murliwala-pure-veg-raj-nagar-raj-nagar",
+                                "city": "noida"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2026/4/28/b3600f51-2a56-4abe-b9ee-ea7287bcff9d_1370617.jpg",
+                            "locality": "Raj Nagar",
+                            "areaName": "Turab Nagar",
+                            "costForTwo": "30000",
+                            "costForTwoMessage": "₹300 for two",
+                            "cuisines": [
+                                "Punjabi",
+                                "Indian"
+                            ],
+                            "avgRating": 3.9,
+                            "veg": true,
+                            "feeDetails": {
+                                "restaurantId": "1370617",
+                                "fees": [
+                                    {}
+                                ]
+                            },
+                            "parentId": "780819",
+                            "avgRatingString": "3.9",
+                            "totalRatingsString": "6 ratings",
+                            "sla": {
+                                "restaurantId": "1370617",
+                                "deliveryTime": 37,
+                                "minDeliveryTime": 35,
+                                "maxDeliveryTime": 40,
+                                "lastMileTravel": 1,
+                                "serviceability": "SERVICEABLE",
+                                "stressFactor": 1,
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "zoneId": 440,
+                                "slaString": "35-40 MINS",
+                                "lastMileTravelString": "1.0 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextCloseTime": "2026-07-07 22:30:00",
+                                "visibility": true,
+                                "opened": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "header": "Get items under 129",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "FREE_DELIVERY",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "freedel",
+                                        "discountType": "FREE_DELIVERY",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "murliwala-pure-veg-raj-nagar-raj-nagar",
+                            "isOpen": true,
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Shop No : Shop number -3 , Floor : Ground flo , Ambedkar road , Murliwala Pure Veg, Ambedkar Road, New Gandhi Nagar, Gandhi Nagar, Turab Nagar, Naya Ganj, Ghaziabad, Uttar Pradesh, India"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Punjabi,Indian"
+                                }
+                            ],
+                            "totalRatings": 6,
+                            "aggregatedDiscountInfoV2": {
+                                "header": "Get items under 129",
+                                "shortDescriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "discountType": "FREE_DELIVERY",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "99 store",
+                                        "discountType": "FinalPrice",
+                                        "operationType": "RESTAURANT"
+                                    },
+                                    {
+                                        "meta": "freedel",
+                                        "discountType": "FREE_DELIVERY",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ]
+                            },
+                            "type": "F",
+                            "nudgeBanners": [
+                                {
+                                    "priority": 1,
+                                    "discountInfo": {
+                                        "discountType": "FinalPrice",
+                                        "value": 129
+                                    },
+                                    "unlockedMessage": "Deal of the Day unlocked!",
+                                    "minItemCount": 1,
+                                    "maxItemCount": 1,
+                                    "type": "SILD",
+                                    "nudgeTagInfo": {
+                                        "title": "Deal of the Day",
+                                        "fontName": "FONT_NAME_CONDENSED_BOLD"
+                                    },
+                                    "logoCtx": {},
+                                    "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                                }
+                            ],
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/1370617"
+                            },
+                            "ratingSlab": "RATING_SLAB_4",
+                            "orderabilityCommunication": {
+                                "title": {},
+                                "subTitle": {},
+                                "message": {},
+                                "customIcon": {},
+                                "commsStyling": {}
+                            },
+                            "hasBestsellerItems": true,
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "28.658945,77.43529470000001",
+                            "backgroundImageOverlayInfo": {},
+                            "featuredSectionInfo": {},
+                            "requestContexts": [
+                                "enable_ecosaver",
+                                "99store"
+                            ],
+                            "timingsInfo": {
+                                "status": "Open now",
+                                "message": "Closes 10:30 pm",
+                                "outletTiming": {
+                                    "infoList": [
+                                        {
+                                            "title": "Monday",
+                                            "subtitle": "9.00AM - 10.30PM",
+                                            "titleColor": "text_high_emphasis",
+                                            "subtitleColor": "text_high_emphasis"
+                                        },
+                                        {
+                                            "title": "Tuesday",
+                                            "subtitle": "9.00AM - 10.30PM",
+                                            "titleColor": "primary",
+                                            "subtitleColor": "primary"
+                                        },
+                                        {
+                                            "title": "Wednesday",
+                                            "subtitle": "9.00AM - 10.30PM",
+                                            "titleColor": "text_high_emphasis",
+                                            "subtitleColor": "text_high_emphasis"
+                                        },
+                                        {
+                                            "title": "Thursday",
+                                            "subtitle": "9.00AM - 10.15PM",
+                                            "titleColor": "text_high_emphasis",
+                                            "subtitleColor": "text_high_emphasis"
+                                        },
+                                        {
+                                            "title": "Friday",
+                                            "subtitle": "9.00AM - 10.30PM",
+                                            "titleColor": "text_high_emphasis",
+                                            "subtitleColor": "text_high_emphasis"
+                                        },
+                                        {
+                                            "title": "Saturday",
+                                            "subtitle": "9.00AM - 10.30PM",
+                                            "titleColor": "text_high_emphasis",
+                                            "subtitleColor": "text_high_emphasis"
+                                        },
+                                        {
+                                            "title": "Sunday",
+                                            "subtitle": "9.00AM - 10.30PM",
+                                            "titleColor": "text_high_emphasis",
+                                            "subtitleColor": "text_high_emphasis"
+                                        }
+                                    ],
+                                    "title": "Outlet timings"
+                                },
+                                "styleInfo": {
+                                    "titleColor": "positive",
+                                    "subtitleColor": "text_color_low_emphasis"
+                                }
+                            },
+                            "phone": "8368840930",
+                            "postalCode": "201001"
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_AND_SHOW_MENU_OFFER_NUDGE",
+                        "sectionId": "MENU_ITEM_CART_UPDATE_POP_CROUTON"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 5,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            }
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "ITEMS AT ₹129",
+                                            "offerTag": "DEAL OF DAY",
+                                            "offerTagColor": "#E46D47",
+                                            "offerIds": [
+                                                "7c5e5230-0734-443d-8f3c-768d294e45a6"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "description": "ON SELECT ITEMS |",
+                                            "offerType": "offers",
+                                            "restId": "1370617",
+                                            "offerLogo": "offers/deal-of-day",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹75",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/7/1/7841ada3-e1b0-45dc-93ef-287956cbcebb_Visa.png",
+                                            "offerIds": [
+                                                "2b8ea76f-48ac-4f20-b28f-abb1c63cc5a2"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE VISAPLATINUMCC",
+                                            "description": "ABOVE ₹600",
+                                            "offerType": "offers",
+                                            "restId": "1370617",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/7/1/7841ada3-e1b0-45dc-93ef-287956cbcebb_Visa.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE VISAPLATINUMCC"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹75",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/7/1/f0d43a50-1d76-41fc-ae41-264186c9df55_Visa.png",
+                                            "offerIds": [
+                                                "a8edff34-259b-4037-92e1-a21bcf88850a"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE VISAPLATINUMDC",
+                                            "description": "ABOVE ₹300",
+                                            "offerType": "offers",
+                                            "restId": "1370617",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/7/1/f0d43a50-1d76-41fc-ae41-264186c9df55_Visa.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE VISAPLATINUMDC"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "FLAT ₹150 OFF",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/6/30/320845c3-1844-40e9-8432-a4bd4325ae7b_Axis.png",
+                                            "offerIds": [
+                                                "25de549d-930b-4b55-a84d-25701564aaeb"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE AXISREWARDS",
+                                            "description": "ABOVE ₹500",
+                                            "offerType": "offers",
+                                            "restId": "1370617",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/6/30/320845c3-1844-40e9-8432-a4bd4325ae7b_Axis.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE AXISREWARDS"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    },
+                                    {
+                                        "info": {
+                                            "header": "10% OFF UPTO ₹50",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2026/7/1/ce6958d6-d674-4a28-92b0-a8411dfd5c68_Visa.png",
+                                            "offerIds": [
+                                                "45cac2a7-6bdb-4776-99af-56b3b2654d10"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE VISACLASSICDC",
+                                            "description": "ABOVE ₹300",
+                                            "offerType": "offers",
+                                            "restId": "1370617",
+                                            "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2026/7/1/ce6958d6-d674-4a28-92b0-a8411dfd5c68_Visa.png",
+                                            "descriptionTextColor": "#7302060C",
+                                            "primaryDescription": "USE VISACLASSICDC"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                },
+                                "loyaltyDiscoverPresentationInfo": {
+                                    "logoCtx": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "isPureVeg": true,
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {
+                                                "attributes": {
+                                                    "displayText": "Ratings 4.0+"
+                                                }
+                                            },
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        },
+                                        "relevance": {
+                                            "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                                            "sectionId": "MENU_FILTER_TOGGLE"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Chur Chur Naan",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940355",
+                                                            "name": "Aloo Chur Chur Naan [1 Plate]",
+                                                            "category": "Chur Chur Naan",
+                                                            "description": "Indulge in a delightful, flaky bread filled with savory, seasoned potato goodness that promises a burst of flavor in every bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/26d2b1ec-c7c0-49a4-b8e4-dc046fe2ea5a_acb4ded3-effa-471f-8286-e1530db057ea.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401525",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "21000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940356",
+                                                            "name": "Aloo Pyaz Chur Chur Naan [1 Plate]",
+                                                            "category": "Chur Chur Naan",
+                                                            "description": "Indulge in a delightful combination of fluffy, crisp naan infused with savory potato and onion, promising a burst of flavor in every bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/312aa3c6-7c7e-4b60-b72c-c01c7ce4f3c2_00e37818-45c8-4687-a87d-ab9b5e5fc830.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 22500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401529",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "22500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940357",
+                                                            "name": "Paneer Chur Chur Naan [1 Plate]",
+                                                            "category": "Chur Chur Naan",
+                                                            "description": "Indulge in soft, flaky bread filled with creamy cheese, delivering a delightful experience with every bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/70d47449-1ae8-4e8a-bb16-fb0a28c3c32c_1d1a07a2-76f1-45ad-9c28-e6e49e901434.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401546",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_final_price": "0",
+                                                                "swiggy_listing_price": "24000"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940358",
+                                                            "name": "Aloo Gobhi Chur Chur Naan [1 Plate]",
+                                                            "category": "Chur Chur Naan",
+                                                            "description": "Indulge in a delightfully flaky bread stuffed with a savory blend of potatoes and cauliflower, creating a mouthwatering experience.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/225c53d3-6b34-4870-ada7-ea044cc2cbe1_5d80c93a-3ca9-419e-b233-e0eba0a56ffb.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401526",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "24000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940359",
+                                                            "name": "Mix Chur Chur Naan [1 Plate]",
+                                                            "category": "Chur Chur Naan",
+                                                            "description": "Indulge in a crispy, flaky delight that’s layered with rich flavors and served fresh, perfect for any occasion.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/2515323b-4de0-4c7b-bb3e-0e6d8833dc25_0c89f1a1-3fe1-4367-9023-f127bdf268c9.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 24000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401542",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "24000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/26d2b1ec-c7c0-49a4-b8e4-dc046fe2ea5a_acb4ded3-effa-471f-8286-e1530db057ea.jpg",
+                                            "categoryId": "74709854"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Chaap",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940378",
+                                                            "name": "Malai Chaap",
+                                                            "category": "Chaap",
+                                                            "description": "Indulge in tender, marinated pieces grilled to perfection, offering a creamy, rich flavor that melts in your mouth.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/d7080e81-d93c-4f58-8612-9370d8cc2350_b7659d1a-4389-44d4-b6f9-414d1f4d7edc.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19500,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200785",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half",
+                                                                                "default": 1,
+                                                                                "id": "219920816",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full",
+                                                                                "price": 10500,
+                                                                                "id": "219920817",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401540",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "19500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940379",
+                                                            "name": "Afghani Chaap",
+                                                            "category": "Chaap",
+                                                            "description": "Delight in the rich flavors of tender, marinated goodness, perfectly grilled to a smoky finish.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/0b0269e4-2b2a-433e-a8d9-f7be54a2c18a_2c06570e-0f89-406f-b189-d5600e3b3a39.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21000,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200786",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half",
+                                                                                "default": 1,
+                                                                                "id": "219920818",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full",
+                                                                                "price": 12000,
+                                                                                "id": "219920819",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401524",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "21000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940380",
+                                                            "name": "Masala Chaap",
+                                                            "category": "Chaap",
+                                                            "description": "Tender, marinated pieces are cooked to perfection, bursting with aromatic flavors that create an unforgettable taste experience.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/b6d9b4ad-e65d-4834-a371-6f94e4afad89_98768658-59a2-44d3-bbd9-7a30a0c22b71.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19500,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200787",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half",
+                                                                                "default": 1,
+                                                                                "id": "219920820",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full",
+                                                                                "price": 10500,
+                                                                                "id": "219920821",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401541",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "19500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940381",
+                                                            "name": "Achari Chaap",
+                                                            "category": "Chaap",
+                                                            "description": "Savor the rich, tangy flavors of this marinated delight, perfectly grilled to create a smoky, mouthwatering experience.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/9484d4dd-3c36-4339-9718-ab799cf78c88_b04a8d48-1ccb-43cb-8a83-15826ee7b6c1.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19500,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200788",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half",
+                                                                                "default": 1,
+                                                                                "id": "219920822",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full",
+                                                                                "price": 10500,
+                                                                                "id": "219920823",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401523",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "19500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/d7080e81-d93c-4f58-8612-9370d8cc2350_b7659d1a-4389-44d4-b6f9-414d1f4d7edc.jpg",
+                                            "categoryId": "74709860"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Paneer Momos",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940375",
+                                                            "name": "Steam Paneer Momos",
+                                                            "category": "Paneer Momos",
+                                                            "description": "Delight in these soft, fluffy dumplings filled with creamy cheese, offering a savory burst of flavor in every bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/ca2d2287-ae40-4e49-a11a-bee291883354_4ef99e66-d5fc-48c3-b4eb-0defb206f01b.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 12000,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200782",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half [5 Pieces]",
+                                                                                "default": 1,
+                                                                                "id": "219920810",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full [8 Pieces]",
+                                                                                "price": 3000,
+                                                                                "id": "219920811",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401553",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "12000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940376",
+                                                            "name": "Fried Paneer Momos",
+                                                            "category": "Paneer Momos",
+                                                            "description": "Delight in these delectable dumplings, featuring succulent cheese encased in a crispy golden shell, perfect for any occasion.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/88c7279d-2185-477a-8f05-e91f695c691a_61b0eed4-b0ce-4602-b9e3-61826f146ff5.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15000,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200783",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half [5 Pieces]",
+                                                                                "default": 1,
+                                                                                "id": "219920812",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full [8 Pieces]",
+                                                                                "price": 3000,
+                                                                                "id": "219920813",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401536",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "15000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940377",
+                                                            "name": "Tandoori Paneer Momos",
+                                                            "category": "Paneer Momos",
+                                                            "description": "Delight in these flavorful dumplings, where succulent paneer is infused with aromatic spices and grilled to perfection for a mouthwatering experience.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/57dd5c28-0132-40ee-bc69-afe94ef6a221_3d1c21d8-ad21-406a-8dd6-015f2b31f0d2.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18000,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200784",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half [5 Pieces]",
+                                                                                "default": 1,
+                                                                                "id": "219920814",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full [8 Pieces]",
+                                                                                "price": 4500,
+                                                                                "id": "219920815",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401555",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "18000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/ca2d2287-ae40-4e49-a11a-bee291883354_4ef99e66-d5fc-48c3-b4eb-0defb206f01b.jpg",
+                                            "categoryId": "74709859"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Main Course",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940349",
+                                                            "name": "Chole Bhature",
+                                                            "category": "Main Course",
+                                                            "description": "Indulge in fluffy, golden-fried bread accompanied by rich, flavorful chickpeas simmered to perfection.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/aad42cd4-f8af-4690-a271-fc09852699a5_5ce9b4ee-f901-4357-bb7f-74ae9f0f5b40.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "124149354",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "13500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/aad42cd4-f8af-4690-a271-fc09852699a5_5ce9b4ee-f901-4357-bb7f-74ae9f0f5b40.jpg",
+                                            "categoryId": "74709852"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Amritsari Kulcha",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940350",
+                                                            "name": "Aloo Kulcha [1 Plate]",
+                                                            "category": "Amritsari Kulcha",
+                                                            "description": "Indulge in a soft, flavorful bread stuffed with a savory filling, delivering a delightful taste of tradition.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/af14d8a9-e119-4ca6-bd3c-d58a06992f8c_cdda5608-083a-42df-9553-59fd55ee3737.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 13500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401528",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "13500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940351",
+                                                            "name": "Aloo Pyaz Kulcha [1 Plate]",
+                                                            "category": "Amritsari Kulcha",
+                                                            "description": "Indulge in a warm, fluffy bread infused with the delightful flavors of potatoes and onions, perfect for a satisfying bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/296f84a3-34ac-42f3-9ea3-f0628549c61b_ccfa0cdb-87a2-4aeb-bcd2-6557248b0b42.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15000,
+                                                            "finalPrice": 12900,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "offerTags": [
+                                                                {
+                                                                    "matchText": "SILD"
+                                                                }
+                                                            ],
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "itemNudgeType": "FinalPrice",
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "cartContext": "quick_prep",
+                                                            "offerIds": [
+                                                                "7c5e5230-0734-443d-8f3c-768d294e45a6"
+                                                            ],
+                                                            "isNinetyninestoreItem": true,
+                                                            "parentId": "122401530",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "15000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940352",
+                                                            "name": "Aloo Gobhi Kulcha [1 Plate]",
+                                                            "category": "Amritsari Kulcha",
+                                                            "description": "Indulge in a warm, flaky bread stuffed with a flavorful mix of potatoes and cauliflower, perfectly baked for a delightful experience.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/b16dfd68-a366-43de-b942-71dc325a17fb_ac2da59a-a2ba-4681-9624-83a3d929067e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401527",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "18000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940353",
+                                                            "name": "Paneer Kulcha [1 Plate]",
+                                                            "category": "Amritsari Kulcha",
+                                                            "description": "Soft and fluffy bread stuffed with creamy cottage cheese, offering a delightful taste of tradition.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/77e5de8e-7866-402b-ac6f-1d8530d86ee9_e64c3e5d-5474-42cb-81fd-80fa238213f8.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401547",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "18000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940354",
+                                                            "name": "Mix Kulcha [1 Plate]",
+                                                            "category": "Amritsari Kulcha",
+                                                            "description": "Indulge in a tantalizing medley of flavors, featuring soft, fluffy bread baked to perfection, offering a delightful taste experience.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/a03c9cc8-bb47-494d-a0c7-dc854937e02d_017d85d0-3161-4364-a9a2-1929108f2769.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401543",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "18000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/af14d8a9-e119-4ca6-bd3c-d58a06992f8c_cdda5608-083a-42df-9553-59fd55ee3737.jpg",
+                                            "categoryId": "74709853"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Main Curry",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940363",
+                                                            "name": "Dal Makhni",
+                                                            "category": "Main Curry",
+                                                            "description": "A rich and creamy lentil curry, slow-cooked to perfection, offering a comforting and indulgent experience.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/fc5a1a8b-1c50-4818-86f7-f13d5c3463d8_8cabc02a-12bc-4d01-9e1e-c70e5cead179.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7500,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200776",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Quarter [250 ml]",
+                                                                                "default": 1,
+                                                                                "id": "219920795",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Half [500 ml]",
+                                                                                "price": 6000,
+                                                                                "id": "219920796",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full [750 ml]",
+                                                                                "price": 13500,
+                                                                                "id": "219920797",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401535",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "7500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940364",
+                                                            "name": "Chole",
+                                                            "category": "Main Curry",
+                                                            "description": "A hearty, aromatic curry that features tender legumes simmered in a rich, flavorful sauce, perfect for satisfying cravings.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/1e7e3a5b-e036-488e-a695-beae05718ec0_dbcf3ab0-981e-4f2a-bf5b-9e5e6eb3a09e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7500,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200777",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Quarter [250 ml]",
+                                                                                "default": 1,
+                                                                                "id": "219920798",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Half [500 ml]",
+                                                                                "price": 6000,
+                                                                                "id": "219920799",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full [750 ml]",
+                                                                                "price": 13500,
+                                                                                "id": "219920800",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401533",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "7500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/fc5a1a8b-1c50-4818-86f7-f13d5c3463d8_8cabc02a-12bc-4d01-9e1e-c70e5cead179.jpg",
+                                            "categoryId": "74709856"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Breads",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940366",
+                                                            "name": "1  Rumali Roti",
+                                                            "category": "Breads",
+                                                            "description": "A soft, thin bread with a delicate texture, perfect for wrapping around your favorite fillings or enjoying on its own.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/eddeda78-0167-4730-8736-6b543ef2f74c_c5641c18-7c61-4341-84d4-c69b5f1444a6.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 2300,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401518",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "2300",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940368",
+                                                            "name": "1  Tandoori Butter Roti",
+                                                            "category": "Breads",
+                                                            "description": "This soft, buttery flatbread is baked to perfection, offering a delightful, smoky flavor that pairs beautifully with any meal.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/bdda1169-0024-461f-95e5-36bacac9661b_abc28279-302d-472b-9dc3-2f7a52739b96.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401519",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "3000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940369",
+                                                            "name": "1  Plain Naan",
+                                                            "category": "Breads",
+                                                            "description": "This soft, pillowy bread boasts a warm, inviting texture that perfectly complements any meal.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/308f0e1b-16c9-4167-97cd-a7808ddec63b_c062d002-e633-4bd6-afdc-a060b3dbb039.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 5300,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401517",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "5300",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940370",
+                                                            "name": "1  Butter Naan",
+                                                            "category": "Breads",
+                                                            "description": "Soft, pillowy bread with a golden, buttery finish, perfect for savoring any flavorful accompaniment.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/0792c9a3-94d7-4fcb-a02a-2adeb00e530c_9e064d61-6446-4e58-8e6f-1bc10d0027e8.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6800,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401515",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "6800",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940371",
+                                                            "name": "1  Lachha Parantha",
+                                                            "category": "Breads",
+                                                            "description": "Flaky and layered, this Indian bread offers a delightful crunch and a warm, comforting texture.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/d21165b4-c84e-4fda-a922-3a10f7b1a20d_110320f0-c4e4-40a1-86a1-ec1a3c64f897.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 7500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401516",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "7500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/eddeda78-0167-4730-8736-6b543ef2f74c_c5641c18-7c61-4341-84d4-c69b5f1444a6.jpg",
+                                            "categoryId": "74709857"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Rolls",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940384",
+                                                            "name": "Paneer Roll [1 Piece]",
+                                                            "category": "Rolls",
+                                                            "description": "Indulge in a delightful medley wrapped in a soft, warm roll, featuring creamy, flavorful filling that promises a satisfying bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/56836476-16a2-4604-9faf-47683b282d8e_68dda7ff-7a06-41dd-95c8-4ac3cb14a7ac.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401548",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "19500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940385",
+                                                            "name": "Kathi Roll [1 Piece]",
+                                                            "category": "Rolls",
+                                                            "description": "Indulge in a delectable wrap that combines rich flavors and tender textures, perfect for a satisfying snack.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/247a4662-15a4-4279-9d06-ddd2c417e23a_0b7b598f-43ed-4269-b7a7-80e7113263fa.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 10500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401538",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "10500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940387",
+                                                            "name": "Mix Veg Roll [1 Piece]",
+                                                            "category": "Rolls",
+                                                            "description": "Delight in a crispy, golden exterior filled with a medley of fresh, flavorful vegetables, offering a satisfying bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/1b15f691-8cb2-4aac-9638-741eea1e513e_82f87699-3a94-40eb-bf29-e2f5a40c621c.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401545",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "15000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940388",
+                                                            "name": "Chaap Roll [1 Piece]",
+                                                            "category": "Rolls",
+                                                            "description": "Indulge in a flavorful roll, filled with a medley of savory ingredients wrapped in a soft, warm embrace.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/07ed2cdd-1c98-42f7-9b6d-d0c1847f9d04_c256d1ac-3500-46a8-b53f-2ccf9cbe78d6.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 18000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401531",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "18000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940389",
+                                                            "name": "Paneer Tikka Roll [1 Piece]",
+                                                            "category": "Rolls",
+                                                            "description": "Indulge in a flavorful wrap filled with marinated chunks of grilled cheese, complemented by vibrant spices and tangy sauces.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/0bc52e6d-d675-4f58-aefa-1e2c76126675_133c3bca-baa8-40ae-99f5-0e6ca712b234.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 21000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401550",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "21000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/56836476-16a2-4604-9faf-47683b282d8e_68dda7ff-7a06-41dd-95c8-4ac3cb14a7ac.jpg",
+                                            "categoryId": "74709862"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Veg Momos",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940372",
+                                                            "name": "Steam Veg Momos",
+                                                            "category": "Veg Momos",
+                                                            "description": "Delicately steamed dumplings filled with a medley of vibrant vegetables, offering a delightful burst of flavor in every bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/7548a2bf-7bec-4639-ae3f-78e1b22fa223_10ba8ef4-d446-4f05-ac73-36f491527997.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200779",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half [5 Pieces]",
+                                                                                "default": 1,
+                                                                                "id": "219920804",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full [8 Pieces]",
+                                                                                "price": 3000,
+                                                                                "id": "219920805",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401554",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "9000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940373",
+                                                            "name": "Fried Veg Momos",
+                                                            "category": "Veg Momos",
+                                                            "description": "Delight in crispy, golden dumplings, perfectly filled with a savory blend of fresh vegetables for an irresistible treat.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/d368e546-423b-4be7-a254-4728d62f5dca_151d8193-a384-4db3-9818-15f91213655d.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 10500,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200780",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half [5 Pieces]",
+                                                                                "default": 1,
+                                                                                "id": "219920806",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full [8 Pieces]",
+                                                                                "price": 3000,
+                                                                                "id": "219920807",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401537",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "10500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940374",
+                                                            "name": "Tandoori Veg Momos",
+                                                            "category": "Veg Momos",
+                                                            "description": "Delight in these soft, steamed dumplings, infused with aromatic spices and grilled to perfection, offering a burst of flavor in every bite.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/c417bfc1-abef-4a6c-9f73-6e52428fc616_abf7ab53-e79b-4ea4-9ec6-2097e69c684b.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 15000,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "75200781",
+                                                                        "name": "Quantity",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Half [5 Pieces]",
+                                                                                "default": 1,
+                                                                                "id": "219920808",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Full [8 Pieces]",
+                                                                                "price": 7500,
+                                                                                "id": "219920809",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401556",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "15000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/7548a2bf-7bec-4639-ae3f-78e1b22fa223_10ba8ef4-d446-4f05-ac73-36f491527997.jpg",
+                                            "categoryId": "74709858"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Thali",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940361",
+                                                            "name": "Thali 2 [1 Plate]",
+                                                            "category": "Thali",
+                                                            "description": "Dal makhni + chole + 2 lachha parantha.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/bce14e89-d98c-4fdf-af13-ddcfe09bb8b5_1b14aa3b-4955-437e-ba70-03c5e1750e8b.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401558",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_final_price": "0",
+                                                                "swiggy_listing_price": "19500"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940362",
+                                                            "name": "Thali 3 [1 Plate]",
+                                                            "category": "Thali",
+                                                            "description": "Dal makhni + chole + 2 naan",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/501d87cc-75dd-47d4-8c00-698c91f0f30b_ae72d8b8-a65f-4818-a038-6294768e9bca.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 19500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401559",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "19500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/bce14e89-d98c-4fdf-af13-ddcfe09bb8b5_1b14aa3b-4955-437e-ba70-03c5e1750e8b.jpg",
+                                            "categoryId": "74709855"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Drinks",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940390",
+                                                            "name": "Raita [1 Bowl]",
+                                                            "category": "Drinks",
+                                                            "description": "This refreshing drink offers a creamy, cool balance that perfectly complements any meal, enticing your taste buds with its delightful flavors.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/0ac7a6da-27b3-4fcc-abde-72abf48f882d_d968e25c-a662-4567-b574-7f012e6da3f5.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401551",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "3000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940391",
+                                                            "name": "Lassi [1 Glass]",
+                                                            "category": "Drinks",
+                                                            "description": "This refreshing beverage offers a creamy, smooth texture and a perfect balance of flavors, making each sip a delight.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/8f3fba7c-28cb-4f90-8f2e-ab32fc676810_dc01b00c-ed10-45ad-a2a3-05da5e845069.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {
+                                                                "text": "Bestseller",
+                                                                "textColor": "#ffffff",
+                                                                "topBackgroundColor": "#d53d4c",
+                                                                "bottomBackgroundColor": "#b02331"
+                                                            },
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "isBestseller": true,
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401539",
+                                                            "menuFilterIds": [
+                                                                "bestseller",
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "9000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940392",
+                                                            "name": "Cold Coffee [1 Glass]",
+                                                            "category": "Drinks",
+                                                            "description": "Indulge in a refreshing blend of rich coffee and creamy goodness, perfect for a revitalizing pick-me-up.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/6e587d4b-2480-4e3b-903a-edeb6f05c560_72526ccf-684e-4cc1-823f-c45b09a86c8c.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 9000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401534",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "9000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/0ac7a6da-27b3-4fcc-abde-72abf48f882d_d968e25c-a662-4567-b574-7f012e6da3f5.jpg",
+                                            "categoryId": "74709863"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Snacks",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940382",
+                                                            "name": "Paneer Tikka [Full]",
+                                                            "category": "Snacks",
+                                                            "description": "Savor the smoky, marinated delight of grilled cheese cubes, bursting with rich, aromatic flavors.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/cd7fc556-373e-49b0-98e1-3fba82a9a264_6ac2d6b2-a305-4b46-9c03-0c580d327a10.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 34500,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401549",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "34500",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/cd7fc556-373e-49b0-98e1-3fba82a9a264_6ac2d6b2-a305-4b46-9c03-0c580d327a10.jpg",
+                                            "categoryId": "74709861"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Snacks And Starters",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940347",
+                                                            "name": "Samosa [1 Piece]",
+                                                            "category": "Snacks And Starters",
+                                                            "description": "Crispy and golden on the outside, this delightful treat offers a savory filling that will tantalize your taste buds.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/9688681c-c8b4-48c4-adab-ff121ca2ea23_6fcf15a3-7e6b-4c6e-b149-e2a638f4fadd.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 3000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401552",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "3000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "199940348",
+                                                            "name": "2 Kachori Aloo",
+                                                            "category": "Snacks And Starters",
+                                                            "description": "Indulge in golden, flaky pastries filled with a savory potato mixture, offering a delightful crunch and comforting flavors.",
+                                                            "imageId": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/c8de4165-602a-4bc7-b7f3-8299d4563f0a_9c4ad25b-724a-46c5-8e07-49857b43b52e.jpg",
+                                                            "inStock": 1,
+                                                            "isVeg": 1,
+                                                            "price": 6000,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            },
+                                                            "itemPriceStrikeOff": true,
+                                                            "parentId": "122401522",
+                                                            "menuFilterIds": [
+                                                                "VEG",
+                                                                "offer"
+                                                            ],
+                                                            "priceComparisonComms": {},
+                                                            "instrumentationMetaMap": {
+                                                                "swiggy_listing_price": "6000",
+                                                                "swiggy_final_price": "0"
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ],
+                                            "subtitleSuffix": {},
+                                            "image": "FOOD_CATALOG/IMAGES/CMS/2026/5/8/9688681c-c8b4-48c4-adab-ff121ca2ea23_6fcf15a3-7e6b-4c6e-b149-e2a638f4fadd.jpg",
+                                            "categoryId": "74709851"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.SeoContent",
+                                            "title": "About Murliwala pure veg",
+                                            "description": "<section><h3>Best-Selling Dishes at Murliwala pure veg</h3><p>Murliwala pure veg is a popular food destination in Turab Nagar, Noida, known for serving delicious indian food. Customers can order from Murliwala pure veg for fresh preparation, satisfying portions, and flavorful dishes.</p><h3>Dal Makhni</h3><p>Dal Makhni is one of the popular dishes at Murliwala pure veg. It is prepared with quality ingredients and offers a satisfying taste for customers ordering from Turab Nagar.</p><h3>Malai Chaap</h3><p>Malai Chaap is another preferred item from the menu. It is a good choice for customers looking to enjoy tasty indian food in Noida.</p><h3>Why Customers Love Ordering from Murliwala pure veg</h3><p>Customers prefer Murliwala pure veg for its tasty food, reliable service, quick preparation, and menu choices. The restaurant serves indian dishes along with options such as cold coffee, making it suitable for different food preferences.</p><h3>Enjoy Food from Murliwala pure veg at Home with Swiggy</h3><p>Swiggy makes it easy to order food from Murliwala pure veg in Noida. Customers can browse the menu, choose their favorite dishes, place an order online, make secure payments, track the order live, and enjoy doorstep delivery from Murliwala pure veg in Turab Nagar.</p><h3>Discover More Restaurants in Turab Nagar</h3><p>Turab Nagar has many restaurants offering different cuisines, snacks, meals, desserts, and beverages. Customers exploring food delivery in Noida can discover more restaurants and order their favorite food online through Swiggy.</p></section>"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.FAQSection",
+                                            "title": "FAQs about Murliwala pure veg",
+                                            "qnas": [
+                                                {
+                                                    "question": "Does Murliwala pure veg deliver food in Noida on Swiggy?",
+                                                    "answer": "Yes, Murliwala pure veg delivers food in Noida through Swiggy. Customers can order their favorite dishes online and enjoy doorstep delivery."
+                                                },
+                                                {
+                                                    "question": "What is Murliwala pure veg known for?",
+                                                    "answer": "Murliwala pure veg is known for its indian and popular indian dishes."
+                                                },
+                                                {
+                                                    "question": "What are the most popular dishes at Murliwala pure veg?",
+                                                    "answer": "Some of the popular dishes at Murliwala pure veg include Dal Makhni, Malai Chaap, Steam Veg Momos, and 2 Kachori Aloo."
+                                                },
+                                                {
+                                                    "question": "Does Murliwala pure veg offer vegetarian options?",
+                                                    "answer": "Yes, Murliwala pure veg offers veg options, including 41 vegetarian items."
+                                                },
+                                                {
+                                                    "question": "How can I order from Murliwala pure veg online?",
+                                                    "answer": "Customers can open the Swiggy app or website, search for Murliwala pure veg in Noida, browse the menu, add dishes to the cart, and place the order online."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 22726696000117"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "Murliwala pure veg",
+                                            "area": "Turab Nagar",
+                                            "completeAddress": "Shop No : Shop number -3 , Floor : Ground flo , Ambedkar road , Murliwala Pure Veg, Ambedkar Road, New Gandhi Nagar, Gandhi Nagar, Turab Nagar, Naya Ganj, Ghaziabad, Uttar Pradesh, India"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.PopularSearches",
+                                            "title": "Popular Searches",
+                                            "interlinkingSeoInfo": [
+                                                {
+                                                    "title": "Popular Restaurant In Noida",
+                                                    "links": [
+                                                        {
+                                                            "label": "Burger King",
+                                                            "url": "https://www.swiggy.com/city/noida/burger-king-mahagun-metro-mall-rest166"
+                                                        },
+                                                        {
+                                                            "label": "McDonald's",
+                                                            "url": "https://www.swiggy.com/city/noida/mcdonalds-edm-mall-rest630"
+                                                        },
+                                                        {
+                                                            "label": "Madan Sweets & Restaurant",
+                                                            "url": "https://www.swiggy.com/city/noida/madan-sweets-and-restaurant-gaur-city-2-rest497623"
+                                                        },
+                                                        {
+                                                            "label": "Doon's Vaishno",
+                                                            "url": "https://www.swiggy.com/city/noida/doons-vaishno-gautam-buddha-nagar-rest74103"
+                                                        },
+                                                        {
+                                                            "label": "Old Shiva Da Dhaba",
+                                                            "url": "https://www.swiggy.com/city/noida/old-shiva-da-dhaba-gaur-city-1-rest436117"
+                                                        },
+                                                        {
+                                                            "label": "The Zaika king",
+                                                            "url": "https://www.swiggy.com/city/noida/the-zaika-king-eco-village-1-rest14210"
+                                                        },
+                                                        {
+                                                            "label": "Nathu's Sweets",
+                                                            "url": "https://www.swiggy.com/city/noida/nathus-sweets-raj-nagar-rest1945"
+                                                        },
+                                                        {
+                                                            "label": "Hira Sweets",
+                                                            "url": "https://www.swiggy.com/city/noida/hira-sweets-raj-nagar-rest5155"
+                                                        },
+                                                        {
+                                                            "label": "Badami's Sweets and Restaurant",
+                                                            "url": "https://www.swiggy.com/city/noida/badamis-sweets-and-restaurant-amrapali-leisure-valley-rest39436"
+                                                        },
+                                                        {
+                                                            "label": "Om Sai Hotel",
+                                                            "url": "https://www.swiggy.com/city/noida/om-sai-hotel-iteda-rest151748"
+                                                        },
+                                                        {
+                                                            "label": "Bikkgane Biryani",
+                                                            "url": "https://www.swiggy.com/city/noida/bikkgane-biryani-sector-16c-rest5070"
+                                                        },
+                                                        {
+                                                            "label": "Punjabi Rasoi",
+                                                            "url": "https://www.swiggy.com/city/noida/punjabi-rasoi-gautam-buddha-nagar-rest1270"
+                                                        },
+                                                        {
+                                                            "label": "Bakingo",
+                                                            "url": "https://www.swiggy.com/city/noida/bakingo-crossing-republic-rest3818"
+                                                        },
+                                                        {
+                                                            "label": "Ghar Ka Khana",
+                                                            "url": "https://www.swiggy.com/city/noida/ghar-ka-khana-habibpur-rest22458"
+                                                        },
+                                                        {
+                                                            "label": "Burger Singh(Big Punjabi Burgers)",
+                                                            "url": "https://www.swiggy.com/city/noida/burger-singh-big-punjabi-burgers--rdc-concrete-india-pvt-ltd-rest772431"
+                                                        },
+                                                        {
+                                                            "label": "Thalairaj Biryani",
+                                                            "url": "https://www.swiggy.com/city/noida/thalairaj-biryani-gaur-city-mall-rest433875"
+                                                        },
+                                                        {
+                                                            "label": "Desi Handi",
+                                                            "url": "https://www.swiggy.com/city/noida/desi-handi-gaur-city-1-rest22163"
+                                                        },
+                                                        {
+                                                            "label": "California Burrito",
+                                                            "url": "https://www.swiggy.com/city/noida/california-burrito-gautam-buddha-nagar-rest1252"
+                                                        },
+                                                        {
+                                                            "label": "Rominus Pizza And Burger",
+                                                            "url": "https://www.swiggy.com/city/noida/rominus-pizza-and-burger-raj-nagar-rest8387"
+                                                        },
+                                                        {
+                                                            "label": "Khadak Singh Da Dhaba",
+                                                            "url": "https://www.swiggy.com/city/noida/khadak-singh-da-dhaba-amrapali-dream-valley-rest13170"
+                                                        },
+                                                        {
+                                                            "label": "Biryani Mahal",
+                                                            "url": "https://www.swiggy.com/city/noida/biryani-mahal-shahberi-rest9902"
+                                                        },
+                                                        {
+                                                            "label": "Wrapperz",
+                                                            "url": "https://www.swiggy.com/city/noida/wrapperz-greater-noida-rest409965"
+                                                        },
+                                                        {
+                                                            "label": "Shiva The Dhaba",
+                                                            "url": "https://www.swiggy.com/city/noida/shiva-the-dhaba-gaur-city-1-rest255045"
+                                                        },
+                                                        {
+                                                            "label": "Chawla-Chicken.Com",
+                                                            "url": "https://www.swiggy.com/city/noida/chawla-chicken-com-shahberi-rest5340"
+                                                        },
+                                                        {
+                                                            "label": "Wraps Kathi Rolls",
+                                                            "url": "https://www.swiggy.com/city/noida/wraps-kathi-rolls-gaur-city-1-rest394373"
+                                                        },
+                                                        {
+                                                            "label": "The Yellow Bowl",
+                                                            "url": "https://www.swiggy.com/city/noida/the-yellow-bowl-vaishali-rest15736"
+                                                        },
+                                                        {
+                                                            "label": "Briyyo Biryani",
+                                                            "url": "https://www.swiggy.com/city/noida/briyyo-biryani-dadri-tehsil-1-gautam-buddha-nagar-rest530673"
+                                                        },
+                                                        {
+                                                            "label": "The Zaika Darbar",
+                                                            "url": "https://www.swiggy.com/city/noida/the-zaika-darbar-gautam-buddha-nagar-rest398024"
+                                                        },
+                                                        {
+                                                            "label": "Cold Rock Cafe",
+                                                            "url": "https://www.swiggy.com/city/noida/cold-rock-cafe-gaur-city-2-rest7131"
+                                                        },
+                                                        {
+                                                            "label": "KFC",
+                                                            "url": "https://www.swiggy.com/city/noida/kfc-vaishali-rest547"
+                                                        },
+                                                        {
+                                                            "label": "Biryani By Kilo",
+                                                            "url": "https://www.swiggy.com/city/noida/biryani-by-kilo-gaur-mall-rest130"
+                                                        },
+                                                        {
+                                                            "label": "La Pino'z Pizza",
+                                                            "url": "https://www.swiggy.com/city/noida/la-pinoz-pizza-mahagun-mart-rest4961"
+                                                        },
+                                                        {
+                                                            "label": "Veer J Malai Chaap Wale",
+                                                            "url": "https://www.swiggy.com/city/noida/veer-j-malai-chaap-wale-raj-nagar-rest766170"
+                                                        },
+                                                        {
+                                                            "label": "Red Hot & Chilly Chinese Fast Food",
+                                                            "url": "https://www.swiggy.com/city/noida/red-hot-and-chilly-chinese-fast-food-ajnara-arcade-rest13723"
+                                                        },
+                                                        {
+                                                            "label": "Aggarwal Sweets India",
+                                                            "url": "https://www.swiggy.com/city/noida/aggarwal-sweets-india-rajinder-nagar-rest5058"
+                                                        },
+                                                        {
+                                                            "label": "Bikanervala",
+                                                            "url": "https://www.swiggy.com/city/noida/bikanervala-sahibabad-rest45936"
+                                                        },
+                                                        {
+                                                            "label": "Rollsking",
+                                                            "url": "https://www.swiggy.com/city/noida/rollsking-sector-5-rest4697"
+                                                        },
+                                                        {
+                                                            "label": "Fire House Pizza",
+                                                            "url": "https://www.swiggy.com/city/noida/fire-house-pizza-amrapali-leisure-valley-rest79622"
+                                                        },
+                                                        {
+                                                            "label": "Burger Singh",
+                                                            "url": "https://www.swiggy.com/city/noida/burger-singh-rajendra-nagar-rest51445"
+                                                        },
+                                                        {
+                                                            "label": "Namashkar Sweets & Restaurant",
+                                                            "url": "https://www.swiggy.com/city/noida/namashkar-sweets-and-restaurant-noida-extn-rest443097"
+                                                        },
+                                                        {
+                                                            "label": "The Tandoori Tales",
+                                                            "url": "https://www.swiggy.com/city/noida/the-tandoori-tales--raksha-addela-gaur-city-2-rest404924"
+                                                        },
+                                                        {
+                                                            "label": "The Next Ingredient",
+                                                            "url": "https://www.swiggy.com/city/noida/the-next-ingredient-kavi-nagar-rest211897"
+                                                        },
+                                                        {
+                                                            "label": "Subway",
+                                                            "url": "https://www.swiggy.com/city/noida/subway-pacific-mall-rest2"
+                                                        },
+                                                        {
+                                                            "label": "Taco Bell",
+                                                            "url": "https://www.swiggy.com/city/noida/taco-bell-sector-4-rest1557"
+                                                        },
+                                                        {
+                                                            "label": "Mr. Hungry",
+                                                            "url": "https://www.swiggy.com/city/noida/mr-hungry-sector-10-rest387768"
+                                                        },
+                                                        {
+                                                            "label": "Theobroma",
+                                                            "url": "https://www.swiggy.com/city/noida/theobroma-raj-nagar-rest1040"
+                                                        },
+                                                        {
+                                                            "label": "Goli Vada Pav No.1",
+                                                            "url": "https://www.swiggy.com/city/noida/goli-vada-pav-no-1-vaishali-rest3998"
+                                                        },
+                                                        {
+                                                            "label": "Chaayos Chai+Snacks=Relax",
+                                                            "url": "https://www.swiggy.com/city/noida/chaayos-chai-snacks-relax-sector-23-rest281782"
+                                                        },
+                                                        {
+                                                            "label": "Burger Crunch",
+                                                            "url": "https://www.swiggy.com/city/noida/burger-crunch-crossing-republic-rest605130"
+                                                        },
+                                                        {
+                                                            "label": "Le Winkies",
+                                                            "url": "https://www.swiggy.com/city/noida/le-winkies-rdc-concrete-india-pvt-ltd-rest14093"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "title": "City Hub Page",
+                                                    "links": [
+                                                        {
+                                                            "label": "Bangalore",
+                                                            "url": "https://www.swiggy.com/city/bangalore"
+                                                        },
+                                                        {
+                                                            "label": "Hyderabad",
+                                                            "url": "https://www.swiggy.com/city/hyderabad"
+                                                        },
+                                                        {
+                                                            "label": "Mumbai",
+                                                            "url": "https://www.swiggy.com/city/mumbai"
+                                                        },
+                                                        {
+                                                            "label": "Chennai",
+                                                            "url": "https://www.swiggy.com/city/chennai"
+                                                        },
+                                                        {
+                                                            "label": "Delhi",
+                                                            "url": "https://www.swiggy.com/city/delhi"
+                                                        },
+                                                        {
+                                                            "label": "Pune",
+                                                            "url": "https://www.swiggy.com/city/pune"
+                                                        },
+                                                        {
+                                                            "label": "Kolkata",
+                                                            "url": "https://www.swiggy.com/city/kolkata"
+                                                        },
+                                                        {
+                                                            "label": "Gurgaon",
+                                                            "url": "https://www.swiggy.com/city/gurgaon"
+                                                        },
+                                                        {
+                                                            "label": "Noida 1",
+                                                            "url": "https://www.swiggy.com/city/noida-1"
+                                                        },
+                                                        {
+                                                            "label": "Kochi",
+                                                            "url": "https://www.swiggy.com/city/kochi"
+                                                        },
+                                                        {
+                                                            "label": "Ahmedabad",
+                                                            "url": "https://www.swiggy.com/city/ahmedabad"
+                                                        },
+                                                        {
+                                                            "label": "Chandigarh",
+                                                            "url": "https://www.swiggy.com/city/chandigarh"
+                                                        },
+                                                        {
+                                                            "label": "Coimbatore",
+                                                            "url": "https://www.swiggy.com/city/coimbatore"
+                                                        },
+                                                        {
+                                                            "label": "Jaipur",
+                                                            "url": "https://www.swiggy.com/city/jaipur"
+                                                        },
+                                                        {
+                                                            "label": "Lucknow",
+                                                            "url": "https://www.swiggy.com/city/lucknow"
+                                                        },
+                                                        {
+                                                            "label": "Thiruvananthapuram",
+                                                            "url": "https://www.swiggy.com/city/thiruvananthapuram"
+                                                        },
+                                                        {
+                                                            "label": "Vizag",
+                                                            "url": "https://www.swiggy.com/city/vizag"
+                                                        },
+                                                        {
+                                                            "label": "Central Goa",
+                                                            "url": "https://www.swiggy.com/city/central-goa"
+                                                        },
+                                                        {
+                                                            "label": "Surat",
+                                                            "url": "https://www.swiggy.com/city/surat"
+                                                        },
+                                                        {
+                                                            "label": "Noida",
+                                                            "url": "https://www.swiggy.com/city/noida"
+                                                        },
+                                                        {
+                                                            "label": "Bhubaneswar",
+                                                            "url": "https://www.swiggy.com/city/bhubaneswar"
+                                                        },
+                                                        {
+                                                            "label": "Indore",
+                                                            "url": "https://www.swiggy.com/city/indore"
+                                                        },
+                                                        {
+                                                            "label": "Nagpur",
+                                                            "url": "https://www.swiggy.com/city/nagpur"
+                                                        },
+                                                        {
+                                                            "label": "Vijayawada",
+                                                            "url": "https://www.swiggy.com/city/vijayawada"
+                                                        },
+                                                        {
+                                                            "label": "Patna",
+                                                            "url": "https://www.swiggy.com/city/patna"
+                                                        },
+                                                        {
+                                                            "label": "Guwahati",
+                                                            "url": "https://www.swiggy.com/city/guwahati"
+                                                        },
+                                                        {
+                                                            "label": "Ludhiana",
+                                                            "url": "https://www.swiggy.com/city/ludhiana"
+                                                        },
+                                                        {
+                                                            "label": "Vadodara",
+                                                            "url": "https://www.swiggy.com/city/vadodara"
+                                                        },
+                                                        {
+                                                            "label": "Mysore",
+                                                            "url": "https://www.swiggy.com/city/mysore"
+                                                        },
+                                                        {
+                                                            "label": "Mangaluru",
+                                                            "url": "https://www.swiggy.com/city/mangaluru"
+                                                        },
+                                                        {
+                                                            "label": "Dehradun",
+                                                            "url": "https://www.swiggy.com/city/dehradun"
+                                                        },
+                                                        {
+                                                            "label": "Faridabad",
+                                                            "url": "https://www.swiggy.com/city/faridabad"
+                                                        },
+                                                        {
+                                                            "label": "Thrissur",
+                                                            "url": "https://www.swiggy.com/city/thrissur"
+                                                        },
+                                                        {
+                                                            "label": "Bhopal",
+                                                            "url": "https://www.swiggy.com/city/bhopal"
+                                                        },
+                                                        {
+                                                            "label": "Rajkot",
+                                                            "url": "https://www.swiggy.com/city/rajkot"
+                                                        },
+                                                        {
+                                                            "label": "Madurai",
+                                                            "url": "https://www.swiggy.com/city/madurai"
+                                                        },
+                                                        {
+                                                            "label": "Kanpur",
+                                                            "url": "https://www.swiggy.com/city/kanpur"
+                                                        },
+                                                        {
+                                                            "label": "Pondicherry",
+                                                            "url": "https://www.swiggy.com/city/pondicherry"
+                                                        },
+                                                        {
+                                                            "label": "Kozhikode",
+                                                            "url": "https://www.swiggy.com/city/kozhikode"
+                                                        },
+                                                        {
+                                                            "label": "Varanasi",
+                                                            "url": "https://www.swiggy.com/city/varanasi"
+                                                        },
+                                                        {
+                                                            "label": "Tirupati",
+                                                            "url": "https://www.swiggy.com/city/tirupati"
+                                                        },
+                                                        {
+                                                            "label": "Nashik",
+                                                            "url": "https://www.swiggy.com/city/nashik"
+                                                        },
+                                                        {
+                                                            "label": "Guntur",
+                                                            "url": "https://www.swiggy.com/city/guntur"
+                                                        },
+                                                        {
+                                                            "label": "Trichy",
+                                                            "url": "https://www.swiggy.com/city/trichy"
+                                                        },
+                                                        {
+                                                            "label": "Kota",
+                                                            "url": "https://www.swiggy.com/city/kota"
+                                                        },
+                                                        {
+                                                            "label": "Raipur",
+                                                            "url": "https://www.swiggy.com/city/raipur"
+                                                        },
+                                                        {
+                                                            "label": "Kollam",
+                                                            "url": "https://www.swiggy.com/city/kollam"
+                                                        },
+                                                        {
+                                                            "label": "Vellore",
+                                                            "url": "https://www.swiggy.com/city/vellore"
+                                                        },
+                                                        {
+                                                            "label": "Ranchi",
+                                                            "url": "https://www.swiggy.com/city/ranchi"
+                                                        },
+                                                        {
+                                                            "label": "Jalandhar",
+                                                            "url": "https://www.swiggy.com/city/jalandhar"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "title": "Popular Dish Restaurants in Noida",
+                                                    "links": [
+                                                        {
+                                                            "label": "Burger",
+                                                            "url": "https://www.swiggy.com/city/noida/burger-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Pizza",
+                                                            "url": "https://www.swiggy.com/city/noida/pizza-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Biryani",
+                                                            "url": "https://www.swiggy.com/city/noida/biryani-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Roll",
+                                                            "url": "https://www.swiggy.com/city/noida/roll-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Noodles",
+                                                            "url": "https://www.swiggy.com/city/noida/noodles-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Curry",
+                                                            "url": "https://www.swiggy.com/city/noida/curry-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Paratha",
+                                                            "url": "https://www.swiggy.com/city/noida/paratha-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Momos",
+                                                            "url": "https://www.swiggy.com/city/noida/momos-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Thali",
+                                                            "url": "https://www.swiggy.com/city/noida/thali-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Sandwich",
+                                                            "url": "https://www.swiggy.com/city/noida/sandwich-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Other dry starters",
+                                                            "url": "https://www.swiggy.com/city/noida/other-dry-starters-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Other rice varieties",
+                                                            "url": "https://www.swiggy.com/city/noida/other-rice-varieties-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Dosa",
+                                                            "url": "https://www.swiggy.com/city/noida/dosa-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Fried rice",
+                                                            "url": "https://www.swiggy.com/city/noida/fried-rice-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Bhature",
+                                                            "url": "https://www.swiggy.com/city/noida/bhature-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Taco",
+                                                            "url": "https://www.swiggy.com/city/noida/taco-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Pasta",
+                                                            "url": "https://www.swiggy.com/city/noida/pasta-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Puff",
+                                                            "url": "https://www.swiggy.com/city/noida/puff-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Vada pav",
+                                                            "url": "https://www.swiggy.com/city/noida/vada-pav-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Tikki",
+                                                            "url": "https://www.swiggy.com/city/noida/tikki-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Sweets",
+                                                            "url": "https://www.swiggy.com/city/noida/sweets-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Chowmein",
+                                                            "url": "https://www.swiggy.com/city/noida/chowmein-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Garlic bread",
+                                                            "url": "https://www.swiggy.com/city/noida/garlic-bread-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Roti",
+                                                            "url": "https://www.swiggy.com/city/noida/roti-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Idli",
+                                                            "url": "https://www.swiggy.com/city/noida/idli-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Cake",
+                                                            "url": "https://www.swiggy.com/city/noida/cake-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Kachori",
+                                                            "url": "https://www.swiggy.com/city/noida/kachori-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Chaap",
+                                                            "url": "https://www.swiggy.com/city/noida/chaap-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Soft drinks",
+                                                            "url": "https://www.swiggy.com/city/noida/soft-drinks-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Pav bhaji",
+                                                            "url": "https://www.swiggy.com/city/noida/pav-bhaji-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Kulcha",
+                                                            "url": "https://www.swiggy.com/city/noida/kulcha-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Fries",
+                                                            "url": "https://www.swiggy.com/city/noida/fries-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Poori (Breakfast)",
+                                                            "url": "https://www.swiggy.com/city/noida/poori-breakfast--dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Burrito",
+                                                            "url": "https://www.swiggy.com/city/noida/burrito-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Wings",
+                                                            "url": "https://www.swiggy.com/city/noida/wings-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Sub",
+                                                            "url": "https://www.swiggy.com/city/noida/sub-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Shawarma",
+                                                            "url": "https://www.swiggy.com/city/noida/shawarma-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Salad",
+                                                            "url": "https://www.swiggy.com/city/noida/salad-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Other egg starters",
+                                                            "url": "https://www.swiggy.com/city/noida/other-egg-starters-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Khichdi",
+                                                            "url": "https://www.swiggy.com/city/noida/khichdi-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Samosa",
+                                                            "url": "https://www.swiggy.com/city/noida/samosa-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Dhokla",
+                                                            "url": "https://www.swiggy.com/city/noida/dhokla-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Milk",
+                                                            "url": "https://www.swiggy.com/city/noida/milk-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Poha",
+                                                            "url": "https://www.swiggy.com/city/noida/poha-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Rasgulla",
+                                                            "url": "https://www.swiggy.com/city/noida/rasgulla-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Tikka",
+                                                            "url": "https://www.swiggy.com/city/noida/tikka-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Quesadilla",
+                                                            "url": "https://www.swiggy.com/city/noida/quesadilla-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Other chaats",
+                                                            "url": "https://www.swiggy.com/city/noida/other-chaats-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Shake",
+                                                            "url": "https://www.swiggy.com/city/noida/shake-dish-restaurants"
+                                                        },
+                                                        {
+                                                            "label": "Platter",
+                                                            "url": "https://www.swiggy.com/city/noida/platter-dish-restaurants"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "title": "Top QSR & Chains in Noida",
+                                                    "links": [
+                                                        {
+                                                            "label": "Khadak singh da dhaba",
+                                                            "url": "https://www.swiggy.com/city/noida/khadak-singh-da-dhaba"
+                                                        },
+                                                        {
+                                                            "label": "Rollsking",
+                                                            "url": "https://www.swiggy.com/city/noida/rollsking"
+                                                        },
+                                                        {
+                                                            "label": "Haldiram's",
+                                                            "url": "https://www.swiggy.com/city/noida/haldirams"
+                                                        },
+                                                        {
+                                                            "label": "Rominus Pizza And Burger",
+                                                            "url": "https://www.swiggy.com/city/noida/rominus-pizza-and-burger"
+                                                        },
+                                                        {
+                                                            "label": "Nazeer Foods",
+                                                            "url": "https://www.swiggy.com/city/noida/nazeer-foods"
+                                                        },
+                                                        {
+                                                            "label": "Thalairaj Biryani",
+                                                            "url": "https://www.swiggy.com/city/noida/thalairaj-biryani"
+                                                        },
+                                                        {
+                                                            "label": "California Burrito",
+                                                            "url": "https://www.swiggy.com/city/noida/california-burrito"
+                                                        },
+                                                        {
+                                                            "label": "Biryani Blues",
+                                                            "url": "https://www.swiggy.com/city/noida/biryani-blues"
+                                                        },
+                                                        {
+                                                            "label": "The Waffle Co.",
+                                                            "url": "https://www.swiggy.com/city/noida/the-waffle-co-"
+                                                        },
+                                                        {
+                                                            "label": "Samosa Party",
+                                                            "url": "https://www.swiggy.com/city/noida/samosa-party"
+                                                        },
+                                                        {
+                                                            "label": "Charcoal Eats - Biryani & Beyond",
+                                                            "url": "https://www.swiggy.com/city/noida/charcoal-eats-biryani-and-beyond"
+                                                        },
+                                                        {
+                                                            "label": "Burgrill - OG's of Grilled Burger",
+                                                            "url": "https://www.swiggy.com/city/noida/burgrill-ogs-of-grilled-burger"
+                                                        },
+                                                        {
+                                                            "label": "Rolling Fresh",
+                                                            "url": "https://www.swiggy.com/city/noida/rolling-fresh"
+                                                        },
+                                                        {
+                                                            "label": "The China Door",
+                                                            "url": "https://www.swiggy.com/city/noida/the-china-door"
+                                                        },
+                                                        {
+                                                            "label": "Gianis - Ice Cream, Shakes & Sundaes",
+                                                            "url": "https://www.swiggy.com/city/noida/gianis-ice-cream-shakes-and-sundaes"
+                                                        },
+                                                        {
+                                                            "label": "IGP Cakes",
+                                                            "url": "https://www.swiggy.com/city/noida/igp-cakes"
+                                                        },
+                                                        {
+                                                            "label": "Sagar Ratna",
+                                                            "url": "https://www.swiggy.com/city/noida/sagar-ratna"
+                                                        },
+                                                        {
+                                                            "label": "Giani",
+                                                            "url": "https://www.swiggy.com/city/noida/giani"
+                                                        },
+                                                        {
+                                                            "label": "Dr. Diet - Daily Healthy Diet",
+                                                            "url": "https://www.swiggy.com/city/noida/dr-diet-daily-healthy-diet"
+                                                        },
+                                                        {
+                                                            "label": "Immy Roti Boti",
+                                                            "url": "https://www.swiggy.com/city/noida/immy-roti-boti"
+                                                        },
+                                                        {
+                                                            "label": "Chicago Pizza",
+                                                            "url": "https://www.swiggy.com/city/noida/chicago-pizza"
+                                                        },
+                                                        {
+                                                            "label": "BTW",
+                                                            "url": "https://www.swiggy.com/city/noida/btw"
+                                                        },
+                                                        {
+                                                            "label": "TOS - Taste of Sikkim",
+                                                            "url": "https://www.swiggy.com/city/noida/tos-taste-of-sikkim"
+                                                        },
+                                                        {
+                                                            "label": "Shree Rathnam",
+                                                            "url": "https://www.swiggy.com/city/noida/shree-rathnam"
+                                                        },
+                                                        {
+                                                            "label": "Xero Degrees",
+                                                            "url": "https://www.swiggy.com/city/noida/xero-degrees"
+                                                        },
+                                                        {
+                                                            "label": "Havmor Ice Cream",
+                                                            "url": "https://www.swiggy.com/city/noida/havmor-ice-cream"
+                                                        },
+                                                        {
+                                                            "label": "WarmOven Cake & Desserts",
+                                                            "url": "https://www.swiggy.com/city/noida/warmoven-cake-and-desserts"
+                                                        },
+                                                        {
+                                                            "label": "Noodle Bar by ChowMee",
+                                                            "url": "https://www.swiggy.com/city/noida/noodle-bar-by-chowmee"
+                                                        },
+                                                        {
+                                                            "label": "Vadilal Hangout",
+                                                            "url": "https://www.swiggy.com/city/noida/vadilal-hangout"
+                                                        },
+                                                        {
+                                                            "label": "Vadilal Ice Creams",
+                                                            "url": "https://www.swiggy.com/city/noida/vadilal-ice-creams"
+                                                        },
+                                                        {
+                                                            "label": "Big Smokin Burgers",
+                                                            "url": "https://www.swiggy.com/city/noida/big-smokin-burgers"
+                                                        },
+                                                        {
+                                                            "label": "Rolls Vs Biryani",
+                                                            "url": "https://www.swiggy.com/city/noida/rolls-vs-biryani"
+                                                        },
+                                                        {
+                                                            "label": "The Burger Company",
+                                                            "url": "https://www.swiggy.com/city/noida/the-burger-company"
+                                                        },
+                                                        {
+                                                            "label": "The Belgian Waffle Xpress",
+                                                            "url": "https://www.swiggy.com/city/noida/the-belgian-waffle-xpress"
+                                                        },
+                                                        {
+                                                            "label": "The Sausage Fest",
+                                                            "url": "https://www.swiggy.com/city/noida/the-sausage-fest"
+                                                        },
+                                                        {
+                                                            "label": "Monginis Cake Shop",
+                                                            "url": "https://www.swiggy.com/city/noida/monginis-cake-shop"
+                                                        },
+                                                        {
+                                                            "label": "Cupcake Bliss Cake & Desserts",
+                                                            "url": "https://www.swiggy.com/city/noida/cupcake-bliss-cake-and-desserts"
+                                                        },
+                                                        {
+                                                            "label": "The Dessert Zone",
+                                                            "url": "https://www.swiggy.com/city/noida/the-dessert-zone"
+                                                        },
+                                                        {
+                                                            "label": "Guntur Gourmet",
+                                                            "url": "https://www.swiggy.com/city/noida/guntur-gourmet"
+                                                        },
+                                                        {
+                                                            "label": "Son Of Sardar",
+                                                            "url": "https://www.swiggy.com/city/noida/son-of-sardar"
+                                                        },
+                                                        {
+                                                            "label": "Sundae Everyday Ice Creams",
+                                                            "url": "https://www.swiggy.com/city/noida/sundae-everyday-ice-creams"
+                                                        },
+                                                        {
+                                                            "label": "Shero Home Food - North Indian",
+                                                            "url": "https://www.swiggy.com/city/noida/shero-home-food-north-indian"
+                                                        },
+                                                        {
+                                                            "label": "Burger It Up",
+                                                            "url": "https://www.swiggy.com/city/noida/burger-it-up"
+                                                        },
+                                                        {
+                                                            "label": "Kaati Zone Rolls & Wraps",
+                                                            "url": "https://www.swiggy.com/city/noida/kaati-zone-rolls-and-wraps"
+                                                        },
+                                                        {
+                                                            "label": "Indiana Burgers",
+                                                            "url": "https://www.swiggy.com/city/noida/indiana-burgers"
+                                                        },
+                                                        {
+                                                            "label": "Seoul Fried Chicken",
+                                                            "url": "https://www.swiggy.com/city/noida/seoul-fried-chicken"
+                                                        },
+                                                        {
+                                                            "label": "Rice Express By Shero",
+                                                            "url": "https://www.swiggy.com/city/noida/rice-express-by-shero"
+                                                        },
+                                                        {
+                                                            "label": "Cafe Raga Rasa",
+                                                            "url": "https://www.swiggy.com/city/noida/cafe-raga-rasa"
+                                                        },
+                                                        {
+                                                            "label": "Momo Zone - The Momo Company",
+                                                            "url": "https://www.swiggy.com/city/noida/momo-zone-the-momo-company"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.SeoFooter",
+                                            "socialLinks": [
+                                                {
+                                                    "label": "Linkedin",
+                                                    "url": "https://www.linkedin.com/company/swiggy-in/"
+                                                },
+                                                {
+                                                    "label": "Instagram",
+                                                    "url": "https://www.instagram.com/swiggyindia/?hl=en"
+                                                },
+                                                {
+                                                    "label": "Facebook",
+                                                    "url": "https://www.facebook.com/swiggy.in/"
+                                                },
+                                                {
+                                                    "label": "Pinterest",
+                                                    "url": "https://in.pinterest.com/swiggyindia/"
+                                                },
+                                                {
+                                                    "label": "Twitter",
+                                                    "url": "https://twitter.com/Swiggy?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.AppInstallLinks",
+                                            "title": "For better experience,download the Swiggy app now",
+                                            "androidAppImage": "portal/m/play_store.png",
+                                            "androidAppLink": "https://play.google.com/store/apps/details?id=in.swiggy.android&referrer=utm_source%3Dswiggy%26utm_medium%3Dheader",
+                                            "iosAppImage": "portal/m/app_store.png",
+                                            "iosAppLink": "https://itunes.apple.com/in/app/id989540920?referrer=utm_source%3Dswiggy%26utm_medium%3Dhomepage"
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.PageMetaInfo",
+                                            "title": "Order from Murliwala pure veg online in Noida | Swiggy",
+                                            "description": "Order Online from Murliwala pure veg in Turab Nagar, Noida for delicious indian food. Enjoy fast delivery with Swiggy.",
+                                            "keywords": "Murliwala pure veg, Turab Nagar, Noida, indian, food delivery, order food online"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "eyJLSUQiOiIyIiwiYWxnIjoiSFMyNTYiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3ODM0NDM0NTUsImlhdCI6MTc4MzQzOTg1NSwic2Vzc2lvbl9kYXRhIjoicFVxWUdTZmNrWjBnN0F0NWNKeFBDclVmUVo1M0lDdG4vOWpHMk5ZKzRsMUZGSExpc0JYMml3WWUyT29DMTlQOFlBTElMbHp0cnNoN2tpWkRaWXhlMnNYRHNBcXZWbm93RUJSZzUzT0VieDB6aU9jdkJ0TEV2d3RnTllCQ011ejlhdnI5WHRkYytGM2JFbGV5NFZmelJUMUZCYmFmMGxnRCtoTWZVd0hvYU9vYlZHaHR3QXlwTXVURWxEYlZSTEJ4eFdnRzR2ZVpFTXlzSUI3VVM4YWdLUT09Iiwic2lkIjoic2NsZjQ0YzAxZjItMmMzYy00MWU1LWEyZmQtNzJlZjI0OGFlIiwic3ViIjoiMjk3ZWE3ZDUtZGM0OC00OTAwLWIxMjAtNjlhMjZhMWVlN2NiIiwidXNlcl9pZCI6IjAifQ.OzhgfxJjmmyTEoUjTonen83x0xMR-ODCbbcJDqUZ2QY",
+    "sid": "sclf44c01f2-2c3c-41e5-a2fd-72ef248ae",
+    "deviceId": "8bf87824-d993-8090-595a-115d3469eb95",
+    "csrfToken": "q664tajj7luF-ya9QYxbPOspgQ9YT8EF2KhGk9F8"
 }

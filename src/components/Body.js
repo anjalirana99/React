@@ -1,4 +1,4 @@
-import RestrauntCard from "./RestrauntCard";
+import RestrauntCard, { CardWithLabel } from "./RestrauntCard";
 import { RestrauntList } from "../utils/RestrauntListData";
 import { useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
@@ -8,6 +8,7 @@ const Body = () => {
   const [originalList, setOriginal] = useState([]);
   const [resList, setList] = useState([]);
   const [searchtext , setSearchText] =useState("")
+  const RestrauntCardWithLabel = CardWithLabel(RestrauntCard);//higher order component will take a component and return a component
   
   
   useEffect(()=>{
@@ -77,7 +78,13 @@ const Body = () => {
       <div className="restraunt-container flex flex-wrap p-4 justify-around">
         {/* we must pass the unique key */}
         {resList.map((restraunt) => (
-          <RestrauntCard key={restraunt.info.id} ResData={restraunt.info} />
+           
+            restraunt?.info?.aggregatedDiscountInfoV3?.header? 
+            <RestrauntCardWithLabel key={restraunt.info.id} ResData={restraunt.info} />
+            :
+            <RestrauntCard key={restraunt.info.id} ResData={restraunt.info} />
+          
+          
         ))}
       </div>
     </div>
