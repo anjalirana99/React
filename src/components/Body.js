@@ -47,10 +47,11 @@ const Body = () => {
     return  <Shimmer />
   }
   return (
-    <div className="main-container">
-      <div className="search-filter-container">
-        <div className="search-container">
+    <div className="main-container flex-1 p-5">
+      <div className="search-filter-container flex p-2 items-center m-auto gap-20 justify-center">
+        <div className="search-container flex gap-2">
            <input
+              className="border-2 border-gray-300 p-1"
               type="text"
               name="Restraunt"
               value={searchtext}
@@ -58,19 +59,22 @@ const Body = () => {
                 setSearchText(e.target.value);
               }}
             />
-            <button
+            <button className="bg-gray-200 py-1 px-3 rounded-xl cursor-pointer hover:bg-gray-300 shadow-md"
             onClick={searchFilter}>Search</button>
         </div>
-       
-        <button
-          className="filter-btn"
+        
+        <div>
+            <button
+          className="filter-btn bg-blue-100 py-1 px-3 rounded-xl cursor-pointer hover:bg-blue-200 shadow-md"
           onClick={() => {
             topRateFilter();
           }}>
           Top Rated Restaurants
         </button>
+        </div>
+        
       </div>
-      <div className="restraunt-container">
+      <div className="restraunt-container flex flex-wrap p-4 justify-around">
         {/* we must pass the unique key */}
         {resList.map((restraunt) => (
           <RestrauntCard key={restraunt.info.id} ResData={restraunt.info} />

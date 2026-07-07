@@ -4,7 +4,7 @@ const footerStyle = {
 };
 const Footer = () => {
   return (
-    <div className="footer" style={footerStyle}>
+    <div className="footer bg-pink-100 p-5" style={footerStyle}>
       <h1>My Food Delivery APP</h1>
     </div>
   );

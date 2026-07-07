@@ -1,4 +1,7 @@
-body{
+@import "tailwindcss";
+
+
+/* body{
     margin: 0;
 }
 .app{
@@ -34,10 +37,10 @@ body{
     height: 25px;
 }
 
-/* can't use simple .cart-container because specificity has more preference than generelc class
+{can't use simple .cart-container because specificity has more preference than generelc class
 Inline styles > IDs > Classes > Elements
 
-And more selectors usually increase specificity. */
+And more selectors usually increase specificity.}
 
 .nav-items > ul > li.cart-container{  
     margin-top: 0px;
@@ -104,4 +107,4 @@ And more selectors usually increase specificity. */
     background-color: #f0f0f0;
     padding: 10px;
     margin-top: 5px;
-}
+} */

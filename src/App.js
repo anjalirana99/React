@@ -15,9 +15,9 @@ const Grocery = lazy(()=>import("./components/Grocery")) //it will load as a sep
 const App = () => {
   
   return (
-    <div className="app">
+    <div className="app flex flex-col min-h-screen">
       <Header />
-      <Outlet/>
+      <Outlet />
       <Footer />
     </div>
   );
