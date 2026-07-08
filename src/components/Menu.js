@@ -1,15 +1,15 @@
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { MenuData } from "../utils/MenuData";
 import { IMG_CDN_URL } from "../utils/constant";
 import MenuCategory from "./MenuCategory";
 
 const Menu = ()=>{
     const {name, cuisines, costForTwoMessage, avgRating, cloudinaryImageId} = MenuData?.data?.cards[2]?.card?.card?.info
-    const list = MenuData?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card?.itemCards
     const menuList = MenuData?.data?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR?.cards.filter((x)=>{
         return x?.card?.card["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
 
      }).map(x=>x?.card?.card)
+     const[showIndex,setShowIndex] = useState(null)
     
     return (
         <div className="main-container flex-1">
@@ -25,9 +25,9 @@ const Menu = ()=>{
                 </div>    
             </div>
             <div className="menu-body p-5">
-                {menuList.map((menu)=>{
+                {menuList.map((menu,idx)=>{
                     return (
-                        <MenuCategory key={menu?.categoryId} data={menu}/>  
+                        <MenuCategory index={idx} showIndex={showIndex} setIndex={()=>setShowIndex(idx)} key={menu?.categoryId} data={menu}/>  
                     )  
                 })}
             </div>

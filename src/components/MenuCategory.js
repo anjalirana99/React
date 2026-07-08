@@ -2,10 +2,10 @@ import { useState } from "react"
 import MenuItemList from "./MenuItemList"
 
 const MenuCategory = (props) =>{
-    const{data} = props
-    const[show,setShow] = useState(false)  //Menucaterofy is uncontrolled component parent is not keepign control of showing/expanding and collapsing this accordian only it is keeping eye on itself
+    const{data,index,showIndex,setIndex} = props
+    // const[show,setShow] = useState(false)  //Menucaterofy is now controlled component parent is keepign control of showing/expanding and collapsing this accordian
     const handleClick=()=>{
-        setShow(!show)
+        setIndex()   //lifting the state up  now showIndex is state of parent shared by al catergory accordion
     }
     return(
         <div className="category-div w-6/12 m-auto my-2 bg-blue-50 shadow-xl p-3 cursor-pointer">
@@ -15,7 +15,7 @@ const MenuCategory = (props) =>{
                 <span>⬇</span>
             </div>
             {/* CategoryItems */}
-            {show &&  <MenuItemList items={data?.itemCards}/>}
+            {showIndex==index &&  <MenuItemList items={data?.itemCards}/>}
            
         </div>
         
