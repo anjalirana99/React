@@ -1,15 +1,16 @@
 import RestrauntCard, { CardWithLabel } from "./RestrauntCard";
 import { RestrauntList } from "../utils/RestrauntListData";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Body = () => {
   const [originalList, setOriginal] = useState([]);
   const [resList, setList] = useState([]);
   const [searchtext , setSearchText] =useState("")
   const RestrauntCardWithLabel = CardWithLabel(RestrauntCard);//higher order component will take a component and return a component
-  
+  const{loggedinUser} = useContext(UserContext)
   
   useEffect(()=>{
     fetchData()
@@ -72,6 +73,9 @@ const Body = () => {
           }}>
           Top Rated Restaurants
         </button>
+        </div>
+        <div className="shadow-md bg-green-100 px-3">
+          {loggedinUser}
         </div>
         
       </div>

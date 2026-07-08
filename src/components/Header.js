@@ -1,11 +1,13 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { FOOD_LOGO_URL } from "../utils/constant";
 import { CART_LOGO_URL } from "../utils/constant";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 const Header = () => {
   const[btntext, setBtnText] = useState("Login")
   const onlineStatus = useOnlineStatus();
+  const {loggedinUser,setUser} = useContext(UserContext)
   return (
     <div className="flex justify-between p-4 sm:bg-pink-100 shadow-lg bg-blue-100">  
       <div className="logo-container ">
@@ -23,10 +25,11 @@ const Header = () => {
           </li>
           <button className="login-btn border border-gray-700 rounded-xl p-1 hover:bg-gray-50 cursor-pointer"
           onClick={()=>{
-              btntext==="Login" ? setBtnText("Logout") : setBtnText("Login")
+              btntext==="Login" ? (setBtnText("Logout"),setUser("User")) : (setBtnText("Login"),setUser("Anjali"))
           }}>
             {btntext}
           </button>
+          <li className="text-blue-500">{loggedinUser}</li>
         </ul>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -9,17 +9,21 @@ import Contact from "./components/Contact";
 import Error from "./components/Error";
 import Menu from "./components/Menu";
 import Shimmer from "./components/Shimmer";
+import UserContext from "./utils/UserContext";
 // import Grocery from "./components/Grocery";
 const Grocery = lazy(()=>import("./components/Grocery")) //it will load as a seperate chunk only when needed( i.e grocery path)
 
 const App = () => {
-  
+  const [user,setUser] = useState("Anjali")
   return (
-    <div className="app flex flex-col min-h-screen">
-      <Header />
-      <Outlet />
-      <Footer />
-    </div>
+    <UserContext.Provider value={{loggedinUser:user,setUser:setUser}}>
+      <div className="app flex flex-col min-h-screen">
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
+    </UserContext.Provider>
+    
   );
 };
 const appRouter = createBrowserRouter([
