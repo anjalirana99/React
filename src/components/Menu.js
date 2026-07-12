@@ -27,7 +27,7 @@ const Menu = ()=>{
             <div className="menu-body p-5">
                 {menuList.map((menu,idx)=>{
                     return (
-                        <MenuCategory index={idx} showIndex={showIndex} setIndex={()=>setShowIndex(idx)} key={menu?.categoryId} data={menu}/>  
+                        <MenuCategory index={idx} showIndex={showIndex} setIndex={()=>setShowIndex(showIndex === idx ? null : idx)} key={menu?.categoryId} data={menu}/>  
                     )  
                 })}
             </div>
