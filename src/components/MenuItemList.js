@@ -1,6 +1,12 @@
+import { useDispatch } from "react-redux"
 import { IMG_CDN_URL } from "../utils/constant"
+import { addItem } from "../utils/cartSlice"
 
 const MenuItemList = (props)=>{
+    const dispatch = useDispatch()
+    const handleAddItem = (item)=>{
+        dispatch(addItem(item))
+    }
     const {items}=props
     return(
         <div className="category-itemList mt-5">
@@ -13,8 +19,12 @@ const MenuItemList = (props)=>{
                     <p className="text-sm text-gray-700 mt-2">{item.card.info.description}</p>
                 </div>
                 <div className="item-img w-2/12">
-                    <img className="object-cover rounded-xl" src={IMG_CDN_URL + item.card.info.imageId}/>
+                    <div><img className="object-cover rounded-xl" src={IMG_CDN_URL + item.card.info.imageId}/></div>
+                    <div 
+                    onClick={()=>handleAddItem(item)}
+                    className="absolute bg-black text-white -mt-5 px-2">ADD +</div>
                 </div>
+                
                 </div>
             )
         }
