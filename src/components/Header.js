@@ -10,7 +10,7 @@ const Header = () => {
 
   const[btntext, setBtnText] = useState("Login")
   const onlineStatus = useOnlineStatus();
-  const {loggedinUser,setUser} = useContext(UserContext)
+  // const {loggedinUser,setUser} = useContext(UserContext)
   const items = useSelector((store)=>store.cart.itemList)
   const count = items?.length||""
 
@@ -34,11 +34,12 @@ const Header = () => {
           </li>
           <button className="login-btn border border-gray-700 rounded-xl p-1 hover:bg-gray-50 cursor-pointer"
           onClick={()=>{
-              btntext==="Login" ? (setBtnText("Logout"),setUser("User")) : (setBtnText("Login"),setUser("Anjali"))
+              // btntext==="Login" ? (setBtnText("Logout"),setUser("User")) : (setBtnText("Login"),setUser("Anjali"))
+               btntext==="Login" ? (setBtnText("Logout")) : (setBtnText("Login"))
           }}>
             {btntext}
           </button>
-          <li className="text-blue-500">{loggedinUser}</li>
+          {/* <li className="text-blue-500">{loggedinUser}</li> */}
         </ul>
       </div>
     </div>
