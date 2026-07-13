@@ -340,6 +340,19 @@ whenever a state variable changes React rerenders a component
 
 
 -------------SHIMMER UI _---
-Its a loading placehlder UI that we show while data is fetch from server ----- istead of a loading svg - for better user experience  
+Its a loading placehlder UI that we show while data is fetch from server ----- istead of a loading svg - for better user experience 
+
+
+
+
+----------------React testing setup -----
+install react testing library 
+install jest 
+instal babel config for jest 
+setup babel config 
+setup parcelrc so that its babel config wont class with our config 
+setup jest config using npx create-jest as jest --init is depreciated 
+
+write test cases inside folder __test__
 
 
