@@ -346,13 +346,20 @@ Its a loading placehlder UI that we show while data is fetch from server ----- i
 
 
 ----------------React testing setup -----
-install react testing library 
-install jest 
-instal babel config for jest 
+install react testing library  @testing-library/react
+install jest  npm i -D jest
+instal babel dependencies for jest  npm install -D babel-jest @babel/core @babel/preset-env
 setup babel config 
-setup parcelrc so that its babel config wont class with our config 
+setup parcelrc so that its babel config wont clash with our config 
 setup jest config using npx create-jest as jest --init is depreciated 
+install jest-environment-json  package required for jest version >28 environment where testing will work npm install -D jest-environment-jsdom
 
-write test cases inside folder __test__
+write test cases inside folder __tests__
+
+jest can't understand jsx 
+hence install babel dependendcies for it also  - @babel/preset-react
+config babel  include @babel/preset-react in it 
+install json-dom library to check elements on jest environment json @testing-library/jest-dom
+
 
 
