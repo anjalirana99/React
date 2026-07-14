@@ -12,7 +12,7 @@ const Header = () => {
   const onlineStatus = useOnlineStatus();
   // const {loggedinUser,setUser} = useContext(UserContext)
   const items = useSelector((store)=>store.cart.itemList)
-  const count = items?.length||""
+  const count = items?.length||0
 
   return (
 
@@ -30,7 +30,7 @@ const Header = () => {
            <li><Link to="/grocery">Grocery</Link></li>
           <li className="cart-container flex">
             <Link to="/cart"> <img className="cart-logo w-12 h-12 rounded-full" src={CART_LOGO_URL} /></Link>
-            {count}
+            {"items-" + count}
           </li>
           <button className="login-btn border border-gray-700 rounded-xl p-1 hover:bg-gray-50 cursor-pointer"
           onClick={()=>{

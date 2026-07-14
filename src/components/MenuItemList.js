@@ -12,7 +12,7 @@ const MenuItemList = (props)=>{
         <div className="category-itemList mt-5">
         {items.map((item)=>{
             return (
-                <div key={item.card.info.id} className="flex justify-between border-b p-2 border-b-gray-300 my-2">
+                <div data-testid="food-item" key={item.card.info.id} className="flex justify-between border-b p-2 border-b-gray-300 my-2">
                 <div className="itemDesc w-9/12">
                     <div className="font-bold text-gray-900">{item.card.info.name}</div>
                     <div>₹{item.card.info.price/100}</div>
@@ -20,9 +20,9 @@ const MenuItemList = (props)=>{
                 </div>
                 <div className="item-img w-2/12">
                     <div><img className="object-cover rounded-xl" src={IMG_CDN_URL + item.card.info.imageId}/></div>
-                    <div 
+                    <button 
                     onClick={()=>handleAddItem(item)}
-                    className="absolute bg-black text-white -mt-5 px-2">ADD +</div>
+                    className="absolute bg-black text-white -mt-5 px-2">ADD +</button>
                 </div>
                 
                 </div>
